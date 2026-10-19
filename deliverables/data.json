@@ -14501,7 +14501,7 @@
      "a": "Mo. Const. art. X §§18, 21.",
      "sum": "The Hancock Amendment (1980) caps state revenue as a share of personal income and bars unfunded state mandates, but it does not cap local spending.",
      "more": "Local revenue is restrained through the voter-approval and rollback rules below.",
-     "syn": "No cap on local spending; the constitution limits state revenue and bars unfunded mandates. Local revenue is restrained by voter-approval and rollback rules."
+     "syn": "No cap on local spending. The constitution limits state revenue through the Hancock Amendment and bars unfunded mandates, but TOTAL local revenue may grow unrestricted."
     },
     "levy": {
      "s": "Yes",
@@ -14510,7 +14510,7 @@
      "a": "Mo. Const. art. X §22(a); RSMo 137.073.",
      "sum": "Hancock rollback: no county, city, school district or other political subdivision may levy a new tax or raise an existing levy without voter approval, and when reassessment raises the assessed value of existing property, each subdivision must roll back its…",
      "more": "…tax rate ceiling so that revenue from existing property grows no more than inflation (CPI), capped at 5%. Revenue from new construction and improvements is excluded. Voters may approve a higher ceiling.",
-     "syn": "New or higher local levies need voter approval, and in reassessment years each government must roll back its rate ceiling so revenue from existing property grows no more than inflation, capped at 5%."
+     "syn": "New or higher local levies need voter approval. In reassessment years each government must roll back its rate ceiling so revenue from existing property grows no more than the lesser of inflation or 5%."
     },
     "assessment": {
      "s": "No",
@@ -14519,7 +14519,7 @@
      "a": "Mo. Const. art. X §4(b); RSMo 137.115.",
      "sum": "No statewide cap on growth in assessed value.",
      "more": "Property is reassessed every odd-numbered year and assessed at fixed ratios: residential 19% of market value, commercial 32%, agricultural land 12% of productive value. SB 3 (2025) adds a county-option homestead credit that limits growth in the homestead tax bill in counties whose voters approved it; assessed values still rise (see Homestead). Its legality is before the Cole County Circuit Court.",
-     "syn": "No statewide cap; property is reassessed every odd-numbered year at fixed ratios, 19% of market value for homes and 32% for commercial property."
+     "syn": "No statewide cap. Property is reassessed every odd-numbered year at fixed ratios – 19% of market value for homes and 32% for commercial property."
     },
     "rate": {
      "s": "Yes",
@@ -14626,7 +14626,7 @@
    "loop": "The Hancock rollback and the constitutional rate caps hold revenue from existing property to inflation at the district level, but revenue still grows through Prop C waivers and special districts, and Kansas City and St. Louis lean on earnings taxes.\n- Reassessment shocks: rollbacks work at the taxing-district level, so individual homes can still jump. Jackson County's 2023 reassessment produced large increases and years of litigation and State Tax Commission review, and the county limited 2025 residential increases to 15%. On Aug. 4, 2026, statewide voters approved Amendment 2 (76.9% yes), which makes the Jackson County assessor an elected office.\n- Big cities: the City of St. Louis is excluded from the SB 3 homestead credit, and the Show-Me Institute found Jackson County (Kansas City) unaffected by it. Both cities levy a 1% earnings tax, and voters renewed both on April 7, 2026 (Kansas City about 75% yes). The earnings tax supplies about 45% of Kansas City's general fund revenue; St. Louis adds a 0.5% payroll expense tax on employers.\n- Prop C waivers: many school districts have asked voters to waive the Proposition C rollback, keeping both the sales tax and the full property tax.\n- Special districts: community improvement and transportation development districts impose extra sales taxes (often 1%) inside retail districts, frequently approved by a handful of property owners, and TIF is widely used in the St. Louis and Kansas City regions.\n- Revenue shift: local sales taxes supply 31% of local tax revenue (Census FY2022), and the average combined sales tax rate is 8.44% (local rates average 4.22%, among the highest in the nation).\n- Local resistance: 23 of the 97 counties required to put the SB 3 credit on the ballot held no vote, and 43 county commissions joined the lawsuit against it.",
    "worked": "Verdict: Failed. Property tax per person rose 31.5% after inflation from FY2002 to FY2024, above the U.S. 25.9%, and rose 11.3% from FY2019 to FY2024 while the U.S. fell 1.1%.\nWhy it leaks: The Hancock rollback holds revenue from existing property to inflation, capped at 5%, but it excludes new construction and voters can raise the ceiling by simple majority. School operating levy increases also pass by simple majority, and debt service sits outside the constitutional rate caps. Missouri has no limit on local spending.\nHow localities get around it: Many school districts have had voters waive the Proposition C rollback, which cuts operating levies by half of prior-year school sales tax revenue, so they keep both the sales tax and the full property tax. TIF is widely used in the St. Louis and Kansas City regions.",
    "loopSum": "Partly.",
-   "workedSyn": "Per person, property tax rose 31.5% after inflation from FY2002 to FY2024, above the U.S. 25.9%. The rollback excludes new construction, and voters can raise the ceiling or school levies by simple majority.",
+   "workedSyn": "Per person, property tax rose 31.5% after inflation from FY2002 to FY2024, above the U.S. 25.9%. Voters can raise the ceiling or school levies by simple majority, and often do.",
    "reforms": "1980: Hancock Amendment. 1982: Proposition C.\n2023: SB 190 created the county-option senior tax freeze and raised the circuit breaker credit.\n2024: House passed HJR 78 (freeze assessments on primary residences); it did not become law.\n2025: special session SB 3, signed June 14, 2025, created the county homestead credit (RSMo 137.1055) and required 97 counties to put it to voters by April 2026. Texas County approved it in November 2025.\n2026: a Cole County judge ruled in February that the April votes could go ahead; on April 7, 61 counties approved the credit (14 freezes, 47 caps), 12 rejected it and 23 held no vote. The constitutional challenge was heard July 29, 2026; no ruling was found as of Oct. 12. The regular session ended May 15 without a property tax bill; the Senate-passed SB 1066 (separate treatment of each property subclass in rate rollbacks) did not pass. HJR 169 (TABOR-style state and local revenue limits) was debated.\nAug. 4, 2026: voters approved Amendment 2 (elected Jackson County assessor, 76.9% yes) and rejected Amendment 5 (HJR 173 and 174: income tax phase-out, broader sales taxes and required local tax rate cuts when local sales tax revenue rises; 83.3% no).\nNov. 3, 2026 ballot: Amendment 7 (SJR 95), a state fund whose earnings could lead to elimination of state-imposed taxes; no statewide property tax measure is on the ballot.",
    "sources": [
     "https://governor.mo.gov/press-releases/archive/governor-kehoe-signs-special-session-legislation-law",
@@ -16965,7 +16965,7 @@
      "a": "city charters; RSA 32:5-b (official ballot tax caps); RSA 32:5-i (HB 1300, 2026).",
      "sum": "No statewide limit. Local option only: several cities have charter tax or spending caps (among them Manchester, Nashua, Dover, Rochester and Laconia), usually tied to inflation and overridable by a supermajority of the city council or board of aldermen, and…",
      "more": "…towns and school districts that use the official ballot (\"SB 2\") form of town meeting may adopt a tax cap by voter approval.\nUnder RSA 32:5-i (HB 1300, 2026), a school district that adopts the new two-year cap also limits central office (SAU) spending to 6% of total school district appropriations.",
-     "syn": "No statewide limit. Several cities have charter tax or spending caps that councils can override by supermajority, and official ballot towns and school districts may adopt a tax cap by voter approval."
+     "syn": "No statewide limit. Several cities have charter tax or spending caps that councils can override by supermajority. Official ballot towns and school districts may adopt a tax cap by voter approval."
     },
     "levy": {
      "s": "Partial",
@@ -16974,7 +16974,7 @@
      "a": "RSA 32:5-b; RSA 32:5-i (HB 1300, 2026); RSA 40:13 (default budget).",
      "sum": "Only where a city charter cap, an RSA 32:5-b tax cap or the new RSA 32:5-i school district cap has been adopted; most towns and school districts have none today.",
      "more": "HB 1300 (signed July 15, 2026) requires every town and city ward to vote at the Nov. 3, 2026 and November 2028 general elections on whether to cap its school district's levy. If three-fifths of voters approve, for two years the local school property tax levy may not grow beyond the prior year's amount adjusted for inflation and new construction, central office (SAU) spending may not exceed 6% of total school district appropriations, and bonded capital costs are excluded from both limits. The cap expires after two years and may be overridden by a three-fifths vote. In official ballot towns, if voters reject the proposed operating budget, a \"default budget\" (the prior year's budget plus contractual and legally required increases) takes effect, which limits the effect of a no vote.",
-     "syn": "Levy caps exist only where a city charter or local tax cap applies. On Nov. 3, 2026, every town and city ward votes on a two-year school levy cap (prior year plus inflation and new construction), adopted by three-fifths."
+     "syn": "Levy caps exist only where a city charter or local tax cap applies. On Nov. 3, 2026, voters in every town and city ward will decide on a two-year school levy cap (prior year plus inflation plus new construction), adopted by three-fifths majorities."
     },
     "assessment": {
      "s": "No",
@@ -16983,7 +16983,7 @@
      "a": "Part II, Art. 6 of the N.H. Constitution; RSA 75:8-a.",
      "sum": "No cap on assessed value growth.",
      "more": "Municipalities assess at market value and must revalue at least every five years.",
-     "syn": "No cap on assessed value growth; municipalities assess at market value and must revalue at least every five years."
+     "syn": "No cap on assessed value growth. Municipalities assess at market value and must revalue at least every five years."
     },
     "rate": {
      "s": "No",
@@ -16992,7 +16992,7 @@
      "a": "",
      "sum": "No limit on local tax rates.",
      "more": "The state sets the rate of the Statewide Education Property Tax each year (see Statewide).",
-     "syn": "No limit on local tax rates; the state sets the statewide education property tax rate each year."
+     "syn": "No limit on local tax rates. The state sets the statewide education property tax rate each year."
     },
     "tnt": {
      "s": "No",
@@ -17071,7 +17071,7 @@
      "a": "RSA 198:38-198:42 (adequacy aid); RSA 76:3 (SWEPT); RSA 198:56-198:61 (low- and moderate-income relief).",
      "sum": "No state program reimburses municipalities or school districts for lost property tax revenue or pays them to lower local rates.",
      "more": "Adequacy aid and the statewide education property tax (SWEPT), which towns raise and keep, fund part of school costs as general school funding. The low- and moderate-income homeowners property tax relief program is an income-tested refund paid to owners and belongs in the Credits and rebates row.",
-     "syn": "State adequacy aid and the statewide education tax fund part of school costs, and the state pays the low-income refund. No program buys down local rates."
+     "syn": "No program buys down local property taxes. State adequacy aid and the statewide education tax fund part of school costs, and the state pays the low-income refund."
     },
     "statewide": {
      "s": "Yes",
@@ -17090,7 +17090,7 @@
    "loop": "New Hampshire has no standing statewide limit. Taxpayers rely on local votes and a few city charter caps with council overrides; a two-year local option school levy cap arrives Nov. 3, 2026, and only where three-fifths of voters adopt it. Property tax is 98% of local tax revenue (Census FY2022) because there is no broad-based state income or sales tax, and the Tax Foundation ranks the state 3rd overall but 44th on property tax.\n- Big cities: the charter caps in Manchester, Nashua, Dover, Rochester and Laconia carry override provisions that councils and boards of aldermen use in tight years.\n- Default budget: a rejected budget in an official ballot town still allows increases for contracts and obligations.\n- Schools: school districts account for more than 70% of local property taxes (Josiah Bartlett Center, Sept. 18, 2026), and none faced a statewide cap before RSA 32:5-i.\n- Weak by design: the RSA 32:5-i cap lasts two years, excludes bonded capital costs and can be overridden by the same three-fifths vote that adopts it; the Josiah Bartlett Center called it \"by national standards a relatively weak effort to place a temporary restraint on SAU spending growth.\"\n- SWEPT design: property-rich towns keep excess SWEPT, which lowers their effective rate while others pay the full rate; the Supreme Court upheld this in 2025 over a dissent calling it \"an unfortunate triumph of form over substance.\"\n- Courts: the July 1, 2025 ConVal ruling pushes the state toward higher base adequacy aid ($7,356 per pupil minimum found by the trial court), which would move school costs onto state taxpayers without limiting local school spending.",
    "worked": "Verdict: Failed. Property tax per person rose 36.4% after inflation from FY2002 to FY2024, above the U.S. 25.9%.\nWhy it leaks: New Hampshire has no statewide limit on local levies or rates. School districts levy more than 70% of local property taxes and faced no statewide cap before RSA 32:5-i (HB 1300, 2026). That cap applies only where three-fifths of voters adopt it, lasts two years, excludes bonded capital costs and can be overridden by the same three-fifths vote. Operating budgets pass by simple majority.\nHow localities get around it: Manchester, Nashua and other cities have charter caps whose override provisions councils and boards of aldermen use in tight years. In official ballot towns, voters who reject a budget still get a default budget that rises for contracts and legal obligations.",
    "loopSum": "No. New Hampshire has no standing statewide limit.",
-   "workedSyn": "Per person, property tax rose 36.4% after inflation from FY2002 to FY2024 (U.S. 25.9%). New Hampshire has no statewide limit on local levies or rates, and school districts, which levy over 70% of local property taxes, had no statewide cap before 2026.",
+   "workedSyn": "Per person, property tax rose 36.4% after inflation from FY2002 to FY2024 (U.S. 25.9%). New Hampshire has no statewide limit on local levies or rates, and school districts, which levy over 70% of local property taxes, had no restraint before 2026. Things could change this November, if voters in enough towns approve a cap on school district property tax levies.",
    "reforms": "1999: SWEPT created after Claremont II. 2011: towns allowed to keep excess SWEPT.\n2023: Superior Court ruled excess SWEPT retention unconstitutional (Rand); reversed by the N.H. Supreme Court in June 2025.\nJuly 1, 2025: N.H. Supreme Court (ConVal, 3-2) held the school funding system facially unconstitutional and upheld a $7,356 per-pupil base adequacy minimum, but reversed the trial court's order to pay about $538 million more at once.\nJuly 15, 2026: Gov. Kelly Ayotte signed HB 1300 (RSA 32:5-i), requiring a local school district tax cap question in every town and city ward at the November 2026 and November 2028 general elections (three-fifths to adopt; two-year cap of prior-year levy plus inflation and new construction; SAU central office spending capped at 6% of district appropriations; bonded capital costs excluded). Merrimack Superior Court Justice Dan St. Hilaire rejected a suit seeking to block the 2026 ballot question (Josiah Bartlett Center).\nAug. 14, 2026: the Attorney General filed an appeal asking the Supreme Court to overturn the Claremont decisions.\nNov. 3, 2026: local school tax cap questions on every town and ward ballot under RSA 32:5-i. The only statewide measure certified is a constitutional amendment eliminating the register of probate; a proposed amendment requiring a two-thirds legislative vote for any new broad-based tax did not reach the ballot.",
    "sources": [
     "https://www.nhbr.com/nh-supreme-court-rules-wealthy-municipalities-can-keep-excess-education-property-tax/",
@@ -21884,7 +21884,7 @@
      "a": "ORS 294.414, 294.456 (Local Budget Law).",
      "sum": "No limit on growth in local government spending.",
      "more": "Local Budget Law sets procedures (a budget committee with citizen members and a public hearing after published notice) without a growth limit. Measures 5 (1990) and 50 (1997) limit property tax rates and assessed value, which restrains the largest local tax but leaves spending from fees, state aid and other local taxes uncapped.",
-     "syn": "No limit on local spending growth. State budget law requires a budget committee with citizen members and a public hearing after published notice."
+     "syn": "No limit on local spending growth."
     },
     "levy": {
      "s": "No",
@@ -21893,7 +21893,7 @@
      "a": "Or. Const. art. XI §11(3), (4) (Measure 50, H.J.R. 85, 1997); ORS 280.060.",
      "sum": "No cap on growth in a government's total property tax levy.",
      "more": "Measure 50 (1997) replaced the levy-based system (district tax bases and the Measure 47 cut of 1996) with a rate-based system: each district has a permanent rate that cannot be raised, applied to assessed value whose maximum grows 3% a year (see Assessment and Rate). Together these hold permanent-rate taxes on an existing property to 3% growth a year while its assessed value equals its maximum assessed value. Revenue also grows with new property, urban renewal, bonds and local option levies. Because the permanent rate is a maximum, a district that has levied below it may raise its levy to the full rate without a vote.\nLocal option levies are the voter override: a fixed dollar amount or a rate, for up to five years for operations or the lesser of 10 years or the useful life of a capital project, approved by a majority of voters (with 50% turnout at March and August elections). They stay inside the Measure 5 limits and are the first taxes cut by compression.\nPermanent-rate taxes grew an average 4.8% a year from FY1997-98 to FY2025-26, and all property taxes 5.1% a year (Department of Revenue).",
-     "syn": "No cap on a government's total levy. Each district has a permanent rate it cannot raise, and voters can add local option levies by simple majority for up to five years for operations."
+     "syn": "No levy limit – in fact, voters can add additional local option levies by simple majority for up to five years for \"operations\"."
     },
     "assessment": {
      "s": "Yes",
@@ -21902,7 +21902,7 @@
      "a": "Or. Const. art. XI §11(1); ORS 308.146, 308.153.",
      "sum": "Maximum assessed value (Measure 50, 1997): each property's maximum assessed value (MAV) for 1997-98 was its 1995-96 real market value reduced by 10%, and MAV may not grow more than 3% a year.",
      "more": "Assessed value is the lesser of MAV and real market value. By statute MAV equals the greater of 103% of last year's assessed value or 100% of last year's MAV, so MAV keeps its level when market values fall; after a decline pushes assessed value down to market value, assessed value can rise faster than 3% a year until it reaches MAV again. There is no reset on sale.\nExceptions are valued in their first year at the ratio of average MAV to average market value for the property class in the area, then capped:\n- new property and improvements (net of retirements);\n- partitions and subdivisions, and rezoning with consistent use;\n- omitted property;\n- disqualification from exemption, partial exemption or special assessment;\n- lot line adjustments.\nStatewide assessed value was 53.6% of real market value in FY2025-26; assessed value grew 5.1% that year and market value 3.1%.",
-     "syn": "Maximum assessed value may grow no more than 3% a year, and a property is taxed on the lesser of that and market value. There is no reset on sale; new property enters at the area's average ratio."
+     "syn": "Maximum assessed value may grow no more than 3% a year, and a property is taxed on the lesser of that or market value. There is NO reset on sale; new property enters at the area's average ratio."
     },
     "rate": {
      "s": "Yes",
@@ -21911,7 +21911,7 @@
      "a": "Or. Const. art. XI §11b (Measure 5, 1990); §11(3), (5), (11); §11L (H.J.R. 13, 2009); ORS 310.150.",
      "sum": "Two layers of rate limits: Measure 5 (1990): taxes on each property, other than exempt bonds, may not exceed $5 per $1,000 of real market value for the public school system (school districts, education service districts and community colleges; any educational…",
      "more": "- …service from pre-kindergarten through post-graduate training) and $10 per $1,000 for all other governments. The school limit was phased down from $15 in 1991-92 to $5 in 1995-96. When a property's taxes exceed a limit, local option levies in that category are reduced first, then the other taxes in the category proportionally (\"compression\"). Incurred charges the owner can control and assessments for local improvements are not taxes under the measure.\n- Measure 50 (1997): each district has a permanent rate limit set from its reduced 1997-98 levy, which cannot be raised. A new district sets its permanent rate by a vote of its residents; merged districts receive the rate that would raise their combined prior revenue.\nOutside both limits: general obligation bonds for capital construction or improvements issued on or before Nov. 6, 1990 or approved by voters, and, for bonds incurred from January 1, 2011, any capital costs, including furnishing, equipping, maintenance and repair. Outside the permanent rates but inside Measure 5: local option levies and Portland's pension levy, the last remaining \"gap bond.\" Compression cut taxes by $215 million in FY2025-26, 2% of the taxes subject to the limits.",
-     "syn": "Taxes on each property are capped at $5 per $1,000 of market value for schools and $10 for other governments, and each district has a fixed permanent rate. Voter-approved bonds sit outside both limits."
+     "syn": "Taxes on each property are capped at $5 per $1,000 of market value for schools and $10 for other governments, and each district has a fixed permanent rate. But voter-approved bonds sit outside both limits."
     },
     "tnt": {
      "s": "No",
@@ -29699,7 +29699,7 @@
      "a": "",
      "sum": "No limit on growth in local spending.",
      "more": "Local budgets must balance, which does not limit their size.",
-     "syn": "No local spending limit; local budgets must balance, which does not cap their size."
+     "syn": "Local budgets must balance, but that does not cap their size."
     },
     "levy": {
      "s": "No",
@@ -29708,7 +29708,7 @@
      "a": "",
      "sum": "No cap on growth in levies; local governments levy fixed mills within constitutional and statutory rate limits, so revenue rises with value except where the assessment cap applies.",
      "more": "",
-     "syn": "No levy cap; local governments levy fixed mills within constitutional and statutory rate limits."
+     "syn": "No levy cap."
     },
     "assessment": {
      "s": "Yes",
@@ -29717,7 +29717,7 @@
      "a": "W.S. 39-11-105(a)(xliii) and (xliv); HB 45 (2024); SF 69 (2025).",
      "sum": "Residential property: HB 45 (2024, Enrolled Act 54) exempts any increase in a single family residence's assessed value above the prior year's assessed value plus 4%, a cap structured as an exemption.",
      "more": "It first applied to residential structures in tax year 2024 and to the associated land in tax year 2025; property acquired during the prior calendar year is valued at full value. SF 69 (2025, Enrolled Act 60) exempts 25% of the fair market value of a single family residence and its improved land, on the first $1 million of value. Assessment ratios: 9.5% of value for residential, commercial and agricultural property, 11.5% for industrial property and 100% of value for mineral production. Voters approved Constitutional Amendment A in 2024, allowing a separate residential class.\nPending: in June 2026 the State Board of Equalization reported that the 4% cap conflicts with the constitution's \"equal and uniform\" rule and said it could not certify residential values; on June 19, 2026 Laramie County District Judge Nathaniel Hibben ordered the board to apply the cap for now, at the request of Gov. Gordon, who had sued the board.",
-     "syn": "A single family home's assessed value may rise at most 4% a year, reset at sale, and 25% of value is exempt on the first $1 million; a court ordered the cap applied for now over the state board's constitutional objection."
+     "syn": "A single family home's assessed value may rise at most 4% a year, but it resets at the time of sale. Plus, 25% of value is exempt on the first $1 million."
     },
     "rate": {
      "s": "Yes",
@@ -29726,7 +29726,7 @@
      "a": "Wyo. Const. art. 15.",
      "sum": "Constitutional and statutory mill limits: counties 12 mills for general purposes, plus levies for special purposes and 6 mills for schools; cities and towns 8 mills; school districts within their own limits; the state up to 4 mills for general purposes and 12…",
      "more": "…mills for schools. Debt service and some voted levies sit outside.",
-     "syn": "Mill limits cap rates: counties 12 mills for general purposes, cities and towns 8 mills, school districts within their own limits and the state 12 mills for schools; debt service and some voted levies sit outside."
+     "syn": "Constitutional and statutory caps on mill rates. Debt service and some voted levies sit outside the cap."
     },
     "tnt": {
      "s": "No",
@@ -29805,7 +29805,7 @@
      "a": "W.S. 39-13-102(k), 39-13-105; 2024 SEA 61 (SF 89); 2026 HEA 23 (HB 45); LSO fiscal notes, 2026 Budget Session.",
      "sum": "The state reimburses county treasurers for the property tax lost to the veterans' exemption, which covers up to $6,000 of assessed value for qualifying veterans; the State Treasurer pays from a program appropriation in its budget, and 2024 SF 89 appropriated…",
      "more": "…$8.2 million from the general fund for it. The 2025 25% homeowner exemption and the long-term homeowner exemption, made permanent by 2026 HEA 23, carry no reimbursement to local governments, and the School Foundation Program absorbs the school share as general school aid. The property tax refund program pays owners by check and sits in the credits and rebates row. The People's Initiative on the November 2026 ballot, a 50% exemption for primary residences, contains no backfill.",
-     "syn": "The state funds the property tax refund program and the school foundation program; the 2025 exemptions came with no general state reimbursement of local revenue losses."
+     "syn": "The state funds a property tax refund program and the school foundation program, but lawmakers show restraint – the 2025 exemption expansion came with no general state reimbursement of local revenue losses."
     },
     "statewide": {
      "s": "Yes",
@@ -29824,7 +29824,7 @@
    "loop": "Mill caps hold rates down and the 2024-2025 residential relief cut homeowner bills, but Wyoming has no levy or spending limit, and the 4% cap is under constitutional challenge.\nLegal risk: the State Board of Equalization's June 2026 report says the caps created thousands of differences in taxable value between similar homes and that \"the reasons for the disparate tax burdens are arbitrary\"; it warned that withholding certification could keep local governments from collecting 2026 property taxes. A Laramie County judge ordered the board on June 19, 2026 to apply the cap for now.\nReset at sale: the 4% cap does not apply to property acquired during the prior calendar year, which is valued at full value.\nVoted levies: optional voter-approved mill levies and bonds pass by simple majority.\nSpecial districts: 643 special districts in the Census count (82 water, 71 fire protection, 17 hospital) add governments beyond the county and city mill limits.\nFees: fees and charges are 64.5% of local own-source revenue (Census FY2022), the highest share in the nation, and property tax is 82% of local tax revenue. Mineral production is assessed at 100% of value, and the state school levy and recapture spread that wealth.",
    "worked": "Verdict: Partly. Property tax per person rose 9.1% after inflation from FY2002 to FY2024, below the U.S. rise of 25.9%, and rose 3.9% from FY2019 to FY2024 while the U.S. fell 1.1%.\nWhy it leaks: Wyoming has no levy cap or spending limit, so fixed mill rates keep all revenue growth without a vote outside the 4% residential cap (HB 45, 2024). That cap resets at sale, and the State Board of Equalization says it conflicts with the constitution. Debt service and some voted levies sit outside the mill limits, and optional mill levies and bonds pass by simple majority.\nHow localities get around it: 643 special districts, among them 82 water and 71 fire protection districts, add governments beyond the county and city mill limits. Fees and charges supply 64.5% of local own-source revenue, the highest share nationally.",
    "loopSum": "Partly.",
-   "workedSyn": "Per person, property tax rose 9.1% after inflation from FY2002 to FY2024, below the U.S. rise of 25.9%. Mill caps hold rates down, but Wyoming has no levy cap or spending limit, so revenue at fixed mill rates has no dollar limit.",
+   "workedSyn": "Per person, property tax rose 9.1% after inflation from FY2002 to FY2024, below the U.S. rise of 25.9%. Mill caps hold rates down, but Wyoming has no levy cap or spending limit. Moreover, the assessment cap resets at time of sale, locking people into their homes and doing little to limit growth in the tax burden.",
    "reforms": "2024: HB 45 (Enrolled Act 54), the 4% residential cap structured as an exemption (structures from tax year 2024, land from 2025); voters approved Constitutional Amendment A allowing a separate residential property class; $20 million for the property tax refund program.\n2025: SF 69 (Enrolled Act 60), the 25% exemption on the first $1 million of a single family residence's value; the long-term homeowner exemption, first set for tax years 2025-2026; HB 279 ($10.5 million for refunds). The Common Sense Institute's national ranking of property tax relief laws (August 6, 2026) places SF 69 in its top 10.\n2026: HB 45 (Enrolled Act 23, signed March 7, 2026) repealed the sunset on the long-term homeowner exemption and set it at 50% of fair market value on the first $3 million. In the budget session, where non-budget bills need a two-thirds vote to be introduced, 7 of 16 property tax bills had failed introduction by mid-February, including SJ 3 (a constitutional amendment to eliminate residential property taxes) and SF 78 (an 8.3% taxable value for residential property). HJ 4, which would have let the Legislature set residential valuation, did not reach the ballot. The State Board of Equalization said it could not certify residential values under the 4% cap; Gov. Gordon sued the board, and a Laramie County judge ordered it on June 19, 2026 to apply the cap for now.\nNov. 3, 2026 ballot: Initiative 1, the first citizen initiative on Wyoming's ballot in 30 years, would exempt 50% of the assessed value of the dwelling on a primary residence, and the ballot language says the exemption applies to the residential structure (Secretary of State ballot propositions; Ballotpedia, as of October 12, 2026). The state's fiscal note puts the loss to the state at $92.6 million in FY2028 and does not estimate local losses; about 173,000 properties would qualify, with no reimbursement of local revenue losses. It qualified with 30,251 valid signatures (certified January 3, 2025). No legislative constitutional amendment on property tax is on the ballot.",
    "sources": [
     "https://www.aarp.org/states/wyoming/property-tax-relief-from-the-2025-legislative-session/",
