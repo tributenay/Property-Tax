@@ -113,10 +113,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "No state program pays local governments to lower property tax rates. Schools are funded through the Foundation Program, which requires a 10-mill local share and does not reduce local rates.",
-     "a": "",
-     "sum": "No state program pays local governments to lower property tax rates.",
-     "more": "Schools are funded through the Foundation Program, which requires a 10-mill local share and does not reduce local rates.",
+     "t": "No state program reimburses local governments for property tax revenue lost to state law or pays them to lower rates. The 2025 increase in the business personal property exemption to $100,000 (HB 543) applies to the state levy; counties and cities may adopt a matching local exemption with no state reimbursement. The Foundation Program, which counts 10 mills of local tax toward each district's share, is general school aid and does not count.",
+     "a": "Ala. Code § 40-9-1; HB 543 (2025 Reg. Sess.); Ala. Admin. Code r. 810-4-1-.14; Ala. Code § 16-13-231.",
+     "sum": "No state program reimburses local governments for property tax revenue lost to state law or pays them to lower rates.",
+     "more": "The 2025 increase in the business personal property exemption to $100,000 (HB 543) applies to the state levy; counties and cities may adopt a matching local exemption with no state reimbursement. The Foundation Program, which counts 10 mills of local tax toward each district's share, is general school aid and does not count.",
      "syn": "No state program pays local governments to lower rates; the school Foundation Program requires a 10-mill local share and does not reduce local rates."
     },
     "statewide": {
@@ -665,10 +665,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "No state program buys down municipal property tax rates. State K-12 aid runs through the foundation formula (with a required local contribution), and Community Assistance revenue sharing is general aid with no rate-reduction condition.",
-     "a": "",
-     "sum": "No state program buys down municipal property tax rates.",
-     "more": "State K-12 aid runs through the foundation formula (with a required local contribution), and Community Assistance revenue sharing is general aid with no rate-reduction condition.",
+     "t": "State law requires the state to reimburse boroughs and cities for real property tax lost to the mandatory exemption of the first $150,000 of assessed value on homes of residents 65 and older and disabled veterans, prorated when appropriations fall short. The Legislature has not funded the reimbursement since 1997, so no state money reaches municipalities for it; they absorb the cost, which the Alaska Municipal League put at over $105 million a year in 2023. K-12 foundation aid, with its required local contribution, and Community Assistance revenue sharing are general aid and do not count.",
+     "a": "AS 29.45.030(e); AS 29.45.030(g); AS 14.17.410; AS 29.60.850.",
+     "sum": "State law requires the state to reimburse boroughs and cities for real property tax lost to the mandatory exemption of the first $150,000 of assessed value on homes of residents 65 and older and disabled veterans, prorated when appropriations fall short.",
+     "more": "The Legislature has not funded the reimbursement since 1997, so no state money reaches municipalities for it; they absorb the cost, which the Alaska Municipal League put at over $105 million a year in 2023. K-12 foundation aid, with its required local contribution, and Community Assistance revenue sharing are general aid and do not count.",
      "syn": "No state program buys down municipal rates; school aid runs through a foundation formula that requires a local contribution."
     },
     "statewide": {
@@ -1206,10 +1206,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "Additional State Aid (ASA) to school districts reimburses them for the Homeowner's Rebate and the 1% cap backfill. Appropriation: $531.6 million in FY2026 (FY2025: $526.7 million; FY2024 spent: $416 million). The FY2026 budget added $4.6 million to cover the cost of cutting the commercial assessment ratio to 16%. This is a direct, permanent state subsidy of homeowners' school property taxes, paid from the state General Fund.",
-     "a": "A.R.S. §15-972; JLBC FY2026 Appropriations Report (Dept. of Education).",
-     "sum": "Additional State Aid (ASA) to school districts reimburses them for the Homeowner's Rebate and the 1% cap backfill.",
-     "more": "Appropriation: $531.6 million in FY2026 (FY2025: $526.7 million; FY2024 spent: $416 million). The FY2026 budget added $4.6 million to cover the cost of cutting the commercial assessment ratio to 16%. This is a direct, permanent state subsidy of homeowners' school property taxes, paid from the state General Fund.",
+     "t": "Additional State Aid pays school districts for the Homeowner's Rebate, which cuts the school district primary tax on each owner-occupied home by up to 50% of the qualifying tax rate, capped at $600 per parcel. It also pays for credits that hold a home's combined primary property taxes to 1% of full cash value. Both reductions are applied on the tax bill. The General Fund appropriation is $531.6 million in FY2026 and $552.0 million in FY2027, including $4.6 million for the cut in the commercial assessment ratio to 15.5% and $825,000 for the higher business personal property exemption.",
+     "a": "Ariz. Const. art. IX, § 18; A.R.S. § 15-972; A.R.S. § 41-1276; JLBC FY2027 Appropriations Report (Department of Education).",
+     "sum": "Additional State Aid pays school districts for the Homeowner's Rebate, which cuts the school district primary tax on each owner-occupied home by up to 50% of the qualifying tax rate, capped at $600 per parcel.",
+     "more": "It also pays for credits that hold a home's combined primary property taxes to 1% of full cash value. Both reductions are applied on the tax bill. The General Fund appropriation is $531.6 million in FY2026 and $552.0 million in FY2027, including $4.6 million for the cut in the commercial assessment ratio to 15.5% and $825,000 for the higher business personal property exemption.",
      "syn": "Additional State Aid, appropriated at $531.6 million in FY2026, reimburses school districts from the General Fund for the homeowner rebate and for backfilling home taxes above the 1% cap."
     },
     "statewide": {
@@ -1876,10 +1876,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The homestead credit is paid by the state: a statewide half-cent sales tax enacted with Amendment 79 (Acts 1 and 2 of the 2nd Extraordinary Session of 2000) flows into the Property Tax Relief Trust Fund, and the state remits the credit to each county on the owner's behalf so local governments and schools lose no revenue. In effect, part of the local property tax bill is shifted onto statewide sales tax payers. Each $100 increase costs roughly $56 million a year (DFA, 2025). Legislatures have at times diverted surplus in the fund to other uses.",
-     "a": "",
-     "sum": "The homestead credit is paid by the state: a statewide half-cent sales tax enacted with Amendment 79 (Acts 1 and 2 of the 2nd Extraordinary Session of 2000) flows into the Property Tax Relief Trust Fund, and the state remits the credit to each county on the…",
-     "more": "…owner's behalf so local governments and schools lose no revenue. In effect, part of the local property tax bill is shifted onto statewide sales tax payers. Each $100 increase costs roughly $56 million a year (DFA, 2025). Legislatures have at times diverted surplus in the fund to other uses.",
+     "t": "The homestead property tax credit reduces the real property tax bill on every homestead, and the state reimburses counties for the credits from the Property Tax Relief Trust Fund, which is funded by a statewide half-cent sales tax enacted in 2000 with Amendment 79. Act 330 of 2025 raised the credit from $500 to $600, and Act 174 of 2026 raised it to $675 for assessment years beginning in 2026. DFA estimates the latest increase adds $39.8 million in credits in 2027.",
+     "a": "Ark. Const. amend. 79; Ark. Code Ann. §§ 26-26-1118, 26-26-310; Act 330 of 2025; Act 174 of 2026; DFA Fiscal Impact Statement, HB1103 (2026).",
+     "sum": "The homestead property tax credit reduces the real property tax bill on every homestead, and the state reimburses counties for the credits from the Property Tax Relief Trust Fund, which is funded by a statewide half-cent sales tax enacted in 2000 with…",
+     "more": "…Amendment 79. Act 330 of 2025 raised the credit from $500 to $600, and Act 174 of 2026 raised it to $675 for assessment years beginning in 2026. DFA estimates the latest increase adds $39.8 million in credits in 2027.",
      "syn": "The state pays the homestead credit to counties from a statewide half-cent sales tax, so local governments and schools lose no revenue. Each $100 increase costs about $56 million a year."
     },
     "statewide": {
@@ -2438,12 +2438,12 @@
      "syn": "No circuit breaker. Renters get a small income-limited credit ($60 single, $120 joint), and low-income owners 62 and older or disabled can postpone property tax with state funds."
     },
     "subsidies": {
-     "s": "Partial",
+     "s": "Yes",
      "q": "",
-     "t": "The Constitution requires the state to reimburse local governments for the homeowners' exemption (Homeowners' Property Tax Relief subvention). Separately, Prop 98 school funding means the state general fund fills school budgets above local property tax revenue, so school property tax growth mainly offsets state costs. No program pays localities to cut rates (rates are fixed at 1%).",
-     "a": "",
-     "sum": "The Constitution requires the state to reimburse local governments for the homeowners' exemption (Homeowners' Property Tax Relief subvention).",
-     "more": "Separately, Prop 98 school funding means the state general fund fills school budgets above local property tax revenue, so school property tax growth mainly offsets state costs. No program pays localities to cut rates (rates are fixed at 1%).",
+     "t": "The Constitution exempts the first $7,000 of assessed value of every owner-occupied principal residence and requires the state to reimburse local agencies for the revenue lost. The Homeowners' Property Tax Relief subvention is $420.0 million in 2025-26 and $410.0 million in the 2026-27 enacted budget. Williamson Act open-space subventions remain in law but receive a nominal $1,000. Proposition 98 school funding is general school aid and does not count.",
+     "a": "Cal. Const. art. XIII, §§ 3(k), 25; Rev. & Tax. Code § 218; Gov. Code §§ 16120-16122; 2026-27 Enacted Budget, 9100 Tax Relief.",
+     "sum": "The Constitution exempts the first $7,000 of assessed value of every owner-occupied principal residence and requires the state to reimburse local agencies for the revenue lost.",
+     "more": "The Homeowners' Property Tax Relief subvention is $420.0 million in 2025-26 and $410.0 million in the 2026-27 enacted budget. Williamson Act open-space subventions remain in law but receive a nominal $1,000. Proposition 98 school funding is general school aid and does not count.",
      "syn": "The state reimburses local governments for the homeowners' exemption, and state school aid fills budgets above local property tax revenue. No program pays localities to cut rates."
     },
     "statewide": {
@@ -3130,10 +3130,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state reimburses local governments for the senior/veteran homestead exemption (a first claim on state funds), raises state school aid when assessment-rate cuts shrink the local share, and paid backfills to local governments for the 2022-2024 rate cuts; HB24B-1001 created reimbursements for local entities whose assessed value fell because of the bill.",
-     "a": "",
-     "sum": "The state reimburses local governments for the senior/veteran homestead exemption (a first claim on state funds), raises state school aid when assessment-rate cuts shrink the local share, and paid backfills to local governments for the 2022-2024 rate cuts…",
-     "more": "…HB24B-1001 created reimbursements for local entities whose assessed value fell because of the bill.",
+     "t": "- Business personal property exemption: the state reimburses local governments each year for revenue lost when the exemption rose from $7,900 to $50,000 in 2021 (now $56,000). The FY2025-26 appropriation is $17.9 million, with $16.8 million forecast for FY2026-27; SB26-116 sets the exemption at $58,000 from 2027 and holds reimbursements at the 2026 level.\n- Senior and disabled veteran homestead exemption: the Constitution requires the state to reimburse local governments in full for exempting 50% of the first $200,000 of value for qualifying seniors and disabled veterans ($180.2 million in FY2025-26).\n\nBackfills for the 2022-2024 assessment-rate cuts covered only the 2023 through 2025 tax years. Higher state school aid when assessment cuts shrink the local share is school finance formula aid and does not count.",
+     "a": "Colo. Const. art. X, § 3.5; C.R.S. §§ 39-3-119.5, 39-3-207, 39-3-210; HB21-1312; HB24B-1001; SB26-116; HB26-1171.",
+     "sum": "Business personal property exemption: the state reimburses local governments each year for revenue lost when the exemption rose from $7,900 to $50,000 in 2021 (now $56,000).",
+     "more": "- The FY2025-26 appropriation is $17.9 million, with $16.8 million forecast for FY2026-27; SB26-116 sets the exemption at $58,000 from 2027 and holds reimbursements at the 2026 level.\n- Senior and disabled veteran homestead exemption: the Constitution requires the state to reimburse local governments in full for exempting 50% of the first $200,000 of value for qualifying seniors and disabled veterans ($180.2 million in FY2025-26).\n\nBackfills for the 2022-2024 assessment-rate cuts covered only the 2023 through 2025 tax years. Higher state school aid when assessment cuts shrink the local share is school finance formula aid and does not count.",
      "syn": "The state reimburses local governments for the senior and veteran homestead exemption, and it backfills revenue lost to assessment-rate cuts through higher school aid and payments for the 2022-2024 cuts."
     },
     "statewide": {
@@ -3710,10 +3710,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state reimburses towns for the motor vehicle mill rate cap (Municipal Transition Grant), funds the elderly/disabled circuit breaker, and pays PILOT grants for state-owned and college/hospital property plus the Municipal Revenue Sharing grant, all financed partly by a diversion of state sales tax revenue. None of these grants require towns to cut real property tax rates.",
-     "a": "",
-     "sum": "The state reimburses towns for the motor vehicle mill rate cap (Municipal Transition Grant), funds the elderly/disabled circuit breaker, and pays PILOT grants for state-owned and college/hospital property plus the Municipal Revenue Sharing grant, all financed…",
-     "more": "…partly by a diversion of state sales tax revenue. None of these grants require towns to cut real property tax rates.",
+     "t": "- Motor Vehicle Tax Grant: the state reimburses towns for revenue lost to the statewide 32.46-mill cap on motor vehicle property tax rates; $127.5 million in FY2026 and $111.6 million in FY2027 under the revised budget.\n- Tiered PILOT: the state pays towns in lieu of taxes on private colleges and hospitals that state law exempts, and on state-owned property; $346.0 million in FY2026 and $354.3 million in FY2027 for both together.\n\nBoth grants are paid from the Municipal Revenue Sharing Fund, which receives a diversion of sales tax revenue and a General Fund transfer. Smaller reimbursements cover added exemptions for veterans and people with disabilities.",
+     "a": "CGS §§ 4-66l, 12-71e, 12-18b, 12-20a; OFA FY 26 and FY 27 Budget, Part V Municipal Aid; OFA FY 27 Connecticut Budget Revisions (PA 26-68).",
+     "sum": "Motor Vehicle Tax Grant: the state reimburses towns for revenue lost to the statewide 32.46-mill cap on motor vehicle property tax rates; $127.5 million in FY2026 and $111.6 million in FY2027 under the revised budget.",
+     "more": "- Tiered PILOT: the state pays towns in lieu of taxes on private colleges and hospitals that state law exempts, and on state-owned property; $346.0 million in FY2026 and $354.3 million in FY2027 for both together.\n\nBoth grants are paid from the Municipal Revenue Sharing Fund, which receives a diversion of sales tax revenue and a General Fund transfer. Smaller reimbursements cover added exemptions for veterans and people with disabilities.",
      "syn": "State money, partly from diverted sales tax, covers the car-tax mill cap and the elderly and disabled circuit breaker, plus PILOT and revenue-sharing grants to towns. None require towns to cut real property tax rates."
     },
     "statewide": {
@@ -4253,10 +4253,10 @@
     "subsidies": {
      "s": "Partial",
      "q": "",
-     "t": "The state funds the Senior School Property Tax Credit and most school costs through the unit formula, but no program pays districts to cut rates.",
-     "a": "",
-     "sum": "The state funds the Senior School Property Tax Credit and most school costs through the unit formula, but no program pays districts to cut rates.",
-     "more": "",
+     "t": "The state pays half of the regular school property tax on the primary residence of homeowners 65 and older, up to $500 a year, as a credit on the school tax bill; people who moved to Delaware in 2018 or later must have lived in the state 10 years. A separate state fund pays a school tax credit for eligible veterans. The FY2027 budget appropriates $33.0 million to the Elder Tax Relief and Education Expense Fund and $3.5 million to the Veterans Tax Relief Education Expense Fund. State school funding through the unit formula is general school aid and does not count.",
+     "a": "14 Del. C. § 1917; SB 335 (FY2027 Appropriations Act), § 1 (OMB 10-02-11) and § 69.",
+     "sum": "The state pays half of the regular school property tax on the primary residence of homeowners 65 and older, up to $500 a year, as a credit on the school tax bill; people who moved to Delaware in 2018 or later must have lived in the state 10 years.",
+     "more": "A separate state fund pays a school tax credit for eligible veterans. The FY2027 budget appropriates $33.0 million to the Elder Tax Relief and Education Expense Fund and $3.5 million to the Veterans Tax Relief Education Expense Fund. State school funding through the unit formula is general school aid and does not count.",
      "syn": "The state funds the senior school property tax credit and most school costs through its unit formula. No program pays districts to cut rates."
     },
     "statewide": {
@@ -4776,12 +4776,12 @@
      "syn": "Florida has no circuit breaker or state rebate; relief comes through homestead exemptions and the assessment cap."
     },
     "subsidies": {
-     "s": "No",
+     "s": "Partial",
      "q": "",
-     "t": "No state program pays local governments to lower rates. The state finances schools through the FEFP formula, with the Required Local Effort set by the Legislature.",
-     "a": "",
-     "sum": "No state program pays local governments to lower rates.",
-     "more": "The state finances schools through the FEFP formula, with the Required Local Effort set by the Legislature.",
+     "t": "The state appropriates money each year to the 29 fiscally constrained counties to offset ad valorem revenue lost to constitutional exemptions and assessment limits, including the additional $25,000 homestead exemption, the $25,000 tangible personal property exemption, the 10% cap on nonhomestead assessments, conservation land exemptions and the 2024 inflation adjustment to the homestead exemption. The 2026-27 budget provides about $75.2 million for these offsets. Local governments in the other 38 counties receive no reimbursement. The FEFP, including the Required Local Effort set by the Legislature, is general school aid and does not count.",
+     "a": "ss. 218.12, 218.125, 218.136 and 218.67, F.S. (reenacted in part by ch. 2026-240, Laws of Fla.); EDR, Property Taxes: Fiscally Constrained Counties (Sept. 2025).",
+     "sum": "The state appropriates money each year to the 29 fiscally constrained counties to offset ad valorem revenue lost to constitutional exemptions and assessment limits, including the additional $25,000 homestead exemption, the $25,000 tangible personal property…",
+     "more": "…exemption, the 10% cap on nonhomestead assessments, conservation land exemptions and the 2024 inflation adjustment to the homestead exemption. The 2026-27 budget provides about $75.2 million for these offsets. Local governments in the other 38 counties receive no reimbursement. The FEFP, including the Required Local Effort set by the Legislature, is general school aid and does not count.",
      "syn": "No state program pays local governments to lower rates; the state funds schools through its formula and sets the required local school levy."
     },
     "statewide": {
@@ -5415,10 +5415,10 @@
     "subsidies": {
      "s": "Partial",
      "q": "",
-     "t": "The HTRG is a state appropriation that pays local governments on homeowners' behalf when funded (most recently 2023). New local option sales taxes, FLOST (2024) and LHOST (2026), shift homestead property tax to sales tax with voter approval: FLOST rolls back millage for all property; LHOST, which cannot be approved before Nov. 2027, funds homestead exemptions directly.",
-     "a": "",
-     "sum": "The HTRG is a state appropriation that pays local governments on homeowners' behalf when funded (most recently 2023).",
-     "more": "New local option sales taxes, FLOST (2024) and LHOST (2026), shift homestead property tax to sales tax with voter approval: FLOST rolls back millage for all property; LHOST, which cannot be approved before Nov. 2027, funds homestead exemptions directly.",
+     "t": "- Homeowner Tax Relief Grant: the amended FY2026 budget provides $850 million to pay counties and school districts the tax on $18,000 of assessed value of every homestead for the 2026 tax year, credited on the bill. It is a one-time appropriation; the grant was previously funded for the 2023 tax year.\n- Forestland Protection Grants: the state reimburses local governments and school districts for revenue lost to the preferential assessment of large forest and timberland tracts; $34.9 million in FY2027.\n\nFLOST and LHOST are local sales taxes and do not count.",
+     "a": "Ga. Const. art. VII, § II-A; HB 973 (AFY2026), Homeowner Tax Relief Grants; O.C.G.A. § 48-5-7.7 and ch. 48-5A; HB 974 (FY2027), Department of Revenue, Forestland Protection Grants.",
+     "sum": "Homeowner Tax Relief Grant: the amended FY2026 budget provides $850 million to pay counties and school districts the tax on $18,000 of assessed value of every homestead for the 2026 tax year, credited on the bill.",
+     "more": "- It is a one-time appropriation; the grant was previously funded for the 2023 tax year.\n- Forestland Protection Grants: the state reimburses local governments and school districts for revenue lost to the preferential assessment of large forest and timberland tracts; $34.9 million in FY2027.\n\nFLOST and LHOST are local sales taxes and do not count.",
      "syn": "When funded, a state appropriation pays local governments on homeowners' behalf, most recently in 2023. Voter-approved local sales taxes can also replace homestead property tax."
     },
     "statewide": {
@@ -5994,10 +5994,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "The state does not pay counties to lower property taxes. The state funds schools directly and shares transient accommodations and general excise tax revenue with counties.",
-     "a": "",
-     "sum": "The state does not pay counties to lower property taxes.",
-     "more": "The state funds schools directly and shares transient accommodations and general excise tax revenue with counties.",
+     "t": "Hawaii's four counties levy and keep all real property tax, and no state program reimburses counties for exemptions or pays part of property tax bills. The state pays for public schools directly from its own budget, which does not count under this test. Act 1 of the 2021 First Special Session ended the state's allocation of transient accommodations tax revenue to the counties and let each county levy its own tax of up to 3%.",
+     "a": "Haw. Const. art. VIII, §3; Act 1, SLH 2021 First Special Session (HRS ch. 237D).",
+     "sum": "Hawaii's four counties levy and keep all real property tax, and no state program reimburses counties for exemptions or pays part of property tax bills.",
+     "more": "The state pays for public schools directly from its own budget, which does not count under this test. Act 1 of the 2021 First Special Session ended the state's allocation of transient accommodations tax revenue to the counties and let each county levy its own tax of up to 3%.",
      "syn": "The state does not pay counties to lower property taxes. It funds schools directly and shares transient accommodations and general excise tax revenue with counties."
     },
     "statewide": {
@@ -6471,10 +6471,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "Idaho repeatedly uses sales tax revenue to buy down local property taxes: (1) 2006: state replaced the school M&O levy with a one-cent sales tax increase; (2) HB 292 (2023): created the School District Facilities Fund (about $115 million in 2023, rising with sales tax) that must be applied to existing bonds and supplemental levies, plus the Homeowner Property Tax Relief Account (about $192 million in reductions in 2023); (3) HB 521 (2024): large multi-year school facilities appropriation tied to levy reduction; (4) HB 74 (2025): another $100 million ($50 million a year ongoing to the facilities fund plus $50 million one-time to the homeowner account).",
-     "a": "",
-     "sum": "Idaho repeatedly uses sales tax revenue to buy down local property taxes: (1) 2006: state replaced the school M&O levy with a one-cent sales tax increase; (2) HB 292 (2023): created the School District Facilities Fund (about $115 million in 2023, rising with…",
-     "more": "…sales tax) that must be applied to existing bonds and supplemental levies, plus the Homeowner Property Tax Relief Account (about $192 million in reductions in 2023); (3) HB 521 (2024): large multi-year school facilities appropriation tied to levy reduction; (4) HB 74 (2025): another $100 million ($50 million a year ongoing to the facilities fund plus $50 million one-time to the homeowner account).",
+     "t": "Idaho dedicates state sales tax revenue to cutting local property tax bills through standing appropriations:\n- School District Facilities Fund (HB 292, 2023): 3.25% of sales tax revenue plus a $50 million annual transfer under HB 304 (2025). Districts must apply the money to existing bond and voter-approved levy payments and subtract it from the amount levied; school levy reductions totaled $215.2 million in 2025.\n- Homeowner Property Tax Relief Account: 2.25% of sales tax revenue plus a $50 million annual transfer under HB 304, paid to counties and credited on the bills of homes with the homestead exemption; $112.8 million in 2025.\n- Personal property tax replacement: the state reimburses taxing districts for the business personal property exemption (up to $250,000 of cost per taxpayer per county); $7.5 million was paid in the first four months of FY2026.\n- Farm machinery replacement: the state replaces taxes on exempt agricultural equipment; $2.8 million was paid in the first four months of FY2026.\nThe 2006 shift of school maintenance and operation levies to the sales tax is now paid as general school aid and does not count.",
+     "a": "Idaho Code §§33-911, 63-724, 63-602KK, 63-602EE, 63-3638(11), (13), (15), (18); HB 292 (2023); HB 304 (2025, ch. 175); HB 636 (2026, ch. 32); State Tax Commission, Market Values and Property Taxes for 2025 (Dec. 22, 2025).",
+     "sum": "Idaho dedicates state sales tax revenue to cutting local property tax bills through standing appropriations: School District Facilities Fund (HB 292, 2023): 3.25% of sales tax revenue plus a $50 million annual transfer under HB 304 (2025).",
+     "more": "- Districts must apply the money to existing bond and voter-approved levy payments and subtract it from the amount levied; school levy reductions totaled $215.2 million in 2025.\n- Homeowner Property Tax Relief Account: 2.25% of sales tax revenue plus a $50 million annual transfer under HB 304, paid to counties and credited on the bills of homes with the homestead exemption; $112.8 million in 2025.\n- Personal property tax replacement: the state reimburses taxing districts for the business personal property exemption (up to $250,000 of cost per taxpayer per county); $7.5 million was paid in the first four months of FY2026.\n- Farm machinery replacement: the state replaces taxes on exempt agricultural equipment; $2.8 million was paid in the first four months of FY2026.\nThe 2006 shift of school maintenance and operation levies to the sales tax is now paid as general school aid and does not count.",
      "syn": "State sales tax money buys down local property taxes. It replaced the school operations levy in 2006, and since 2023 pays down school bonds and levies (about $115 million in 2023) and homeowner bills (about $192 million)."
     },
     "statewide": {
@@ -7052,12 +7052,12 @@
      "syn": "A state income tax credit equals 5% of property tax paid on a principal residence, for incomes up to $250,000 single or $500,000 joint. Seniors with income under $65,000 may defer their taxes."
     },
     "subsidies": {
-     "s": "Partial",
+     "s": "Yes",
      "q": "",
-     "t": "The Property Tax Relief Grant in the 2017 Evidence-Based Funding formula pays high-tax, low-wealth school districts to abate part of their levies. The Personal Property Replacement Tax also funds local governments.",
-     "a": "P.A. 100-465 (2017).",
-     "sum": "The Property Tax Relief Grant in the 2017 Evidence-Based Funding formula pays high-tax, low-wealth school districts to abate part of their levies.",
-     "more": "The Personal Property Replacement Tax also funds local governments.",
+     "t": "- Personal Property Replacement Tax: Article IX, Section 5(c) of the Illinois Constitution required the state to abolish ad valorem personal property taxes and to replace all revenue lost by local governments and school districts. The state levies replacement income taxes on corporations, partnerships, trusts and S corporations and distributes the proceeds to about 6,500 taxing districts in proportion to each district's 1976 (Cook County) or 1977 (other counties) personal property tax collections. The Department of Revenue estimates FY2027 allocations at $2.366 billion, up from $1.941 billion in FY2026.\n- Property Tax Relief Grant: the state pays part of the levy that high-tax school districts agree to abate, with $48.7 million in new grants for FY2027 after no funding in FY2026. It reaches only districts ranked highest by operating tax rate, and recipients must abate for three years.",
+     "a": "Ill. Const. art. IX, §5(c); 35 ILCS 5/201(c)-(d); 30 ILCS 115/12; 105 ILCS 5/2-3.170; P.A. 100-465 (2017); P.A. 104-0466.",
+     "sum": "Personal Property Replacement Tax: Article IX, Section 5(c) of the Illinois Constitution required the state to abolish ad valorem personal property taxes and to replace all revenue lost by local governments and school districts.",
+     "more": "- The state levies replacement income taxes on corporations, partnerships, trusts and S corporations and distributes the proceeds to about 6,500 taxing districts in proportion to each district's 1976 (Cook County) or 1977 (other counties) personal property tax collections. The Department of Revenue estimates FY2027 allocations at $2.366 billion, up from $1.941 billion in FY2026.\n- Property Tax Relief Grant: the state pays part of the levy that high-tax school districts agree to abate, with $48.7 million in new grants for FY2027 after no funding in FY2026. It reaches only districts ranked highest by operating tax rate, and recipients must abate for three years.",
      "syn": "A school funding grant created in 2017 pays high-tax, low-wealth school districts to abate part of their levies, and the personal property replacement tax also funds local governments."
     },
     "statewide": {
@@ -7702,12 +7702,12 @@
      "syn": "Circuit breaker credits enforce the bill caps at local expense. From 2026 a homestead credit cuts 10% of the remaining bill, up to $300, and owners 65+ with income up to $60,000 get $150."
     },
     "subsidies": {
-     "s": "Yes",
+     "s": "No",
      "q": "",
-     "t": "Indiana's main buydown is structural. The 2008 reform (HEA 1001-2008) moved school general fund costs (tuition support) and county child-welfare costs to the state and raised the sales tax from 6% to 7% to pay for them, replacing the school general fund property levy and the earlier state-funded homestead and replacement credits. Earlier rounds used the same mechanism: 1973 (sales tax 2% to 4% with state property tax replacement credits) and 2002 (sales tax 5% to 6%). There is no current state appropriation that writes down local bills; SEA 1's new credits are funded by local units.",
-     "a": "",
-     "sum": "Indiana's main buydown is structural. The 2008 reform (HEA 1001-2008) moved school general fund costs (tuition support) and county child-welfare costs to the state and raised the sales tax from 6% to 7% to pay for them, replacing the school general fund…",
-     "more": "…property levy and the earlier state-funded homestead and replacement credits. Earlier rounds used the same mechanism: 1973 (sales tax 2% to 4% with state property tax replacement credits) and 2002 (sales tax 5% to 6%). There is no current state appropriation that writes down local bills; SEA 1's new credits are funded by local units.",
+     "t": "Indiana has no current state program that reimburses local units for property tax exemptions or credits or pays part of property tax bills. The 2008 reform (HEA 1001-2008) moved school general fund and county child welfare costs to the state and raised the sales tax to 7%; that cost shift is now paid as school tuition support and other state spending, which do not count. The state-funded homestead and property tax replacement credits ended with that reform. The homestead credit created by SEA 1 (2025) reduces the collections of the local units where it applies. The commercial vehicle excise tax, collected by the state and shared by each unit's frozen share of former vehicle assessed value, is a replacement tax paid by vehicle owners.",
+     "a": "HEA 1001-2008; SEA 1-2025; IC 6-6-5.5-20.",
+     "sum": "Indiana has no current state program that reimburses local units for property tax exemptions or credits or pays part of property tax bills.",
+     "more": "The 2008 reform (HEA 1001-2008) moved school general fund and county child welfare costs to the state and raised the sales tax to 7%; that cost shift is now paid as school tuition support and other state spending, which do not count. The state-funded homestead and property tax replacement credits ended with that reform. The homestead credit created by SEA 1 (2025) reduces the collections of the local units where it applies. The commercial vehicle excise tax, collected by the state and shared by each unit's frozen share of former vehicle assessed value, is a replacement tax paid by vehicle owners.",
      "syn": "Since 2008 the state pays school general fund and county child-welfare costs from a sales tax raised from 6% to 7%, replacing the school general fund levy. No current appropriation writes down local bills."
     },
     "statewide": {
@@ -8277,10 +8277,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "1) School levy buy-down (SF 2472, 2026): the state replaces revenue lost when the required school foundation levy drops from $5.40 to $4.90 per $1,000, funded partly by redirecting SAVE school infrastructure sales tax money; estimated at $175 million a year.\n2) Commercial and industrial \"backfill\": $125 million a year from the state general fund reimburses local governments for the 2013 commercial and industrial assessment limitation (FY2025–FY2027; SF 2472 runs the payments through FY2027).\n3) Mental health: SF 619 (2021) removed the county mental health levy and shifted that cost to state appropriations starting FY2023.\n4) State-funded credits (elderly and disabled credit, family farm credit, disabled veterans' homestead credit).",
-     "a": "SF 2472 (2026) Divs. V, VI and XXV; Iowa Code §441.21(5)(e); SF 619 (2021).",
-     "sum": "1) School levy buy-down (SF 2472, 2026): the state replaces revenue lost when the required school foundation levy drops from $5.40 to $4.90 per $1,000, funded partly by redirecting SAVE school infrastructure sales tax money; estimated at $175 million a year.",
-     "more": "2) Commercial and industrial \"backfill\": $125 million a year from the state general fund reimburses local governments for the 2013 commercial and industrial assessment limitation (FY2025–FY2027; SF 2472 runs the payments through FY2027).\n3) Mental health: SF 619 (2021) removed the county mental health levy and shifted that cost to state appropriations starting FY2023.\n4) State-funded credits (elderly and disabled credit, family farm credit, disabled veterans' homestead credit).",
+     "t": "In FY2026 and FY2027 Iowa pays these from the state general fund:\n- Homestead tax credit: a credit on each homestead bill equal to the levy on the first $4,850 of value, paid from a standing unlimited appropriation (about $162.5 million in FY2026).\n- Commercial and industrial replacement: $125 million a year reimburses local governments for taxes lost to the lower assessment limitation on the first $150,000 of commercial and industrial value (81.2% of claims were paid in FY2025).\n- School property tax replacement payments: a per-pupil state payment that replaces part of the school additional levy ($136.7 million estimated for FY2026).\n- Agricultural land and family farm credits: a $39.1 million standing appropriation credited on farmland bills.\nSF 2472 (2026) ends the commercial and industrial payments after FY2027 and replaces the homestead credit with a $15,000 exemption, with transition payments in FY2028 and FY2029; it also cuts the school foundation levy to $5.10 in FY2029 and $4.90 from FY2030. The 2021 transfer of county mental health costs to state appropriations is program funding and does not count.",
+     "a": "Iowa Code §§257.16B, 425.1, 441.21(5)(e), chs. 425A and 426; SF 2472 (2026) Divs. V, XX and XXIV; LSA Fiscal Note on SF 2472 (Apr. 23, 2026).",
+     "sum": "In FY2026 and FY2027 Iowa pays these from the state general fund: Homestead tax credit: a credit on each homestead bill equal to the levy on the first $4,850 of value, paid from a standing unlimited appropriation (about $162.5 million in FY2026).",
+     "more": "- Commercial and industrial replacement: $125 million a year reimburses local governments for taxes lost to the lower assessment limitation on the first $150,000 of commercial and industrial value (81.2% of claims were paid in FY2025).\n- School property tax replacement payments: a per-pupil state payment that replaces part of the school additional levy ($136.7 million estimated for FY2026).\n- Agricultural land and family farm credits: a $39.1 million standing appropriation credited on farmland bills.\nSF 2472 (2026) ends the commercial and industrial payments after FY2027 and replaces the homestead credit with a $15,000 exemption, with transition payments in FY2028 and FY2029; it also cuts the school foundation levy to $5.10 in FY2029 and $4.90 from FY2030. The 2021 transfer of county mental health costs to state appropriations is program funding and does not count.",
      "syn": "The state replaces school revenue lost as the foundation levy drops from $5.40 to $4.90, about $175 million a year, and pays $125 million a year to backfill the commercial and industrial assessment limit through FY2027."
     },
     "statewide": {
@@ -8902,10 +8902,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "The state's revenue-sharing fund meant to lower local property taxes, the Local Ad Valorem Tax Reduction Fund, was last funded in 2003. A 2024 bill (SB 536) to restart payments for governments that stay at their revenue neutral rate did not pass, and Gov. Kelly's 2026 proposal for a $60 million county buy-down fund failed on the House floor. The state's refunds go to taxpayers (see Credits).",
-     "a": "K.S.A. 79-2959 (LAVTRF).",
-     "sum": "The state's revenue-sharing fund meant to lower local property taxes, the Local Ad Valorem Tax Reduction Fund, was last funded in 2003.",
-     "more": "A 2024 bill (SB 536) to restart payments for governments that stay at their revenue neutral rate did not pass, and Gov. Kelly's 2026 proposal for a $60 million county buy-down fund failed on the House floor. The state's refunds go to taxpayers (see Credits).",
+     "t": "Kansas makes no current state payment to local governments for property tax revenue lost to exemptions, and the state pays no credit on property tax bills. The Local Ad Valorem Tax Reduction Fund, the state's revenue-sharing program for local property tax reduction, has not been funded since 2003. In 2026 Gov. Kelly's proposal for $60 million to pay counties that kept property taxes low failed on the House floor, and the governor vetoed the Legislature's local property tax limit bill. The state's homestead refunds go to taxpayers and appear under Credits.",
+     "a": "K.S.A. 79-2959 (LAVTRF); K.S.A. 79-4501 et seq. (homestead refund).",
+     "sum": "Kansas makes no current state payment to local governments for property tax revenue lost to exemptions, and the state pays no credit on property tax bills.",
+     "more": "The Local Ad Valorem Tax Reduction Fund, the state's revenue-sharing program for local property tax reduction, has not been funded since 2003. In 2026 Gov. Kelly's proposal for $60 million to pay counties that kept property taxes low failed on the House floor, and the governor vetoed the Legislature's local property tax limit bill. The state's homestead refunds go to taxpayers and appear under Credits.",
      "syn": "No state buydown; the fund meant to lower local property taxes was last funded in 2003, and the state's refunds go to taxpayers."
     },
     "statewide": {
@@ -9570,10 +9570,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "No state program pays local governments to cut property tax rates. School equalization aid (SEEK) works in the other direction: the state matches part of the Tier I and facility levies that districts adopt, so higher local levies attract more state money.",
-     "a": "KRS 157.440; 157.621.",
-     "sum": "No state program pays local governments to cut property tax rates.",
-     "more": "School equalization aid (SEEK) works in the other direction: the state matches part of the Tier I and facility levies that districts adopt, so higher local levies attract more state money.",
+     "t": "Kentucky has no state program that reimburses local governments for property tax exemptions or pays part of local property tax bills. School equalization aid (SEEK) does not count: the state matches part of the Tier I and facility levies that districts adopt, so higher local levies attract more state money. The state income tax credit for local property tax paid on inventory is nonrefundable and has no carryforward, so it does not cover the tax on that class of property and appears under Credits.",
+     "a": "KRS 157.440; KRS 157.621; KRS 141.408.",
+     "sum": "Kentucky has no state program that reimburses local governments for property tax exemptions or pays part of local property tax bills.",
+     "more": "School equalization aid (SEEK) does not count: the state matches part of the Tier I and facility levies that districts adopt, so higher local levies attract more state money. The state income tax credit for local property tax paid on inventory is nonrefundable and has no carryforward, so it does not cover the tax on that class of property and appears under Credits.",
      "syn": "No state program pays local governments to cut rates; school equalization aid matches part of some district levies, so higher levies draw more state money."
     },
     "statewide": {
@@ -10105,10 +10105,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The inventory tax credit (see Credits) has functioned as a state subsidy of local property taxes: local bodies collect the tax and the state refunds it to businesses through the income tax. Its scope narrows sharply from July 1, 2026. The state has no program that buys down local millage rates.",
-     "a": "La. R.S. 47:6006.",
-     "sum": "The inventory tax credit (see Credits) has functioned as a state subsidy of local property taxes: local bodies collect the tax and the state refunds it to businesses through the income tax.",
-     "more": "Its scope narrows sharply from July 1, 2026. The state has no program that buys down local millage rates.",
+     "t": "The constitution sets aside $90 million a year from the state general fund for the Revenue Sharing Fund, and the money goes first to offset local tax losses from the homestead exemption. Parish tax collectors pay each tax recipient body its homestead exemption loss on millages authorized before 1978 (capped in some parishes at 1977 levels adjusted for homestead counts) before distributing any remainder. HB 314 of 2026 (Act 905) provides the full $90 million for FY2026-27. The refundable income tax credit for local inventory taxes now covers only part of that class: C-corporations cannot earn it on taxes paid on or after July 1, 2026, and refunds are limited for larger payers and manufacturers.",
+     "a": "La. Const. art. VII, §26; HB 314 (2026 R.S., Act 905); La. R.S. 47:6006.",
+     "sum": "The constitution sets aside $90 million a year from the state general fund for the Revenue Sharing Fund, and the money goes first to offset local tax losses from the homestead exemption.",
+     "more": "Parish tax collectors pay each tax recipient body its homestead exemption loss on millages authorized before 1978 (capped in some parishes at 1977 levels adjusted for homestead counts) before distributing any remainder. HB 314 of 2026 (Act 905) provides the full $90 million for FY2026-27. The refundable income tax credit for local inventory taxes now covers only part of that class: C-corporations cannot earn it on taxes paid on or after July 1, 2026, and refunds are limited for larger payers and manufacturers.",
      "syn": "Through the inventory tax credit, the state refunds local inventory property taxes to businesses via the income tax; its scope narrows sharply from July 1, 2026. No program buys down millage."
     },
     "statewide": {
@@ -10691,10 +10691,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "1) Homestead and Business Equipment Tax Exemption (BETE) reimbursements: the state repays municipalities 76% of homestead exemption losses and part of the value exempted under BETE.\n2) Municipal revenue sharing: a statutory share of state sales and income tax revenue (5% under current law) distributed to municipalities to reduce property taxes.\n3) School funding: the state pays a large share of EPS costs (the LD 1 goal was 55%).\n4) The 2023 senior stabilization program was to be fully reimbursed by the state; municipalities initially received about 56% of what they were owed, and a 2024 bill proposed about $15 million to cover the shortfall.",
-     "a": "36 M.R.S. §685; 36 M.R.S. §§691-700-B (BETE and its reimbursement); 30-A M.R.S. §5681 (revenue sharing).",
-     "sum": "1) Homestead and Business Equipment Tax Exemption (BETE) reimbursements: the state repays municipalities 76% of homestead exemption losses and part of the value exempted under BETE.",
-     "more": "2) Municipal revenue sharing: a statutory share of state sales and income tax revenue (5% under current law) distributed to municipalities to reduce property taxes.\n3) School funding: the state pays a large share of EPS costs (the LD 1 goal was 55%).\n4) The 2023 senior stabilization program was to be fully reimbursed by the state; municipalities initially received about 56% of what they were owed, and a 2024 bill proposed about $15 million to cover the shortfall.",
+     "t": "- Homestead exemption reimbursement: the state repays municipalities 76% of the tax lost to the $25,000 homestead exemption. In 2024, 323,697 homesteads claimed $7.3 billion in exempt value.\n- Business Equipment Tax Exemption (BETE) reimbursement: the state repays at least 50% of the tax lost on exempt business equipment, with higher rates in municipalities where personal property is a large share of value. Exempt BETE value was $7.1 billion in 2024.\nMunicipal revenue sharing and state school aid under Essential Programs and Services do not count. Lawmakers repealed the senior property tax stabilization program in 2023.",
+     "a": "36 M.R.S. §§683, 685, 691-700-B; Maine Revenue Services, 2024 Municipal Valuation Return Statistical Summary.",
+     "sum": "Homestead exemption reimbursement: the state repays municipalities 76% of the tax lost to the $25,000 homestead exemption.",
+     "more": "- In 2024, 323,697 homesteads claimed $7.3 billion in exempt value.\n- Business Equipment Tax Exemption (BETE) reimbursement: the state repays at least 50% of the tax lost on exempt business equipment, with higher rates in municipalities where personal property is a large share of value. Exempt BETE value was $7.1 billion in 2024.\nMunicipal revenue sharing and state school aid under Essential Programs and Services do not count. Lawmakers repealed the senior property tax stabilization program in 2023.",
      "syn": "The state repays towns 76% of homestead exemption losses and part of the tax lost on exempt business equipment, and shares 5% of state sales and income tax revenue with towns to reduce property taxes."
     },
     "statewide": {
@@ -11256,12 +11256,12 @@
      "syn": "A state-funded circuit breaker limits the tax on the first $300,000 of a home's value to a share of income, and low-income renters can get a refund; state spending was $96.0 million in FY2025."
     },
     "subsidies": {
-     "s": "Yes",
+     "s": "Partial",
      "q": "",
-     "t": "The state pays the Homeowners' and Renters' tax credits directly, covering part of low-income residents' county and city property taxes: $96.0 million in FY2025 and $90.5 million appropriated for FY2027, under 1% of FY2024 state and local property tax collections. Disparity grants send extra state aid to counties with low income tax capacity. Neither program limits local spending or rates. Money also moves the other way: the 2025 budget law made counties and Baltimore City pay 90% of SDAT's assessment costs (up from 50%; $21.2 million in FY2026).",
-     "a": "Md. Code, Tax-Prop. §§9-102, 9-104; state disparity grant program; HB 352 (Budget Reconciliation and Financing Act of 2025).",
-     "sum": "The state pays the Homeowners' and Renters' tax credits directly, covering part of low-income residents' county and city property taxes: $96.0 million in FY2025 and $90.5 million appropriated for FY2027, under 1% of FY2024 state and local property tax…",
-     "more": "…collections. Disparity grants send extra state aid to counties with low income tax capacity. Neither program limits local spending or rates. Money also moves the other way: the 2025 budget law made counties and Baltimore City pay 90% of SDAT's assessment costs (up from 50%; $21.2 million in FY2026).",
+     "t": "- Homeowners' Property Tax Credit: the state pays an income-tested credit applied to eligible homeowners' county and municipal property tax bills; the FY2027 allowance is $55.9 million.\n- Enterprise Zone property tax credit: the state reimburses local governments for 50% of a 10-year credit on qualifying real property improvements inside designated enterprise zones; the FY2027 allowance is $31.4 million.\nBoth programs reach a narrow group of owners. The Renters' Tax Credit ($3.1 million) is paid to renters, and disparity grants are general aid to counties with low income tax capacity; neither counts.",
+     "a": "Md. Code, Tax-Prop. §§9-102, 9-103, 9-104; Md. Code, State Fin. & Proc. §16-501; DLS, Analysis of the FY 2027 Maryland Executive Budget, E50C (SDAT).",
+     "sum": "Homeowners' Property Tax Credit: the state pays an income-tested credit applied to eligible homeowners' county and municipal property tax bills; the FY2027 allowance is $55.9 million.",
+     "more": "- Enterprise Zone property tax credit: the state reimburses local governments for 50% of a 10-year credit on qualifying real property improvements inside designated enterprise zones; the FY2027 allowance is $31.4 million.\nBoth programs reach a narrow group of owners. The Renters' Tax Credit ($3.1 million) is paid to renters, and disparity grants are general aid to counties with low income tax capacity; neither counts.",
      "syn": "The state pays the homeowners' and renters' credits, covering part of low-income residents' local property taxes ($96.0 million in FY2025), and disparity grants aid counties with low income tax capacity."
     },
     "statewide": {
@@ -11896,10 +11896,10 @@
     "subsidies": {
      "s": "Partial",
      "q": "",
-     "t": "The state sends large unrestricted and school aid to cities and towns, which lets them hold property taxes within Proposition 2½ without spending cuts. The FY2027 budget (signed July 9, 2026) provides $1.363 billion in Unrestricted General Government Aid ($40 million more than FY2026), $7.66 billion in Chapter 70 school aid and $55.4 million in payments in lieu of taxes. The senior circuit breaker is paid by the state. No program buys down local rates directly.",
-     "a": "",
-     "sum": "The state sends large unrestricted and school aid to cities and towns, which lets them hold property taxes within Proposition 2½ without spending cuts.",
-     "more": "The FY2027 budget (signed July 9, 2026) provides $1.363 billion in Unrestricted General Government Aid ($40 million more than FY2026), $7.66 billion in Chapter 70 school aid and $55.4 million in payments in lieu of taxes. The senior circuit breaker is paid by the state. No program buys down local rates directly.",
+     "t": "The state reimburses cities and towns for property tax exemptions granted to qualifying veterans, surviving spouses, blind persons and older homeowners under clauses 17, 22, 37 and 41 of G.L. c. 59, §5 and their sub-clauses. The FY2027 budget (signed July 9, 2026) appropriates $43.1 million for these reimbursements, up from $39.0 million in FY2026. Eligibility for these exemptions turns on veteran status, disability, age or income, so the program is narrow. Unrestricted General Government Aid ($1.363 billion), Chapter 70 school aid, payments in lieu of taxes on state-owned land and the income tax senior circuit breaker do not count under this test.",
+     "a": "G.L. c. 59, §5, cls. 17, 22-22F, 37, 37A, 41, 41B, 41C, 41C½ and 52; FY2027 General Appropriations Act, line item 1233-2000.",
+     "sum": "The state reimburses cities and towns for property tax exemptions granted to qualifying veterans, surviving spouses, blind persons and older homeowners under clauses 17, 22, 37 and 41 of G.L. c. 59, §5 and their sub-clauses.",
+     "more": "The FY2027 budget (signed July 9, 2026) appropriates $43.1 million for these reimbursements, up from $39.0 million in FY2026. Eligibility for these exemptions turns on veteran status, disability, age or income, so the program is narrow. Unrestricted General Government Aid ($1.363 billion), Chapter 70 school aid, payments in lieu of taxes on state-owned land and the income tax senior circuit breaker do not count under this test.",
      "syn": "The state sends cities and towns $1.363 billion in unrestricted aid and $7.66 billion in school aid in FY2027 and pays the senior circuit breaker. No program buys down local rates."
     },
     "statewide": {
@@ -12653,10 +12653,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "1) School funding takeover (Proposal A, 1994): the state replaced most local school operating property taxes with sales and other state taxes paid through the School Aid Fund, the largest property tax buy-down in any state.\n2) Personal property tax exemption reimbursement: since voters approved Proposal 1 in 2014, a share of the state use tax is paid through the Local Community Stabilization Authority to reimburse local governments for exempted business equipment: $568.6 million for 2024, $571.1 million for 2025 and $572.0 million for 2026.\n3) The state-paid Homestead Property Tax Credit: about $900 million in the 2025 filing season, renters included (see Credits).\nItems 2 and 3 together equal about 7.7% of Michigan's FY2024 state and local property tax collections ($19.13 billion, Census).",
-     "a": "Mich. Const. art. IX §11; 2014 Proposal 1; MCL 123.1341 et seq.; MCL 206.520.",
-     "sum": "1) School funding takeover (Proposal A, 1994): the state replaced most local school operating property taxes with sales and other state taxes paid through the School Aid Fund, the largest property tax buy-down in any state.",
-     "more": "2) Personal property tax exemption reimbursement: since voters approved Proposal 1 in 2014, a share of the state use tax is paid through the Local Community Stabilization Authority to reimburse local governments for exempted business equipment: $568.6 million for 2024, $571.1 million for 2025 and $572.0 million for 2026.\n3) The state-paid Homestead Property Tax Credit: about $900 million in the 2025 filing season, renters included (see Credits).\nItems 2 and 3 together equal about 7.7% of Michigan's FY2024 state and local property tax collections ($19.13 billion, Census).",
+     "t": "Michigan reimburses local governments for property tax revenue lost to the 2014 exemptions for small business taxpayers and eligible manufacturing personal property. A dedicated share of the state use tax, distributed by the Local Community Stabilization Authority, pays each local unit an amount computed from its personal property exemption loss: $572.0 million for 2026 and $572.5 million scheduled for 2027, growing about 1% a year after that. The School Aid Fund covers the related loss on basic school operating mills. Proposal A's 1994 school finance shift is now paid as general school aid, and the Homestead Property Tax Credit is an income-tested credit paid through the income tax, so neither counts under this test.",
+     "a": "MCL 123.1341 et seq. (Local Community Stabilization Authority Act, 2014 PA 86), esp. MCL 123.1357; 2014 Proposal 1; Michigan Department of Treasury, LCSS revenue schedule.",
+     "sum": "Michigan reimburses local governments for property tax revenue lost to the 2014 exemptions for small business taxpayers and eligible manufacturing personal property.",
+     "more": "A dedicated share of the state use tax, distributed by the Local Community Stabilization Authority, pays each local unit an amount computed from its personal property exemption loss: $572.0 million for 2026 and $572.5 million scheduled for 2027, growing about 1% a year after that. The School Aid Fund covers the related loss on basic school operating mills. Proposal A's 1994 school finance shift is now paid as general school aid, and the Homestead Property Tax Credit is an income-tested credit paid through the income tax, so neither counts under this test.",
      "syn": "Since 1994 state taxes have replaced most local school operating property taxes. The state also reimburses local governments for exempted business equipment ($572.0 million for 2026) and pays the homestead credit."
     },
     "statewide": {
@@ -13381,10 +13381,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "1) Local Government Aid (cities): $644.4 million a year from aids payable in 2024 (up from $564.4 million under the 2023 tax law). County Program Aid: $151.2 million in need aid (2025 and later) plus $190.5 million in tax-base equalization aid (2024 and later). Together about $986 million a year, equal to 8.3% of FY2024 state and local property tax collections.\n2) School aid: the state pays most of the basic school formula; equalization aid reduces local levies in low-wealth districts, and a 2026 law adds seasonal tax base replacement aid that pays part of voter-approved operating referendum levies in districts with cabin property (from taxes payable in 2027).\n3) Agricultural \"school building bond credit\": the state pays a large share of the school bond tax on farmland (raised in steps since 2018).\n4) Refunds paid to taxpayers (see Credits), including the one-time 2026 increase.\nLevy limits, when imposed, were tied to aid: when the state cut aid, the limit rose and localities could levy more.",
-     "a": "Minn. Stat. ch. 477A (§477A.03, subds. 2a-2b); §273.1387; Laws 2026, ch. 128, art. 4.",
-     "sum": "1) Local Government Aid (cities): $644.4 million a year from aids payable in 2024 (up from $564.4 million under the 2023 tax law).",
-     "more": "County Program Aid: $151.2 million in need aid (2025 and later) plus $190.5 million in tax-base equalization aid (2024 and later). Together about $986 million a year, equal to 8.3% of FY2024 state and local property tax collections.\n2) School aid: the state pays most of the basic school formula; equalization aid reduces local levies in low-wealth districts, and a 2026 law adds seasonal tax base replacement aid that pays part of voter-approved operating referendum levies in districts with cabin property (from taxes payable in 2027).\n3) Agricultural \"school building bond credit\": the state pays a large share of the school bond tax on farmland (raised in steps since 2018).\n4) Refunds paid to taxpayers (see Credits), including the one-time 2026 increase.\nLevy limits, when imposed, were tied to aid: when the state cut aid, the limit rose and localities could levy more.",
+     "t": "The state pays credits shown on the property tax bill, mainly on farmland, and reimburses local governments for them from standing general fund appropriations:\n- School building bond agricultural credit: 70% of the school debt tax on agricultural land outside the homestead dwelling site, reimbursed to school districts; $117.8 million in FY2026 and $127.3 million in FY2027.\n- Agricultural homestead market value credit: $37.5 million in FY2026 and $35.8 million in FY2027.\n- Border city disparity reduction credit ($15.5 million in FY2027) and disparity reduction aid ($17.1 million a year), which go only to certain jurisdictions.\n- Seasonal tax base replacement aid, which districts with large cabin tax bases must use to reduce referendum levies: $2.5 million one-time in FY2027, then about $4.7 million a year from FY2028.\nLocal Government Aid ($644.4 million in FY2027), County Program Aid, the general school formula and the income-tested homestead credit refund do not count under this test.",
+     "a": "Minn. Stat. §§273.1387, 273.1384, 273.1398; Minn. Stat. §126C.17, subd. 7c, and Laws 2026, ch. 128, art. 4, secs. 2 and 12; Minnesota Management and Budget, End of Session Fund Balance Analysis (June 26, 2026).",
+     "sum": "The state pays credits shown on the property tax bill, mainly on farmland, and reimburses local governments for them from standing general fund appropriations.",
+     "more": "- School building bond agricultural credit: 70% of the school debt tax on agricultural land outside the homestead dwelling site, reimbursed to school districts; $117.8 million in FY2026 and $127.3 million in FY2027.\n- Agricultural homestead market value credit: $37.5 million in FY2026 and $35.8 million in FY2027.\n- Border city disparity reduction credit ($15.5 million in FY2027) and disparity reduction aid ($17.1 million a year), which go only to certain jurisdictions.\n- Seasonal tax base replacement aid, which districts with large cabin tax bases must use to reduce referendum levies: $2.5 million one-time in FY2027, then about $4.7 million a year from FY2028.\nLocal Government Aid ($644.4 million in FY2027), County Program Aid, the general school formula and the income-tested homestead credit refund do not count under this test.",
      "syn": "The state pays cities Local Government Aid and counties County Program Aid, about $986 million a year together, plus most of the basic school formula. Equalization aid reduces school levies in low-wealth districts."
     },
     "statewide": {
@@ -14089,10 +14089,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "1) Homestead reimbursement: the state pays local units $50 of county and $50 of school tax per regular homestead applicant, plus up to $200 per 65+ or disabled applicant for cities, with each unit's reimbursement capped at 106% of its prior year.\n2) School Ad Valorem Tax Reduction Fund: 2.266% of sales tax collections, plus 3.17% of grocery sales tax from September 2025, capped at $42 million a year, used to reduce school levies dollar for dollar.\n3) Motor Vehicle and Telecommunications Ad Valorem Tax Reduction Funds, which offset local taxes on vehicles and telecommunications property.\n4) The inventory tax credit (see Credits) refunds local inventory taxes through the state income tax.",
-     "a": "Miss. Code §§27-33-77, 27-33-79; §37-57-105; HB 1 (2025).",
-     "sum": "1) Homestead reimbursement: the state pays local units $50 of county and $50 of school tax per regular homestead applicant, plus up to $200 per 65+ or disabled applicant for cities, with each unit's reimbursement capped at 106% of its prior year.",
-     "more": "2) School Ad Valorem Tax Reduction Fund: 2.266% of sales tax collections, plus 3.17% of grocery sales tax from September 2025, capped at $42 million a year, used to reduce school levies dollar for dollar.\n3) Motor Vehicle and Telecommunications Ad Valorem Tax Reduction Funds, which offset local taxes on vehicles and telecommunications property.\n4) The inventory tax credit (see Credits) refunds local inventory taxes through the state income tax.",
+     "t": "- Homestead exemption reimbursement: the state reimburses local governments for taxes lost to the homestead exemption under a per-applicant formula, with an added reimbursement to cities for owners 65 and older or disabled. The Legislature appropriated $94.0 million for FY2027, the same as FY2026.\n- Motor vehicle tag credit: owners receive a credit on the vehicle ad valorem tax (6.5% in FY2025), and the Motor Vehicle Ad Valorem Tax Reduction Fund, fed by sales and use tax, reimburses counties for the loss ($335.9 million in FY2025).\n- School Ad Valorem Tax Reduction Fund: a share of sales and use tax ($46.0 million in FY2025) goes to school districts, which must reduce their levies by the amount received.\n- The inventory tax credit is taken against state income tax and does not count under this test.",
+     "a": "Miss. Code §§27-33-77, 27-33-79; §§27-51-101 to 27-51-107; §§37-61-35, 37-57-105; §27-65-75; SB 3090 (2026); Mississippi Department of Revenue, FY2025 Annual Report.",
+     "sum": "Homestead exemption reimbursement: the state reimburses local governments for taxes lost to the homestead exemption under a per-applicant formula, with an added reimbursement to cities for owners 65 and older or disabled.",
+     "more": "- The Legislature appropriated $94.0 million for FY2027, the same as FY2026.\n- Motor vehicle tag credit: owners receive a credit on the vehicle ad valorem tax (6.5% in FY2025), and the Motor Vehicle Ad Valorem Tax Reduction Fund, fed by sales and use tax, reimburses counties for the loss ($335.9 million in FY2025).\n- School Ad Valorem Tax Reduction Fund: a share of sales and use tax ($46.0 million in FY2025) goes to school districts, which must reduce their levies by the amount received.\n- The inventory tax credit is taken against state income tax and does not count under this test.",
      "syn": "The state reimburses local units for homestead exemptions and refunds local inventory taxes through the income tax. A sales tax fund capped at $42 million a year cuts school levies dollar for dollar."
     },
     "statewide": {
@@ -14601,12 +14601,12 @@
      "syn": "A state-funded circuit breaker refunds up to $1,100 to homeowners and $750 to renters with low incomes who are 65+ or disabled. County-option freezes and caps also credit local bills."
     },
     "subsidies": {
-     "s": "Yes",
+     "s": "Partial",
      "q": "",
-     "t": "Proposition C (1982): a 1-cent state sales tax for schools, distributed per pupil, with a required rollback of each district's operating levy by an amount equal to 50% of its prior-year Prop C revenue. Voters in a district may waive the rollback, and many have, which keeps both the sales tax and the full property tax. The state also pays the circuit breaker credit.",
-     "a": "RSMo 164.013; RSMo 144.701 (Prop C sales tax).",
-     "sum": "Proposition C (1982): a 1-cent state sales tax for schools, distributed per pupil, with a required rollback of each district's operating levy by an amount equal to 50% of its prior-year Prop C revenue.",
-     "more": "Voters in a district may waive the rollback, and many have, which keeps both the sales tax and the full property tax. The state also pays the circuit breaker credit.",
+     "t": "Proposition C (1982) adds one cent to the state sales tax for schools and requires each district to roll back its operating levy by 50% of its prior-year Proposition C receipts unless district voters waive the rollback. The FY2027 budget appropriates $1.307 billion from the School District Trust Fund for these distributions. By 2026, 471 of Missouri's 518 districts had approved a full waiver, so the required buy-down applies in a small share of districts. In waived districts the money is per-pupil school aid, and the senior circuit breaker credit is paid through the income tax, so neither counts under this test.",
+     "a": "RSMo 164.013; RSMo 144.701; RSMo 163.087; HB 2002 (2026), §2.085.",
+     "sum": "Proposition C (1982) adds one cent to the state sales tax for schools and requires each district to roll back its operating levy by 50% of its prior-year Proposition C receipts unless district voters waive the rollback.",
+     "more": "The FY2027 budget appropriates $1.307 billion from the School District Trust Fund for these distributions. By 2026, 471 of Missouri's 518 districts had approved a full waiver, so the required buy-down applies in a small share of districts. In waived districts the money is per-pupil school aid, and the senior circuit breaker credit is paid through the income tax, so neither counts under this test.",
      "syn": "A 1-cent state sales tax for schools requires each district to cut its operating levy by 50% of prior-year school sales tax revenue unless voters waive it. The state also pays the circuit breaker."
     },
     "statewide": {
@@ -15193,10 +15193,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state pays the rebates above from state revenue and funds schools through the statewide mills and state aid; there is no program that pays local governments to lower their own levies. The 2025 rate changes (HB 231, SB 542) shift the tax burden from homesteads and long-term rentals onto second homes, short-term rentals and higher-value property; that is a reallocation among taxpayers and does not reduce the total levied.",
-     "a": "",
-     "sum": "The state pays the rebates above from state revenue and funds schools through the statewide mills and state aid; there is no program that pays local governments to lower their own levies.",
-     "more": "The 2025 rate changes (HB 231, SB 542) shift the tax burden from homesteads and long-term rentals onto second homes, short-term rentals and higher-value property; that is a reallocation among taxpayers and does not reduce the total levied.",
+     "t": "The state reimburses local taxing units, including tax increment financing districts and the 6-mill university levy, for revenue lost to the 2011 and 2013 cuts in the business equipment (class 8) tax rate and to increases in the class 8 exemption, which reached $1 million in 2023. Each reimbursement equals the difference between taxes collected and the taxes the earlier rate or exemption would have produced, and it is paid with the entitlement share from a statutory general fund appropriation ($173.1 million for all entitlement share payments in FY2026; the class 8 portion is not reported separately). The 2025 rate changes (HB 231, SB 542) shift tax among classes of property, and their reimbursement for certain fixed mill levies takes effect only if a court strikes down the new levy rules. The one-time homestead rebates paid to owners do not count under this test.",
+     "a": "MCA 15-1-121, 15-1-123, 15-1-124, 15-6-138; Ch. 411, L. 2011; Ch. 396, L. 2013; Ch. 506, L. 2021; Ch. 45, L. 2023; Ch. 767, L. 2025.",
+     "sum": "The state reimburses local taxing units, including tax increment financing districts and the 6-mill university levy, for revenue lost to the 2011 and 2013 cuts in the business equipment (class 8) tax rate and to increases in the class 8 exemption, which…",
+     "more": "…reached $1 million in 2023. Each reimbursement equals the difference between taxes collected and the taxes the earlier rate or exemption would have produced, and it is paid with the entitlement share from a statutory general fund appropriation ($173.1 million for all entitlement share payments in FY2026; the class 8 portion is not reported separately). The 2025 rate changes (HB 231, SB 542) shift tax among classes of property, and their reimbursement for certain fixed mill levies takes effect only if a court strikes down the new levy rules. The one-time homestead rebates paid to owners do not count under this test.",
      "syn": "The state pays surplus-funded rebates on principal residences and funds schools through the statewide mills and state aid. No program pays local governments to lower their own levies."
     },
     "statewide": {
@@ -15819,10 +15819,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state pays a large and growing share of local property tax bills and budgets:\n- Credits and homestead reimbursement: $1.40 billion for tax year 2025 (Department of Revenue), up from $504 million in 2023, after the school tax credit moved from income tax returns to property tax statements.\n- School aid: LB 583 (2023) added foundation aid of $1,500 per student for every district and 80% reimbursement of allowable excess special education costs, paid from the Education Future Fund (LB 818, 2023; $1 billion transfer, then $250 million). Under the school request limit, higher state aid lowers a district's allowed property tax request.\n- Community colleges: their general operating levy ended after FY2023-24 (LB 243), replaced by state payments from the Community College Future Fund.\nState aid to local governments apart from the credits (\"net local tax relief\") was $2.18 billion in 2025, up 58% since 2015.",
-     "a": "Neb. Rev. Stat. §§77-7304, 77-4212, 77-3442(3); LB 583, LB 818 (2023).",
-     "sum": "The state pays a large and growing share of local property tax bills and budgets: Credits and homestead reimbursement: $1.40 billion for tax year 2025 (Department of Revenue), up from $504 million in 2023, after the school tax credit moved from income tax…",
-     "more": "- …returns to property tax statements.\n- School aid: LB 583 (2023) added foundation aid of $1,500 per student for every district and 80% reimbursement of allowable excess special education costs, paid from the Education Future Fund (LB 818, 2023; $1 billion transfer, then $250 million). Under the school request limit, higher state aid lowers a district's allowed property tax request.\n- Community colleges: their general operating levy ended after FY2023-24 (LB 243), replaced by state payments from the Community College Future Fund.\nState aid to local governments apart from the credits (\"net local tax relief\") was $2.18 billion in 2025, up 58% since 2015.",
+     "t": "- School district property tax relief credit: since tax year 2024 the state pays a credit against non-bond school taxes on every parcel of taxable real property, shown on the tax statement. The fund was set at $750 million for FY2024-25, with intent amounts of $780 million for FY2025-26 and $808 million for FY2026-27.\n- Property Tax Credit Act credit: a state-funded credit on real property tax statements. With the school credit, credits on the bill total $1.244 billion in the FY2025-26 appropriation.\n- Community college levy reduction: LB 243 (2023) replaced the community colleges' general operating levy with state payments ($266.0 million in FY2025-26).\n- Homestead exemption reimbursement ($159.9 million in FY2025-26) is narrower, since eligibility is limited to elderly or disabled owners, including disabled veterans, most under income limits.\nFoundation aid and special education aid from the Education Future Fund are school aid and do not count under this test.",
+     "a": "Neb. Rev. Stat. §§77-4209 to 77-4212, 77-7305, 77-3523; LB 34 (2024, First Special Session); LB 243 (2023); Nebraska Department of Revenue, 2025 Annual Report, Table 3C.",
+     "sum": "School district property tax relief credit: since tax year 2024 the state pays a credit against non-bond school taxes on every parcel of taxable real property, shown on the tax statement.",
+     "more": "- The fund was set at $750 million for FY2024-25, with intent amounts of $780 million for FY2025-26 and $808 million for FY2026-27.\n- Property Tax Credit Act credit: a state-funded credit on real property tax statements. With the school credit, credits on the bill total $1.244 billion in the FY2025-26 appropriation.\n- Community college levy reduction: LB 243 (2023) replaced the community colleges' general operating levy with state payments ($266.0 million in FY2025-26).\n- Homestead exemption reimbursement ($159.9 million in FY2025-26) is narrower, since eligibility is limited to elderly or disabled owners, including disabled veterans, most under income limits.\nFoundation aid and special education aid from the Education Future Fund are school aid and do not count under this test.",
      "syn": "State credits and homestead reimbursement paid $1.40 billion for tax year 2025, and school foundation aid adds $1,500 per student; higher state aid lowers a district's allowed property tax request."
     },
     "statewide": {
@@ -16564,10 +16564,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "No state program pays local governments to reduce property taxes. The state's role runs through school funding (the Pupil-Centered Funding Plan) and its own 17-cent levy.",
-     "a": "",
-     "sum": "No state program pays local governments to reduce property taxes.",
-     "more": "The state's role runs through school funding (the Pupil-Centered Funding Plan) and its own 17-cent levy.",
+     "t": "No state program reimburses local governments for property tax revenue lost to exemptions or to the statutory caps on annual tax increases, and no state payment is tied to a levy or rate reduction. The state funds schools through the Pupil-Centered Funding Plan and levies its own 17-cent rate. Consolidated tax distributions, which include the state-collected Supplemental City-County Relief Tax, are revenue sharing and do not count under this test.",
+     "a": "NRS 361.4722-361.4728 (partial abatements); NRS 360.680-360.690 (consolidated tax distribution); NRS chapter 387 (Pupil-Centered Funding Plan).",
+     "sum": "No state program reimburses local governments for property tax revenue lost to exemptions or to the statutory caps on annual tax increases, and no state payment is tied to a levy or rate reduction.",
+     "more": "The state funds schools through the Pupil-Centered Funding Plan and levies its own 17-cent rate. Consolidated tax distributions, which include the state-collected Supplemental City-County Relief Tax, are revenue sharing and do not count under this test.",
      "syn": "No state program pays local governments to reduce property taxes; the state's role runs through school funding and its own 17-cent levy."
     },
     "statewide": {
@@ -17065,12 +17065,12 @@
      "syn": "A state refund returns part of the statewide education property tax paid by low- and moderate-income homeowners. Local veterans' credits and elderly exemptions also apply."
     },
     "subsidies": {
-     "s": "Partial",
+     "s": "No",
      "q": "",
-     "t": "State adequacy aid and SWEPT fund part of school costs, and the state pays the low-income SWEPT refund. There is no program that buys down local rates.",
-     "a": "",
-     "sum": "State adequacy aid and SWEPT fund part of school costs, and the state pays the low-income SWEPT refund.",
-     "more": "There is no program that buys down local rates.",
+     "t": "No state program reimburses municipalities or school districts for lost property tax revenue or pays them to lower local rates. Adequacy aid and the statewide education property tax (SWEPT), which towns raise and keep, fund part of school costs as general school funding. The low- and moderate-income homeowners property tax relief program is an income-tested refund paid to owners and belongs in the Credits and rebates row.",
+     "a": "RSA 198:38-198:42 (adequacy aid); RSA 76:3 (SWEPT); RSA 198:56-198:61 (low- and moderate-income relief).",
+     "sum": "No state program reimburses municipalities or school districts for lost property tax revenue or pays them to lower local rates.",
+     "more": "Adequacy aid and the statewide education property tax (SWEPT), which towns raise and keep, fund part of school costs as general school funding. The low- and moderate-income homeowners property tax relief program is an income-tested refund paid to owners and belongs in the Credits and rebates row.",
      "syn": "State adequacy aid and the statewide education tax fund part of school costs, and the state pays the low-income refund. No program buys down local rates."
     },
     "statewide": {
@@ -17607,12 +17607,12 @@
      "syn": "The FY2027 budget puts over $4.1 billion into state relief, including ANCHOR payments of up to $1,500 and Stay NJ, which pays homeowners 65 and older half their bill, up to $6,500."
     },
     "subsidies": {
-     "s": "Yes",
+     "s": "Partial",
      "q": "",
-     "t": "New Jersey's main response to high property taxes is state money: over $4.1 billion for ANCHOR, Senior Freeze and Stay NJ in the FY2027 budget, plus a record $12.4 billion in K-12 school aid and $1.4 billion in Preschool Education Aid. None of these limits local spending. Stay NJ pays up to half of eligible senior homeowners' bills regardless of local rates, though the FY2027 changes narrow it to households with income of $200,000 or less.",
-     "a": "",
-     "sum": "New Jersey's main response to high property taxes is state money: over $4.1 billion for ANCHOR, Senior Freeze and Stay NJ in the FY2027 budget, plus a record $12.4 billion in K-12 school aid and $1.4 billion in Preschool Education Aid.",
-     "more": "None of these limits local spending. Stay NJ pays up to half of eligible senior homeowners' bills regardless of local rates, though the FY2027 changes narrow it to households with income of $200,000 or less.",
+     "t": "- The state reimburses municipalities for the $250 annual property tax deductions granted to qualifying veterans and surviving spouses and to low-income seniors and disabled homeowners. The FY2027 budget appropriates $34.1 million ($28.5 million veterans, $5.6 million senior and disabled).\n- Smaller payments reach only some municipalities: open space payments in lieu of taxes for land held by the state and nonprofit conservation groups ($8.0 million) and Highlands watershed moratorium offset aid ($2.2 million).\nANCHOR and Senior Freeze benefits are paid to owners, as is Stay NJ, which pays eligible seniors up to half of their property tax in installments ($742 million in FY2027). School aid and municipal aid such as Energy Tax Receipts Property Tax Relief Aid are general aid, so these programs do not count under this test.",
+     "a": "N.J. Const. art. VIII, §I, ¶3; N.J.S.A. 54:4-8.10 et seq.; N.J.S.A. 54:4-8.40 et seq.; N.J.S.A. 13:8C-29, -30; P.L.2004, c.120; FY2027 Appropriations Act (signed June 30, 2026).",
+     "sum": "The state reimburses municipalities for the $250 annual property tax deductions granted to qualifying veterans and surviving spouses and to low-income seniors and disabled homeowners.",
+     "more": "- The FY2027 budget appropriates $34.1 million ($28.5 million veterans, $5.6 million senior and disabled).\n- Smaller payments reach only some municipalities: open space payments in lieu of taxes for land held by the state and nonprofit conservation groups ($8.0 million) and Highlands watershed moratorium offset aid ($2.2 million).\nANCHOR and Senior Freeze benefits are paid to owners, as is Stay NJ, which pays eligible seniors up to half of their property tax in installments ($742 million in FY2027). School aid and municipal aid such as Energy Tax Receipts Property Tax Relief Aid are general aid, so these programs do not count under this test.",
      "syn": "The state pays over $4.1 billion in FY2027 toward local bills through rebates and senior relief, with Stay NJ covering up to half of eligible seniors' bills, plus $12.4 billion in K-12 school aid."
     },
     "statewide": {
@@ -18116,12 +18116,12 @@
      "syn": "A refundable state income tax rebate gives low-income owners and renters 65 and older up to $250, with income up to $16,000. Los Alamos and Santa Fe counties fund their own low-income rebate."
     },
     "subsidies": {
-     "s": "Partial",
+     "s": "No",
      "q": "",
-     "t": "The state took over most school operating costs in 1974 (state equalization guarantee), which keeps school operating property taxes at 0.5 mill. There is no program that pays local governments to lower their levies.",
-     "a": "Public School Finance Act, NMSA 1978, §22-8-1 et seq.",
-     "sum": "The state took over most school operating costs in 1974 (state equalization guarantee), which keeps school operating property taxes at 0.5 mill.",
-     "more": "There is no program that pays local governments to lower their levies.",
+     "t": "New Mexico has no program that reimburses local governments for property tax lost to state exemptions or that pays them to lower their levies. Veterans' and other exemptions reduce local revenue with no state backfill. The state equalization guarantee, which took over most school operating costs in 1974 and keeps the school operating levy at 0.5 mill, is general school aid and does not count; the formula credits 75% of the 0.5 mill levy against it without tying any payment to a lost levy.",
+     "a": "NMSA 1978 §§7-37-5, 22-8-25.",
+     "sum": "New Mexico has no program that reimburses local governments for property tax lost to state exemptions or that pays them to lower their levies.",
+     "more": "Veterans' and other exemptions reduce local revenue with no state backfill. The state equalization guarantee, which took over most school operating costs in 1974 and keeps the school operating levy at 0.5 mill, is general school aid and does not count; the formula credits 75% of the 0.5 mill levy against it without tying any payment to a lost levy.",
      "syn": "Since 1974 the state has paid most school operating costs, which holds school operating property taxes to 0.5 mill. No program pays local governments to lower their levies."
     },
     "statewide": {
@@ -18666,10 +18666,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state pays the STAR credits directly and reimburses school districts for the school taxes lost to STAR exemptions, about $2.3 billion in FY2027 ($1.78 billion Basic STAR, $0.52 billion Enhanced STAR). It also pays large school aid (proposed at $39.3 billion for 2026-27). None of this restrains local spending, and STAR shifts part of school costs to state taxpayers.",
-     "a": "N.Y. Real Prop. Tax Law §425; N.Y. Tax Law §606(eee).",
-     "sum": "The state pays the STAR credits directly and reimburses school districts for the school taxes lost to STAR exemptions, about $2.3 billion in FY2027 ($1.78 billion Basic STAR, $0.52 billion Enhanced STAR).",
-     "more": "It also pays large school aid (proposed at $39.3 billion for 2026-27). None of this restrains local spending, and STAR shifts part of school costs to state taxpayers.",
+     "t": "The state reimburses school districts for the school taxes lost to STAR exemptions, which are credited on homeowners' bills. Basic STAR covers owner-occupied primary residences with incomes up to $250,000, and Enhanced STAR covers seniors under a lower income limit; the exemption has been closed to new applicants since 2016, who receive the STAR credit instead. The State Education Department estimates 2026-27 STAR aid to school districts at $1.295 billion, including the state's reimbursement of New York City's STAR income tax credit. The STAR credit, paid to homeowners by check, and general school aid do not count here.",
+     "a": "N.Y. Real Prop. Tax Law §§425, 1306-a; N.Y. Educ. Law §3609-e; N.Y. Tax Law §606(eee); NYSED, 2026-27 State Aid Handbook, Section S.",
+     "sum": "The state reimburses school districts for the school taxes lost to STAR exemptions, which are credited on homeowners' bills.",
+     "more": "Basic STAR covers owner-occupied primary residences with incomes up to $250,000, and Enhanced STAR covers seniors under a lower income limit; the exemption has been closed to new applicants since 2016, who receive the STAR credit instead. The State Education Department estimates 2026-27 STAR aid to school districts at $1.295 billion, including the state's reimbursement of New York City's STAR income tax credit. The STAR credit, paid to homeowners by check, and general school aid do not count here.",
      "syn": "The state pays STAR credits and reimburses school districts for school taxes lost to STAR exemptions, about $2.3 billion in FY2027. It also pays school aid, proposed at $39.3 billion for 2026-27."
     },
     "statewide": {
@@ -19190,10 +19190,10 @@
     "subsidies": {
      "s": "No",
      "q": "",
-     "t": "No state program buys down local property tax rates or reimburses the homestead exclusions. The state's role runs through school funding (FY2025-26, Department of Public Instruction):\n- $12.75 billion in state appropriations for public schools, up from $7.65 billion in 2009-10, paid as position and dollar allotments;\n- Low Wealth Supplemental Funding of $345.2 million for 68 counties whose ability to raise local revenue per student is below the state average, and Small County Supplemental Funding of $59.9 million;\n- lottery-funded school capital: $100 million (Public School Building Capital Fund), $50 million (Repair and Renovation Fund) and $392.4 million in needs-based construction grants.\nLow wealth aid is cut for a county whose tax rate is below the state average or whose local school funding is below the state average contribution, so the formula rewards higher local taxes.",
-     "a": "N.C. DPI, Highlights of the North Carolina Public School Budget (2026).",
-     "sum": "No state program buys down local property tax rates or reimburses the homestead exclusions.",
-     "more": "The state's role runs through school funding (FY2025-26, Department of Public Instruction):\n- $12.75 billion in state appropriations for public schools, up from $7.65 billion in 2009-10, paid as position and dollar allotments;\n- Low Wealth Supplemental Funding of $345.2 million for 68 counties whose ability to raise local revenue per student is below the state average, and Small County Supplemental Funding of $59.9 million;\n- lottery-funded school capital: $100 million (Public School Building Capital Fund), $50 million (Repair and Renovation Fund) and $392.4 million in needs-based construction grants.\nLow wealth aid is cut for a county whose tax rate is below the state average or whose local school funding is below the state average contribution, so the formula rewards higher local taxes.",
+     "t": "No state program reimburses local governments for the homestead exclusions or other property tax exemptions, or pays them to lower their rates. The state reimbursed counties and cities for the inventory and elderly homestead exemptions until 2002, when the General Assembly repealed those payments and authorized a local half-cent sales tax in their place; the transitional hold harmless for that repeal was itself repealed in 2016. The county and city hold harmless payments now in law make up for repealed local sales taxes. State school funding, including Low Wealth Supplemental Funding ($345.2 million in FY2025-26) and lottery-funded school capital grants, is general aid and does not count.",
+     "a": "N.C.G.S. §§105-277.1, 105-522, 105-523; S.L. 2016-5 §5.2; N.C. DPI, Highlights of the North Carolina Public School Budget (2026).",
+     "sum": "No state program reimburses local governments for the homestead exclusions or other property tax exemptions, or pays them to lower their rates.",
+     "more": "The state reimbursed counties and cities for the inventory and elderly homestead exemptions until 2002, when the General Assembly repealed those payments and authorized a local half-cent sales tax in their place; the transitional hold harmless for that repeal was itself repealed in 2016. The county and city hold harmless payments now in law make up for repealed local sales taxes. State school funding, including Low Wealth Supplemental Funding ($345.2 million in FY2025-26) and lottery-funded school capital grants, is general aid and does not count.",
      "syn": "No state program buys down local rates or reimburses the homestead exclusions; the state's role runs through school funding, $12.75 billion in 2025-26 appropriations."
     },
     "statewide": {
@@ -19974,10 +19974,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "- Primary residence credit: HB 1176 appropriated $408.9 million for 2025-27 from the new legacy property tax relief fund. The fund receives Legacy Fund earnings (the Legacy Fund holds 30% of oil and gas tax revenue): every odd-numbered year 8% of the fund's five-year average balance is distributed, and after debt service 30% goes to highways and the rest to property tax relief. The Tax Commissioner estimated reimbursements of $232 million for taxable year 2026; in March 2026 the 2025-27 cost was reported at about $430 million, about $20 million above the appropriation.\n- Homestead, disabled veterans' and primary residence credits received $194 million for 2023-25.\n- School aid: the integrated formula pays each district's formula amount above 60 mills of local contribution. Statewide ad valorem taxes fell 3.5% in 2013, when school levy authority was cut as a condition of state aid.\n- School gap funding (2025-27) covers districts pushed below 60 mills by the 3% limit.",
-     "a": "HB 1176 (2025) §§5, 6, 28, 29; N.D. Const. art. X §26; N.D.C.C. §§15.1-27-04.1, 57-02-08.10, 57-15-14(1)(e).",
-     "sum": "Primary residence credit: HB 1176 appropriated $408.9 million for 2025-27 from the new legacy property tax relief fund.",
-     "more": "- The fund receives Legacy Fund earnings (the Legacy Fund holds 30% of oil and gas tax revenue): every odd-numbered year 8% of the fund's five-year average balance is distributed, and after debt service 30% goes to highways and the rest to property tax relief. The Tax Commissioner estimated reimbursements of $232 million for taxable year 2026; in March 2026 the 2025-27 cost was reported at about $430 million, about $20 million above the appropriation.\n- Homestead, disabled veterans' and primary residence credits received $194 million for 2023-25.\n- School aid: the integrated formula pays each district's formula amount above 60 mills of local contribution. Statewide ad valorem taxes fell 3.5% in 2013, when school levy authority was cut as a condition of state aid.\n- School gap funding (2025-27) covers districts pushed below 60 mills by the 3% limit.",
+     "t": "- Primary residence credit: every owner-occupied primary residence receives a credit of up to $1,600 a year on its property tax bill for 2025 and 2026, with no age or income test, and the state reimburses local governments for the full credit. HB 1176 (2025) appropriated $408.9 million for 2025-27 from the legacy property tax relief fund, which is funded with Legacy Fund earnings; if costs run higher, the Tax Commissioner may use unspent homestead and disabled veterans' credit funds and must request a deficiency appropriation.\n- Homestead credit and disabled veterans' credit: the state also reimburses these credits, which carry income, age, disability or veteran tests.\nState aid under the integrated school formula, which deducts a 60-mill local contribution, is general school aid and does not count.",
+     "a": "HB 1176 (2025); N.D.C.C. §§57-02-08.1, 57-02-08.8, 57-02-08.9, 57-02-08.10.",
+     "sum": "Primary residence credit: every owner-occupied primary residence receives a credit of up to $1,600 a year on its property tax bill for 2025 and 2026, with no age or income test, and the state reimburses local governments for the full credit.",
+     "more": "- HB 1176 (2025) appropriated $408.9 million for 2025-27 from the legacy property tax relief fund, which is funded with Legacy Fund earnings; if costs run higher, the Tax Commissioner may use unspent homestead and disabled veterans' credit funds and must request a deficiency appropriation.\n- Homestead credit and disabled veterans' credit: the state also reimburses these credits, which carry income, age, disability or veteran tests.\nState aid under the integrated school formula, which deducts a 60-mill local contribution, is general school aid and does not count.",
      "syn": "Legacy Fund earnings pay the primary residence credit, with $408.9 million appropriated for 2025-27. The state also funds homestead and veterans' credits and school aid above 60 mills of local effort."
     },
     "statewide": {
@@ -20557,10 +20557,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "- Rollbacks and homestead exemption: the state reimburses local governments and schools from the General Revenue Fund. HB 96 (2025) appropriates $1.98 billion for FY2026 and $2.01 billion for FY2027 (items 110908, Property Tax Reimbursement - Local Government, and 200903, Property Tax Reimbursement - Education).\n- HB 186 transition payments: districts whose tax year 2025 or 2026 revenue would fall below tax year 2024 levels because of the retroactive Inflation Cap Credit receive state payments, the first from the Expanded Sales Tax Holiday Fund. Gov. DeWine put them at $306 million in FY2026 and $105 million in FY2027; the act cancelled the August 2026 expanded sales tax holiday to pay for them.\n- HB 479 (2026): up to $350 million from the FY2026 surplus reimburses local governments for the one-time homestead reduction.\n- Tangible personal property tax replacement payments, now phasing out: about $50 million in FY2026.\nThese payments lower bills without restraining levies, and the state's share of each bill shrinks as levies approved since 2013, which get no rollback, make up more of it.",
-     "a": "HB 96 §387.10 (2025); HB 186 §§4-5 (2025); HB 479 (2026); R.C. 319.302, 323.152.",
-     "sum": "Rollbacks and homestead exemption: the state reimburses local governments and schools from the General Revenue Fund.",
-     "more": "- HB 96 (2025) appropriates $1.98 billion for FY2026 and $2.01 billion for FY2027 (items 110908, Property Tax Reimbursement - Local Government, and 200903, Property Tax Reimbursement - Education).\n- HB 186 transition payments: districts whose tax year 2025 or 2026 revenue would fall below tax year 2024 levels because of the retroactive Inflation Cap Credit receive state payments, the first from the Expanded Sales Tax Holiday Fund. Gov. DeWine put them at $306 million in FY2026 and $105 million in FY2027; the act cancelled the August 2026 expanded sales tax holiday to pay for them.\n- HB 479 (2026): up to $350 million from the FY2026 surplus reimburses local governments for the one-time homestead reduction.\n- Tangible personal property tax replacement payments, now phasing out: about $50 million in FY2026.\nThese payments lower bills without restraining levies, and the state's share of each bill shrinks as levies approved since 2013, which get no rollback, make up more of it.",
+     "t": "- Rollbacks and homestead exemption: the state reimburses schools and other local governments for the homestead exemption and for the rollbacks, which apply to inside millage and to levies approved before September 29, 2013. HB 96 (2025) appropriates $1.98 billion for FY2026 and $2.01 billion for FY2027 (items 110908 and 200903), plus any further sums needed. HB 186 (2025) phases the 10% residential rollback down to zero by tax year 2029 and raises the owner-occupancy rollback from 2.5% to 15.38%; farmland keeps the 10% rollback.\n- HB 186 school offset payments: districts whose taxes fall below tax year 2024 levels because of the retroactive inflation cap credit receive state payments equal to the shortfall, the first from the Expanded Sales Tax Holiday Fund; the Legislative Service Commission estimated about $360 million in FY2027 and $105 million in FY2028.\n- HB 479 (2026): $350 million from the FY2026 surplus pays for a one-time tax year 2026 credit for homes receiving the homestead exemption, repaid to the counties.\n- Tangible personal property tax replacement payments, now phasing out: $50.2 million in FY2026 and $45.8 million in FY2027.\nThese payments lower bills without restraining levies, and levies approved since 2013 get no rollback.",
+     "a": "HB 96 §387.10 (2025); HB 186 §§4-5 (2025); HB 479 §19 (2026); R.C. 319.302, 323.152, 323.156.",
+     "sum": "Rollbacks and homestead exemption: the state reimburses schools and other local governments for the homestead exemption and for the rollbacks, which apply to inside millage and to levies approved before September 29, 2013.",
+     "more": "- HB 96 (2025) appropriates $1.98 billion for FY2026 and $2.01 billion for FY2027 (items 110908 and 200903), plus any further sums needed. HB 186 (2025) phases the 10% residential rollback down to zero by tax year 2029 and raises the owner-occupancy rollback from 2.5% to 15.38%; farmland keeps the 10% rollback.\n- HB 186 school offset payments: districts whose taxes fall below tax year 2024 levels because of the retroactive inflation cap credit receive state payments equal to the shortfall, the first from the Expanded Sales Tax Holiday Fund; the Legislative Service Commission estimated about $360 million in FY2027 and $105 million in FY2028.\n- HB 479 (2026): $350 million from the FY2026 surplus pays for a one-time tax year 2026 credit for homes receiving the homestead exemption, repaid to the counties.\n- Tangible personal property tax replacement payments, now phasing out: $50.2 million in FY2026 and $45.8 million in FY2027.\nThese payments lower bills without restraining levies, and levies approved since 2013 get no rollback.",
      "syn": "The state reimburses local governments and schools for rollbacks and homestead exemptions, $1.98 billion in FY2026 and $2.01 billion in FY2027, and pays up to $350 million for a one-time 2026 homestead reduction."
     },
     "statewide": {
@@ -21360,10 +21360,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "- Ad Valorem Reimbursement Fund: the constitution exempts new, expanded or acquired manufacturing facilities from property tax for five years (SQ 588, 1985), and the state reimburses schools, counties, cities and towns, EMS districts, technology centers, junior colleges, county health departments and libraries for the lost revenue; research and development facilities are also covered by statute. The fund receives 1% of state income tax collections. Reimbursements were $93 million for tax year 2024, down from a peak of $161 million for 2019; Mayes, Tulsa and Oklahoma counties receive the most. When the fund falls short, manufacturing claims are paid first, and a school district's assessed value in the state aid formula is adjusted for the shortfall.\n- Veterans: since 2022, 25% of revenue lost to veterans' exemptions in qualifying counties (see Homestead).\n- State Land Reimbursement Fund: payments to counties with state-owned land that would be classified as agricultural if privately owned.\n- School aid offset: Foundation Aid counts local property tax revenue, so state aid falls as local valuation grows.\nSQ 844 (HJR 1087), which would have let the Legislature set the levels and methods of reimbursement so that no county receives amounts that harm other counties, was rejected on Aug. 25, 2026, with about 74% voting no (unofficial results).",
-     "a": "Okla. Const. art. X §6B; 62 O.S. §§193, 194; 68 O.S. §2352; 70 O.S. §18-200.1.",
-     "sum": "Ad Valorem Reimbursement Fund: the constitution exempts new, expanded or acquired manufacturing facilities from property tax for five years (SQ 588, 1985), and the state reimburses schools, counties, cities and towns, EMS districts, technology centers, junior…",
-     "more": "- …colleges, county health departments and libraries for the lost revenue; research and development facilities are also covered by statute. The fund receives 1% of state income tax collections. Reimbursements were $93 million for tax year 2024, down from a peak of $161 million for 2019; Mayes, Tulsa and Oklahoma counties receive the most. When the fund falls short, manufacturing claims are paid first, and a school district's assessed value in the state aid formula is adjusted for the shortfall.\n- Veterans: since 2022, 25% of revenue lost to veterans' exemptions in qualifying counties (see Homestead).\n- State Land Reimbursement Fund: payments to counties with state-owned land that would be classified as agricultural if privately owned.\n- School aid offset: Foundation Aid counts local property tax revenue, so state aid falls as local valuation grows.\nSQ 844 (HJR 1087), which would have let the Legislature set the levels and methods of reimbursement so that no county receives amounts that harm other counties, was rejected on Aug. 25, 2026, with about 74% voting no (unofficial results).",
+     "t": "- Ad Valorem Reimbursement Fund: the constitution exempts new, expanded or acquired manufacturing facilities from property tax for five years (SQ 588, 1985), and the state reimburses counties for the revenue lost by schools and other local units; research and development facilities are also covered by statute. The fund receives 1% of state income tax collections. Oklahoma Tax Commission data put reimbursements at about $88.6 million for tax year 2025, 5% less than for tax year 2024. When the fund falls short, manufacturing claims are paid first.\n- Veterans: since 2022 the fund also repays 25% of revenue lost to veterans' exemptions in counties where those exemptions exceed 0.8% of the population (see Homestead).\nPayments for state-owned land and Foundation Aid do not count. SQ 844, which would have let the Legislature set the levels and methods of reimbursement, was rejected on Aug. 25, 2026, with about 74% voting no (unofficial results).",
+     "a": "Okla. Const. art. X §6B; 62 O.S. §193; 68 O.S. §§2352, 2902.",
+     "sum": "Ad Valorem Reimbursement Fund: the constitution exempts new, expanded or acquired manufacturing facilities from property tax for five years (SQ 588, 1985), and the state reimburses counties for the revenue lost by schools and other local units; research and…",
+     "more": "- …development facilities are also covered by statute. The fund receives 1% of state income tax collections. Oklahoma Tax Commission data put reimbursements at about $88.6 million for tax year 2025, 5% less than for tax year 2024. When the fund falls short, manufacturing claims are paid first.\n- Veterans: since 2022 the fund also repays 25% of revenue lost to veterans' exemptions in counties where those exemptions exceed 0.8% of the population (see Homestead).\nPayments for state-owned land and Foundation Aid do not count. SQ 844, which would have let the Legislature set the levels and methods of reimbursement, was rejected on Aug. 25, 2026, with about 74% voting no (unofficial results).",
      "syn": "The state reimburses local governments for a five-year exemption on new and expanded manufacturing, paid from 1% of income tax ($93 million for tax year 2024). It also covers 25% of some veterans' exemption losses."
     },
     "statewide": {
@@ -21986,10 +21986,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The State School Fund replaces most of the school revenue that Measures 5 and 50 removed. The Constitution required the state to replace school revenue lost to Measure 5 from the General Fund during the phase-in that began in 1991-92, and requires replacement of revenue lost to Measure 50 at no less than the amount replaced in FY1997-98. The Legislative Fiscal Office put the 2025-27 State School Fund (SB 5516, 2025 Or. Laws ch. 422) at $11.4 billion of state money ($9.85 billion General Fund, plus lottery, marijuana tax and Corporate Activity Tax revenue), combined in the school formula with an estimated $5.6 billion of local revenue, mainly property taxes. The Constitution also requires equalization grants for school districts whose voters approve local option levies, in amounts set by the Legislature. The state pays deferred taxes of senior and disabled homeowners to counties and recovers them later with interest.",
-     "a": "Or. Const. art. XI §§11(9), 11b(5); art. VIII §8(2); ORS 327.339.",
-     "sum": "The State School Fund replaces most of the school revenue that Measures 5 and 50 removed.",
-     "more": "The Constitution required the state to replace school revenue lost to Measure 5 from the General Fund during the phase-in that began in 1991-92, and requires replacement of revenue lost to Measure 50 at no less than the amount replaced in FY1997-98. The Legislative Fiscal Office put the 2025-27 State School Fund (SB 5516, 2025 Or. Laws ch. 422) at $11.4 billion of state money ($9.85 billion General Fund, plus lottery, marijuana tax and Corporate Activity Tax revenue), combined in the school formula with an estimated $5.6 billion of local revenue, mainly property taxes. The Constitution also requires equalization grants for school districts whose voters approve local option levies, in amounts set by the Legislature. The state pays deferred taxes of senior and disabled homeowners to counties and recovers them later with interest.",
+     "t": "The Oregon Constitution requires the Legislature to replace from the General Fund the school revenue lost to the Measure 50 limits, in an amount no less than the total replaced in FY1997-98. The state meets this through the State School Fund, which the Legislature funded at $11.36 billion for 2025-27 ($9.87 billion General Fund, plus lottery and other dedicated revenue); the school formula combines it with local revenue, mainly property taxes. The state also pays the deferred taxes of senior and disabled homeowners to counties and recovers them later with interest. Equalization grants for districts with local option levies match local taxes and do not count.",
+     "a": "Or. Const. art. XI §11(9); SB 5516 (2025); ORS 311.666 to 311.701, 327.339.",
+     "sum": "The Oregon Constitution requires the Legislature to replace from the General Fund the school revenue lost to the Measure 50 limits, in an amount no less than the total replaced in FY1997-98.",
+     "more": "The state meets this through the State School Fund, which the Legislature funded at $11.36 billion for 2025-27 ($9.87 billion General Fund, plus lottery and other dedicated revenue); the school formula combines it with local revenue, mainly property taxes. The state also pays the deferred taxes of senior and disabled homeowners to counties and recovers them later with interest. Equalization grants for districts with local option levies match local taxes and do not count.",
      "syn": "The State School Fund replaces most school revenue lost to the property tax limits: $11.4 billion of state money for 2025-27, combined with about $5.6 billion of local revenue in the school formula."
     },
     "statewide": {
@@ -22700,10 +22700,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "- State property tax reduction allocations from gaming revenue: the Budget Secretary certified $1.025 billion for 2026-27. Of that, $150.3 million reduces Philadelphia's wage tax ($91.7 million for residents, $58.6 million for nonresidents); the rest funds homestead and farmstead exclusions in the other 499 school districts. Districts also receive $33.1 million in Sterling Act tax credit allocations. With the Property Tax/Rent Rebate program, the Department of Education puts state-funded property tax relief at $1.367 billion for 2026-27.\n- School aid: state sources will supply an estimated 40.4% of school district revenue in FY2025-26, up from 36.1% in FY2020-21 (Independent Fiscal Office). Districts that took a 2025-26 adequacy or tax equity supplement lost access to Act 1 exceptions for 2026-27.\n- PURTA revenue is passed to local taxing authorities (see Statewide).",
-     "a": "Taxpayer Relief Act §§503-505; Public School Code §2599.6.",
-     "sum": "State property tax reduction allocations from gaming revenue: the Budget Secretary certified $1.025 billion for 2026-27.",
-     "more": "- Of that, $150.3 million reduces Philadelphia's wage tax ($91.7 million for residents, $58.6 million for nonresidents); the rest funds homestead and farmstead exclusions in the other 499 school districts. Districts also receive $33.1 million in Sterling Act tax credit allocations. With the Property Tax/Rent Rebate program, the Department of Education puts state-funded property tax relief at $1.367 billion for 2026-27.\n- School aid: state sources will supply an estimated 40.4% of school district revenue in FY2025-26, up from 36.1% in FY2020-21 (Independent Fiscal Office). Districts that took a 2025-26 adequacy or tax equity supplement lost access to Act 1 exceptions for 2026-27.\n- PURTA revenue is passed to local taxing authorities (see Statewide).",
+     "t": "The state pays school districts property tax reduction allocations from gaming revenue, which districts must apply as homestead and farmstead exclusions on owners' school tax bills; Philadelphia uses its allocation to reduce the city wage tax. The Budget Secretary certified $1.025 billion for 2026-27, the same as the year before, plus $33.1 million in Sterling Act reimbursements to eligible districts. With the Property Tax/Rent Rebate program, state-funded property tax relief totals $1.367 billion for 2026-27. Basic education and adequacy funding is general school aid and does not count.",
+     "a": "Taxpayer Relief Act (Act 1 of 2006, Special Session 1) §§324, 503-505; Budget Secretary certification of April 14, 2026.",
+     "sum": "The state pays school districts property tax reduction allocations from gaming revenue, which districts must apply as homestead and farmstead exclusions on owners' school tax bills; Philadelphia uses its allocation to reduce the city wage tax.",
+     "more": "The Budget Secretary certified $1.025 billion for 2026-27, the same as the year before, plus $33.1 million in Sterling Act reimbursements to eligible districts. With the Property Tax/Rent Rebate program, state-funded property tax relief totals $1.367 billion for 2026-27. Basic education and adequacy funding is general school aid and does not count.",
      "syn": "State gaming revenue funds school homestead and farmstead exclusions and a Philadelphia wage tax cut: $1.025 billion for 2026-27. With the Property Tax/Rent Rebate, state-funded relief totals $1.367 billion."
     },
     "statewide": {
@@ -23421,10 +23421,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state phased out the local motor vehicle excise tax (a property tax on vehicles) from 2017 (no community sent a bill for FY2023, East Providence one year later) and pays cities and towns state aid to replace the lost revenue: $239.5 million for FY2026, equal to about 8.5% of FY2024 state and local property tax collections ($2.81 billion). A tangible personal property tax phase-out program authorized in 2023 also reimburses local governments. The state also pays PILOT aid for tax-exempt colleges and hospitals, distressed community relief and school aid, and funds the circuit breaker credit. None of these payments limits local spending.",
-     "a": "R.I. Gen. Laws chs. 44-34, 44-34.1.",
-     "sum": "The state phased out the local motor vehicle excise tax (a property tax on vehicles) from 2017 (no community sent a bill for FY2023, East Providence one year later) and pays cities and towns state aid to replace the lost revenue: $239.5 million for FY2026…",
-     "more": "…equal to about 8.5% of FY2024 state and local property tax collections ($2.81 billion). A tangible personal property tax phase-out program authorized in 2023 also reimburses local governments. The state also pays PILOT aid for tax-exempt colleges and hospitals, distressed community relief and school aid, and funds the circuit breaker credit. None of these payments limits local spending.",
+     "t": "The state phased out the local motor vehicle excise tax (a property tax on vehicles), ending collections as of each community's FY2024, and pays cities and towns aid to replace the lost revenue; the aid now grows with sales tax collections, capped at 2% a year, and is $239.5 million for FY2026 and $244.3 million for FY2027. Since 2024 the state has exempted the first $50,000 of tangible personal property from local taxes and reimburses municipalities and fire districts for the lost revenue ($25.9 million for FY2027). The PILOT program reimburses cities and towns up to 27% of the taxes that would be due on property of private nonprofit colleges and hospitals and some state facilities ($49.0 million for FY2027, fully funded). Distressed community relief and school aid are general aid and do not count.",
+     "a": "R.I. Gen. Laws chs. 44-34, 44-34.1, §45-13-5.1; 2026-H 7127 Sub A (FY2027 appropriations act).",
+     "sum": "The state phased out the local motor vehicle excise tax (a property tax on vehicles), ending collections as of each community's FY2024, and pays cities and towns aid to replace the lost revenue; the aid now grows with sales tax collections, capped at 2% a…",
+     "more": "…year, and is $239.5 million for FY2026 and $244.3 million for FY2027. Since 2024 the state has exempted the first $50,000 of tangible personal property from local taxes and reimburses municipalities and fire districts for the lost revenue ($25.9 million for FY2027). The PILOT program reimburses cities and towns up to 27% of the taxes that would be due on property of private nonprofit colleges and hospitals and some state facilities ($49.0 million for FY2027, fully funded). Distressed community relief and school aid are general aid and do not count.",
      "syn": "The state phased out the local car tax and pays cities and towns aid to replace it: $239.5 million for FY2026. It also reimburses a tangible personal property tax phase-out and pays PILOT aid for colleges and hospitals."
     },
     "statewide": {
@@ -24007,10 +24007,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state reimburses local governments for property taxes it exempts:\n- Homestead Exemption Fund (Tier III): pays school districts for the school operating taxes homeowners no longer pay under Act 388, funded by the 2007 increase in the state sales tax from 5% to 6%. It paid $1.005 billion for FY2024, and the estimate for FY2026-27 is $1.165 billion; the total grows each year by population growth plus inflation.\n- Trust Fund for Tax Relief: $772.1 million for FY2024, including $249.1 million for the $100,000 residential exemption from school operating taxes (Tier I), the $50,000 senior and disabled exemption (Tier II), plus the one-year $25,000 addition to it in FY2026-27 budget proviso 117.220, the merchants' inventory exemption and manufacturer exemptions.\n- Act No. 122 of 2026 sets state reimbursement for an expanded manufacturing property tax exemption at up to $300 million a year; the Board of Economic Advisors deducts the cost from income tax revenue estimates.\nTier I and Tier III alone equal about 14.5% of FY2024 state and local property tax collections ($8.67 billion). These payments lower homeowners' bills and push school operating costs onto the sales tax and onto business and rental property.",
-     "a": "Act 388 of 2006; S.C. Code §§11-11-150, 11-11-156; Act No. 122 of 2026.",
-     "sum": "The state reimburses local governments for property taxes it exempts: Homestead Exemption Fund (Tier III): pays school districts for the school operating taxes homeowners no longer pay under Act 388, funded by the 2007 increase in the state sales tax from 5%…",
-     "more": "- …to 6%. It paid $1.005 billion for FY2024, and the estimate for FY2026-27 is $1.165 billion; the total grows each year by population growth plus inflation.\n- Trust Fund for Tax Relief: $772.1 million for FY2024, including $249.1 million for the $100,000 residential exemption from school operating taxes (Tier I), the $50,000 senior and disabled exemption (Tier II), plus the one-year $25,000 addition to it in FY2026-27 budget proviso 117.220, the merchants' inventory exemption and manufacturer exemptions.\n- Act No. 122 of 2026 sets state reimbursement for an expanded manufacturing property tax exemption at up to $300 million a year; the Board of Economic Advisors deducts the cost from income tax revenue estimates.\nTier I and Tier III alone equal about 14.5% of FY2024 state and local property tax collections ($8.67 billion). These payments lower homeowners' bills and push school operating costs onto the sales tax and onto business and rental property.",
+     "t": "The state reimburses local governments for property taxes it exempts:\n- Homestead Exemption Fund (Tier III): pays school districts for the school operating taxes owner-occupied homes no longer pay under Act 388 of 2006, funded by one cent of the state sales tax. It paid $1.11 billion for FY2025-26, and the Revenue and Fiscal Affairs Office estimates $1.165 billion for FY2026-27; the total grows each year by population growth plus inflation.\n- Trust Fund for Tax Relief: projected at $824.6 million for FY2026-27, including $249.1 million for the $100,000 residential exemption from school operating taxes (Tier I), $254.9 million for the $50,000 senior and disabled exemption (Tier II), plus reimbursements for business inventory and manufacturing exemptions. Act No. 122 of 2026 raises the cap on reimbursement of the manufacturing property exemption from $170 million to $300 million a year; RFA projects $180.4 million for FY2026-27, and the Board of Economic Advisors deducts the cost from income tax revenue estimates.\nThese payments lower homeowners' bills and push school operating costs onto the sales tax and onto business and rental property.",
+     "a": "Act 388 of 2006; S.C. Code §§11-11-150, 11-11-156, 12-37-220(B)(52), 12-37-250, 12-37-251; Act No. 122 of 2026.",
+     "sum": "The state reimburses local governments for property taxes it exempts: Homestead Exemption Fund (Tier III): pays school districts for the school operating taxes owner-occupied homes no longer pay under Act 388 of 2006, funded by one cent of the state sales tax.",
+     "more": "- It paid $1.11 billion for FY2025-26, and the Revenue and Fiscal Affairs Office estimates $1.165 billion for FY2026-27; the total grows each year by population growth plus inflation.\n- Trust Fund for Tax Relief: projected at $824.6 million for FY2026-27, including $249.1 million for the $100,000 residential exemption from school operating taxes (Tier I), $254.9 million for the $50,000 senior and disabled exemption (Tier II), plus reimbursements for business inventory and manufacturing exemptions. Act No. 122 of 2026 raises the cap on reimbursement of the manufacturing property exemption from $170 million to $300 million a year; RFA projects $180.4 million for FY2026-27, and the Board of Economic Advisors deducts the cost from income tax revenue estimates.\nThese payments lower homeowners' bills and push school operating costs onto the sales tax and onto business and rental property.",
      "syn": "The state pays school districts for the school operating taxes homes no longer pay, from a 2007 sales tax increase: $1.005 billion for FY2024. Other exemption reimbursements paid $772.1 million that year."
     },
     "statewide": {
@@ -24579,10 +24579,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "SB 245, signed March 12, 2026, takes the 0.3-point state sales tax increase that returns in 2027, when the temporary cut to 4.2% expires and the rate goes back to 4.5%, and directs it to a homeowner property tax reduction fund that lowers school property taxes through the state funding formula, about $110 million a year; nearly $56 million goes to the same relief in 2026. Backers estimated savings of $547 a year on a $325,000 home, and the governor's office estimated a 14% to 22% cut in homeowner property taxes. A coalition seeking to refer SB 245 to voters failed to gather the roughly 17,500 signatures needed (June 29, 2026). The law moves school costs from homeowners to the sales tax.",
-     "a": "SB 245 (2026).",
-     "sum": "SB 245, signed March 12, 2026, takes the 0.3-point state sales tax increase that returns in 2027, when the temporary cut to 4.2% expires and the rate goes back to 4.5%, and directs it to a homeowner property tax reduction fund that lowers school property…",
-     "more": "…taxes through the state funding formula, about $110 million a year; nearly $56 million goes to the same relief in 2026. Backers estimated savings of $547 a year on a $325,000 home, and the governor's office estimated a 14% to 22% cut in homeowner property taxes. A coalition seeking to refer SB 245 to voters failed to gather the roughly 17,500 signatures needed (June 29, 2026). The law moves school costs from homeowners to the sales tax.",
+     "t": "SB 245 (2026) created the homeowner property tax reduction fund, which by law must be used to reduce the local effort for school general education levies on owner-occupied single-family homes. HB 1051 (2026) lowers the owner-occupied school general fund levy statewide for taxes payable in 2027, and the state aid formula replaces the lost levy revenue. SB 245 moved $55,896,576 from the general revenue replacement fund into the fund on July 1, 2026, and from August 1, 2027 the fund receives the 0.3-point share of state sales, use and contractor's excise taxes that returns when the temporary rate cut expires. A referendum petition against SB 245 did not qualify for the November 2026 ballot (June 2026).",
+     "a": "SB 245 (2026), new sections of SDCL ch. 10-13; HB 1051 (2026); SDCL ch. 13-13.",
+     "sum": "SB 245 (2026) created the homeowner property tax reduction fund, which by law must be used to reduce the local effort for school general education levies on owner-occupied single-family homes.",
+     "more": "HB 1051 (2026) lowers the owner-occupied school general fund levy statewide for taxes payable in 2027, and the state aid formula replaces the lost levy revenue. SB 245 moved $55,896,576 from the general revenue replacement fund into the fund on July 1, 2026, and from August 1, 2027 the fund receives the 0.3-point share of state sales, use and contractor's excise taxes that returns when the temporary rate cut expires. A referendum petition against SB 245 did not qualify for the November 2026 ballot (June 2026).",
      "syn": "From 2027 the restored 0.3-point state sales tax goes to a fund that lowers homeowners' school property taxes through the school formula, about $110 million a year; nearly $56 million goes to it in 2026."
     },
     "statewide": {
@@ -25183,12 +25183,12 @@
      "syn": "The state pays toward tax on the first $33,600 of value for owners 65 and older or disabled with income up to $38,470, and on $175,000 for 100% disabled veterans. Adopting localities can freeze seniors' taxes."
     },
     "subsidies": {
-     "s": "Yes",
+     "s": "No",
      "q": "",
-     "t": "The state reimburses the property tax relief payments for low-income seniors, disabled owners and disabled veterans, and funds schools through the state formula (TISA). There is no program that pays local governments to lower their rates.",
-     "a": "",
-     "sum": "The state reimburses the property tax relief payments for low-income seniors, disabled owners and disabled veterans, and funds schools through the state formula (TISA).",
-     "more": "There is no program that pays local governments to lower their rates.",
+     "t": "Tennessee's property tax relief program reimburses low-income elderly and disabled homeowners, and disabled veteran homeowners and their surviving spouses, for part or all of the property tax they have paid. The state pays these amounts to the owners after the tax is paid, so they belong in the credits and rebates row. School funding through TISA is general state aid and does not count. No state program reimburses local governments for exemptions or pays them to lower their rates.",
+     "a": "Tenn. Const. art. II, § 28; Tenn. Code Ann. §§ 67-5-701 to 67-5-704.",
+     "sum": "Tennessee's property tax relief program reimburses low-income elderly and disabled homeowners, and disabled veteran homeowners and their surviving spouses, for part or all of the property tax they have paid.",
+     "more": "The state pays these amounts to the owners after the tax is paid, so they belong in the credits and rebates row. School funding through TISA is general state aid and does not count. No state program reimburses local governments for exemptions or pays them to lower their rates.",
      "syn": "The state reimburses the relief payments to low-income seniors and to disabled owners and veterans, and funds schools through its formula. No program pays local governments to lower their rates."
     },
     "statewide": {
@@ -25752,10 +25752,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state pays school districts, through the school finance formula, to lower M&O rates (compression) and to replace revenue lost to the larger homestead exemptions. The 2026-27 budget as introduced (HB 1) carried an estimated $51.0 billion to maintain all property tax relief enacted since HB 3 (2019), including $6.5 billion of new relief (Legislative Budget Board, Feb. 17, 2025). That is about $25.5 billion a year, roughly 35% of FY2024 state and local property tax collections ($72.66 billion). The 2023 package (SB 2, Proposition 4) and the 2025 package (SB 4, SB 23 and HB 9, approved as Propositions 13, 11 and 9) are both paid this way; Proposition 9 (2025) also raised the business personal property exemption from $2,500 to $125,000. These payments lower school bills; city, county and special district levies are outside them.",
-     "a": "Tex. Educ. Code ch. 48; General Appropriations Act (2026-27), TEA Rider 76.",
-     "sum": "The state pays school districts, through the school finance formula, to lower M&O rates (compression) and to replace revenue lost to the larger homestead exemptions.",
-     "more": "The 2026-27 budget as introduced (HB 1) carried an estimated $51.0 billion to maintain all property tax relief enacted since HB 3 (2019), including $6.5 billion of new relief (Legislative Budget Board, Feb. 17, 2025). That is about $25.5 billion a year, roughly 35% of FY2024 state and local property tax collections ($72.66 billion). The 2023 package (SB 2, Proposition 4) and the 2025 package (SB 4, SB 23 and HB 9, approved as Propositions 13, 11 and 9) are both paid this way; Proposition 9 (2025) also raised the business personal property exemption from $2,500 to $125,000. These payments lower school bills; city, county and special district levies are outside them.",
+     "t": "The state pays school districts through the Foundation School Program to replace revenue lost to state-mandated cuts in maintenance and operations tax rates (compression) and to the larger school homestead exemptions. The 2026-27 General Appropriations Act includes an estimated $51.0 billion for the biennium to provide new relief and maintain relief enacted since HB 3 (2019), including $3.9 billion for the 2025 package (SB 4, SB 23 and HB 9) and $2.6 billion of further rate compression. Voters approved the 2025 package in November 2025 as Propositions 13, 11 and 9, which raised the school homestead exemption to $140,000, the added senior and disabled exemption to $60,000 and the business personal property exemption to $125,000. A separate $9.5 million a year goes to cities and counties with large disabled veteran exemption losses. Other city, county and special district levies are outside these payments.",
+     "a": "Tex. Educ. Code §§ 46.071, 48.2543, 48.2551, 48.2552; Tex. Tax Code §§ 11.13, 11.145; Tex. Loc. Gov't Code § 140.011; General Appropriations Act 2026-27 (SB 1, 89th Leg.), Art. III TEA Rider 76 and Art. I Comptroller Fiscal Programs Rider 14.",
+     "sum": "The state pays school districts through the Foundation School Program to replace revenue lost to state-mandated cuts in maintenance and operations tax rates (compression) and to the larger school homestead exemptions.",
+     "more": "The 2026-27 General Appropriations Act includes an estimated $51.0 billion for the biennium to provide new relief and maintain relief enacted since HB 3 (2019), including $3.9 billion for the 2025 package (SB 4, SB 23 and HB 9) and $2.6 billion of further rate compression. Voters approved the 2025 package in November 2025 as Propositions 13, 11 and 9, which raised the school homestead exemption to $140,000, the added senior and disabled exemption to $60,000 and the business personal property exemption to $125,000. A separate $9.5 million a year goes to cities and counties with large disabled veteran exemption losses. Other city, county and special district levies are outside these payments.",
      "syn": "Through the school finance formula the state pays districts about $25.5 billion a year to compress operating rates and cover larger homestead exemptions. The payments lower school bills only."
     },
     "statewide": {
@@ -26380,10 +26380,10 @@
     "subsidies": {
      "s": "Partial",
      "q": "",
-     "t": "The state funds the circuit breaker and guarantees school funding through the Minimum School Program, which counts the basic levy as local revenue. There is no program that pays local governments to lower their rates.",
-     "a": "",
-     "sum": "The state funds the circuit breaker and guarantees school funding through the Minimum School Program, which counts the basic levy as local revenue.",
-     "more": "There is no program that pays local governments to lower their rates.",
+     "t": "The homeowner's credit (circuit breaker) for older low-income owners is applied by the county against the tax bill, and the state General Fund repays the county for the credits granted. Under a 2025 deferral program for elderly owners, the Tax Commission also reimburses counties for deferred taxes assessed through 2026, and owners repay the amount when the lien is satisfied. The Legislative Fiscal Analyst put the homeowner and renter credits combined at about $9.2 million a year in 2026; SB 78 (2026), which would have repealed them, failed in the House. The Minimum School Program and its basic levy are general school aid and do not count.",
+     "a": "Utah Code §§ 59-2a-301 to 59-2a-305, 59-2a-901 to 59-2a-903; Legislative Fiscal Analyst fiscal note, 4th Sub. S.B. 78 (2026).",
+     "sum": "The homeowner's credit (circuit breaker) for older low-income owners is applied by the county against the tax bill, and the state General Fund repays the county for the credits granted.",
+     "more": "Under a 2025 deferral program for elderly owners, the Tax Commission also reimburses counties for deferred taxes assessed through 2026, and owners repay the amount when the lien is satisfied. The Legislative Fiscal Analyst put the homeowner and renter credits combined at about $9.2 million a year in 2026; SB 78 (2026), which would have repealed them, failed in the House. The Minimum School Program and its basic levy are general school aid and do not count.",
      "syn": "The state funds the circuit breaker and guarantees school funding through the Minimum School Program, which counts the basic levy as local revenue. No program pays localities to lower rates."
     },
     "statewide": {
@@ -26981,10 +26981,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state keeps buying down education tax rates with one-time money: $118 million for FY2026 ($77 million from the General Fund and $41 million from the Education Fund), then $104.9 million of one-time General Fund money for FY2027 under Act 169 of 2026 (H.949), which held the FY2027 average bill increase to about 3.5%. The Education Fund also receives sales and use, purchase and rooms and meals taxes, and the state pays the income-based property tax credit. These transfers lower bills without limiting school spending.",
-     "a": "Act 169 of 2026; 32 V.S.A. ch. 154.",
-     "sum": "The state keeps buying down education tax rates with one-time money: $118 million for FY2026 ($77 million from the General Fund and $41 million from the Education Fund), then $104.9 million of one-time General Fund money for FY2027 under Act 169 of 2026…",
-     "more": "…(H.949), which held the FY2027 average bill increase to about 3.5%. The Education Fund also receives sales and use, purchase and rooms and meals taxes, and the state pays the income-based property tax credit. These transfers lower bills without limiting school spending.",
+     "t": "The state General Fund pays each town a hold harmless payment equal to the municipal property tax lost on land enrolled in the current use (use value appraisal) program: $19.77 million for FY2025, with FY2027 payments issued about November 1, 2026. The state also lowers the statewide education property tax rates with one-time General Fund transfers to the Education Fund: $77.8 million for FY2026 and $100.9 million for FY2027, which held the average FY2027 bill increase to about 3.5% under Act 169 of 2026 (H.949). The income-sensitized homestead property tax credit, $134.2 million for FY2027, is applied on the bills of eligible lower-income homeowners and paid from the Education Fund. Dedicated sales and other tax revenue in the Education Fund is general education funding and does not count.",
+     "a": "32 V.S.A. § 3760; 32 V.S.A. ch. 154; Act 169 of 2026 (H.949); FY2027 appropriations act; Joint Fiscal Office, Education Fund Outlook (May 2026).",
+     "sum": "The state General Fund pays each town a hold harmless payment equal to the municipal property tax lost on land enrolled in the current use (use value appraisal) program: $19.77 million for FY2025, with FY2027 payments issued about November 1, 2026.",
+     "more": "The state also lowers the statewide education property tax rates with one-time General Fund transfers to the Education Fund: $77.8 million for FY2026 and $100.9 million for FY2027, which held the average FY2027 bill increase to about 3.5% under Act 169 of 2026 (H.949). The income-sensitized homestead property tax credit, $134.2 million for FY2027, is applied on the bills of eligible lower-income homeowners and paid from the Education Fund. Dedicated sales and other tax revenue in the Education Fund is general education funding and does not count.",
      "syn": "The state buys down education tax rates with one-time money, $118 million for FY2026 and $104.9 million for FY2027, and pays the income-based property tax credit. Sales and other taxes also feed the Education Fund."
     },
     "statewide": {
@@ -27518,10 +27518,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "Personal Property Tax Relief Act (1998): the state pays localities a fixed $950 million a year (since tax year 2006) to reduce local personal property taxes on qualifying personal vehicles, divided pro rata by each locality's 2005 payments. Because the total is fixed, localities set the share of each vehicle tax the state covers, and that share shrinks as vehicle values and rates rise.",
-     "a": "Va. Code §58.1-3524.",
-     "sum": "Personal Property Tax Relief Act (1998): the state pays localities a fixed $950 million a year (since tax year 2006) to reduce local personal property taxes on qualifying personal vehicles, divided pro rata by each locality's 2005 payments.",
-     "more": "Because the total is fixed, localities set the share of each vehicle tax the state covers, and that share shrinks as vehicle values and rates rise.",
+     "t": "Under the Personal Property Tax Relief Act of 1998, the state pays localities a fixed $950 million a year (since tax year 2006) to reduce local personal property taxes on qualifying personal-use vehicles, and the 2026 Appropriation Act carries $950 million in each of FY2027 and FY2028. Each locality's share is pro rata to its tax year 2004 reimbursements, and each locality sets the percentage of a qualifying vehicle's tax that the state payment covers on the bill. Because the total is fixed, that share shrinks as vehicle values and local rates rise.",
+     "a": "Va. Code §§ 58.1-3523 to 58.1-3536 (esp. § 58.1-3524); 2026 Appropriation Act (HB 30, Special Session I, Chapter 1), Item 258.",
+     "sum": "Under the Personal Property Tax Relief Act of 1998, the state pays localities a fixed $950 million a year (since tax year 2006) to reduce local personal property taxes on qualifying personal-use vehicles, and the 2026 Appropriation Act carries $950 million in…",
+     "more": "…each of FY2027 and FY2028. Each locality's share is pro rata to its tax year 2004 reimbursements, and each locality sets the percentage of a qualifying vehicle's tax that the state payment covers on the bill. Because the total is fixed, that share shrinks as vehicle values and local rates rise.",
      "syn": "The state pays localities a fixed $950 million a year (since tax year 2006) to cut local personal property taxes on qualifying personal vehicles, split by each locality's 2005 payments."
     },
     "statewide": {
@@ -28027,12 +28027,12 @@
      "syn": "No state circuit breaker or income tax credit; relief comes through the senior and disabled exemption and deferrals."
     },
     "subsidies": {
-     "s": "Partial",
+     "s": "No",
      "q": "",
-     "t": "Local Effort Assistance pays districts with low property values so their enrichment levy rates can be lower, and the state funds basic education. There is no program that pays local governments to cut their own levies.",
-     "a": "RCW ch. 28A.500.",
-     "sum": "Local Effort Assistance pays districts with low property values so their enrichment levy rates can be lower, and the state funds basic education.",
-     "more": "There is no program that pays local governments to cut their own levies.",
+     "t": "Under the senior citizen and disabled persons deferral program, the Department of Revenue pays county treasurers the property tax deferred by qualifying owners aged 60 or older or retired because of disability with limited incomes, and the state recovers the amount through a lien with 5% interest. A second program lets limited-income homeowners defer half their tax under a similar state lien. A deferral repaid with interest replaces no local revenue, so neither counts. Local Effort Assistance gives districts with low property values extra state aid for their enrichment levies; it is equalization aid and does not count. No state program reimburses local governments for exemptions or pays them to cut their own levies.",
+     "a": "RCW 84.38.100 to 84.38.130; RCW ch. 84.37; RCW ch. 28A.500.",
+     "sum": "Under the senior citizen and disabled persons deferral program, the Department of Revenue pays county treasurers the property tax deferred by qualifying owners aged 60 or older or retired because of disability with limited incomes, and the state recovers the…",
+     "more": "…amount through a lien with 5% interest. A second program lets limited-income homeowners defer half their tax under a similar state lien. A deferral repaid with interest replaces no local revenue, so neither counts. Local Effort Assistance gives districts with low property values extra state aid for their enrichment levies; it is equalization aid and does not count. No state program reimburses local governments for exemptions or pays them to cut their own levies.",
      "syn": "The state funds basic education and pays Local Effort Assistance so low-value districts can levy lower enrichment rates; no program pays local governments to cut their own levies."
     },
     "statewide": {
@@ -28606,10 +28606,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The state repays vehicle property taxes through the refundable income tax credit, which leaves the local tax and its revenue in place and moves the cost to the state. The state allocated $140 million for a full year of the vehicle credit (MetroNews, July 25, 2023), about 6.3% of FY2024 state and local property tax collections of $2.22 billion; the small business and disabled veteran credits add to the total. Schools are funded through the state aid formula, which counts the state-set regular levy as local share.",
-     "a": "",
-     "sum": "The state repays vehicle property taxes through the refundable income tax credit, which leaves the local tax and its revenue in place and moves the cost to the state.",
-     "more": "The state allocated $140 million for a full year of the vehicle credit (MetroNews, July 25, 2023), about 6.3% of FY2024 state and local property tax collections of $2.22 billion; the small business and disabled veteran credits add to the total. Schools are funded through the state aid formula, which counts the state-set regular levy as local share.",
+     "t": "The motor vehicle property tax adjustment credit repays through the income tax the full county property tax timely paid on motor vehicles owned by individuals and businesses, with dealer inventory excluded; any amount above the owner's income tax is paid as a refund. The local tax and its revenue stay in place, and the cost moves to the state. The State Tax Department puts total vehicle property taxes at about $172 million a year (2024 tax year) and notes that the credit costs less because only timely paid tax qualifies. Smaller refundable credits cover 50% of the personal property tax paid by small businesses with $1 million or less of personal property, and the real property tax of qualifying disabled veterans. The state school aid formula, which counts the state-set regular levy as local share, is general school aid and does not count.",
+     "a": "W. Va. Code §§ 11-13MM-3 to 11-13MM-5 (2023 H.B. 2526); State Tax Department fiscal note, H.B. 2601.",
+     "sum": "The motor vehicle property tax adjustment credit repays through the income tax the full county property tax timely paid on motor vehicles owned by individuals and businesses, with dealer inventory excluded; any amount above the owner's income tax is paid as a…",
+     "more": "…refund. The local tax and its revenue stay in place, and the cost moves to the state. The State Tax Department puts total vehicle property taxes at about $172 million a year (2024 tax year) and notes that the credit costs less because only timely paid tax qualifies. Smaller refundable credits cover 50% of the personal property tax paid by small businesses with $1 million or less of personal property, and the real property tax of qualifying disabled veterans. The state school aid formula, which counts the state-set regular levy as local share, is general school aid and does not count.",
      "syn": "The state repays vehicle property taxes through a refundable income tax credit, leaving the local tax in place; it allocated $140 million for a full year, about 6.3% of FY2024 collections."
     },
     "statewide": {
@@ -29200,10 +29200,10 @@
     "subsidies": {
      "s": "Yes",
      "q": "",
-     "t": "The school levy, first dollar and lottery and gaming credits are paid from state revenue to municipalities, which apply them to tax bills: more than $1.275 billion a year for the school levy credit alone. The state also pays shared revenue to municipalities and counties (increased by 2023 Wis. Act 12) and general school aid counted inside the revenue limits.",
-     "a": "",
-     "sum": "The school levy, first dollar and lottery and gaming credits are paid from state revenue to municipalities, which apply them to tax bills: more than $1.275 billion a year for the school levy credit alone.",
-     "more": "The state also pays shared revenue to municipalities and counties (increased by 2023 Wis. Act 12) and general school aid counted inside the revenue limits.",
+     "t": "The school levy tax credit, $1.275 billion a year, is paid from state general revenue to municipalities, which subtract it from each property tax bill in proportion to assessed value. The first dollar credit, paid from the same appropriation, reduces the school tax on each improved parcel, and the lottery and gaming credit reduces the tax on owner-occupied primary residences. The state also pays every taxing jurisdiction aid equal to the tax lost to the personal property exemptions, including $173.8 million budgeted for 2026 under 2023 Act 12 and separate payments for exempt machinery and computers. Shared revenue and general school aid inside the revenue limits are unrestricted or formula aid and do not count.",
+     "a": "Wis. Stat. §§ 20.835(3)(b), 79.095, 79.096, 79.0965, 79.10; Wisconsin Department of Revenue, State School Levies Credit (Nov. 20, 2025).",
+     "sum": "The school levy tax credit, $1.275 billion a year, is paid from state general revenue to municipalities, which subtract it from each property tax bill in proportion to assessed value.",
+     "more": "The first dollar credit, paid from the same appropriation, reduces the school tax on each improved parcel, and the lottery and gaming credit reduces the tax on owner-occupied primary residences. The state also pays every taxing jurisdiction aid equal to the tax lost to the personal property exemptions, including $173.8 million budgeted for 2026 under 2023 Act 12 and separate payments for exempt machinery and computers. Shared revenue and general school aid inside the revenue limits are unrestricted or formula aid and do not count.",
      "syn": "The state pays municipalities to apply property tax credits to bills, more than $1.275 billion a year for the school levy credit alone, plus shared revenue and general school aid."
     },
     "statewide": {
@@ -29801,10 +29801,10 @@
     "subsidies": {
      "s": "Partial",
      "q": "",
-     "t": "The state funds the refund program and the school foundation program. The 2025 exemptions were enacted without a general state reimbursement of local revenue losses, and Initiative 1 contains no backfill.",
-     "a": "",
-     "sum": "The state funds the refund program and the school foundation program. The 2025 exemptions were enacted without a general state reimbursement of local revenue losses, and Initiative 1 contains no backfill.",
-     "more": "",
+     "t": "The state reimburses county treasurers for the property tax lost to the veterans' exemption, which covers up to $6,000 of assessed value for qualifying veterans; the State Treasurer pays from a program appropriation in its budget, and 2024 SF 89 appropriated $8.2 million from the general fund for it. The 2025 25% homeowner exemption and the long-term homeowner exemption, made permanent by 2026 HEA 23, carry no reimbursement to local governments, and the School Foundation Program absorbs the school share as general school aid. The property tax refund program pays owners by check and sits in the credits and rebates row. The People's Initiative on the November 2026 ballot, a 50% exemption for primary residences, contains no backfill.",
+     "a": "W.S. 39-13-102(k), 39-13-105; 2024 SEA 61 (SF 89); 2026 HEA 23 (HB 45); LSO fiscal notes, 2026 Budget Session.",
+     "sum": "The state reimburses county treasurers for the property tax lost to the veterans' exemption, which covers up to $6,000 of assessed value for qualifying veterans; the State Treasurer pays from a program appropriation in its budget, and 2024 SF 89 appropriated…",
+     "more": "…$8.2 million from the general fund for it. The 2025 25% homeowner exemption and the long-term homeowner exemption, made permanent by 2026 HEA 23, carry no reimbursement to local governments, and the School Foundation Program absorbs the school share as general school aid. The property tax refund program pays owners by check and sits in the credits and rebates row. The People's Initiative on the November 2026 ballot, a 50% exemption for primary residences, contains no backfill.",
      "syn": "The state funds the property tax refund program and the school foundation program; the 2025 exemptions came with no general state reimbursement of local revenue losses."
     },
     "statewide": {
@@ -30389,7 +30389,7 @@
    "long": "State money to reduce local property taxes",
    "group": "relief",
    "pol": "harm",
-   "help": "State money that lowers or replaces local property taxes. It hides the cost of local spending by moving it to state taxpayers, and it limits nothing."
+   "help": "State money that directly pays down local property tax bills: credits paid on the bill, rate buy-downs, or reimbursements for revenue lost to exemptions and caps in state law. It hides the cost of local spending by moving it to state taxpayers, and it limits nothing."
   },
   {
    "k": "statewide",
@@ -31101,21 +31101,19 @@
    "Yes": [
     "AZ",
     "AR",
+    "CA",
     "CO",
     "CT",
     "ID",
-    "IN",
+    "IL",
     "IA",
     "LA",
     "ME",
-    "MD",
     "MI",
     "MN",
     "MS",
-    "MO",
     "MT",
     "NE",
-    "NJ",
     "NY",
     "ND",
     "OH",
@@ -31125,7 +31123,6 @@
     "RI",
     "SC",
     "SD",
-    "TN",
     "TX",
     "VT",
     "VA",
@@ -31133,26 +31130,29 @@
     "WI"
    ],
    "Partial": [
-    "CA",
     "DE",
+    "FL",
     "GA",
-    "IL",
+    "MD",
     "MA",
-    "NH",
-    "NM",
+    "MO",
+    "NJ",
     "UT",
-    "WA",
     "WY"
    ],
    "No": [
     "AL",
     "AK",
-    "FL",
     "HI",
+    "IN",
     "KS",
     "KY",
     "NV",
-    "NC"
+    "NH",
+    "NM",
+    "NC",
+    "TN",
+    "WA"
    ]
   },
   "statewide": {
