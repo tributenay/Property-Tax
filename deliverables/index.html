@@ -658,6 +658,8 @@ dialog::backdrop{background:rgba(10,22,18,.5);backdrop-filter:blur(2px)}
 .qv-rec .muted{display:block;font-size:.78rem}
 .charts.c2{grid-template-columns:repeat(2,minmax(0,1fr))}
 .charts.c2 .chart.wide{grid-column:1/-1}
+.charts.c2 .chart{display:grid;grid-row:span 4;grid-template-rows:subgrid;row-gap:0;align-content:start}
+.charts.c2 .ch-head{align-self:start}.charts.c2 .ch-plot{align-self:end}.charts.c2 .ch-foot{align-self:start}
 .chart .lc-n{display:none}
 @media (max-width:760px){.chart .lc-w{display:none}.chart .lc-n{display:block}}
 @media (max-width:760px){.charts.c2{grid-template-columns:1fr}}
@@ -1268,7 +1270,7 @@ function legendRow(series){
   return `<div class="lgd">${series.map(s => `<span><i class="${s.dot ? 'dot' : s.dash ? 'dash' : ''}" style="border-top-color:${s.color}"></i>${esc(s.name)}</span>`).join('')}</div>`;
 }
 function lineChart(o){
-  const id = 'lc' + (++chSeq), W = o.w || 460, H = o.h || 230, L = 52, T = 10, B = 24;
+  const id = 'lc' + (++chSeq), W = o.w || 460, H = o.h || 230, L = 52, T = o.t || 10, B = 24;
   const R = Math.max(40, 12 + 6.6 * Math.max(...o.series.map(s => (s.short || s.name).length)));
   const vals = o.series.flatMap(s => s.ys).filter(v => v != null);
   if(!vals.length) return '';
@@ -1353,11 +1355,11 @@ function recordCharts(abs, colors){
     const k0 = Math.min(...sers.map(sr => sr.ys.findIndex(v => v != null)));
     return `<p class="gnote">Percent change, ${tag(ax[k0])} to ${ends.size === 1 ? tag([...ends][0]) : 'each line\'s latest year'}, at the end of each line</p>`; };
   return `<div class="charts c2">
-    <figure class="chart wide"><h3>Property tax per person</h3><p class="cap">All property tax collected by the state and every local government, divided by the resident population.</p>${legendRow(pcS)}${gnote(pcS, xs, FY)}${[[940, 250, 'lc-w', 2], [460, 230, 'lc-n', 3]].map(([w, h, c, k]) => `<div class="${c}">${lineChart(Object.assign({xs, series: pcS.map(gain), w, h, yfmt: usdk, fmt: usd, xfmt: yr, tipx: FY, label: `Property tax per person, ${who} and the U.S., FY2002 to FY2024, with an inflation line`}, XAX, {xticks: yticks(2002, 2024, k)}))}</div>`).join('')}</figure>
-    <figure class="chart"><h3>Effective owner-occupied property tax rate</h3><p class="cap">Property taxes paid as a share of home value on owner-occupied homes, Tax Foundation 2026 ranking.</p>${legendRow(ss.map((s, i) => ({name: s.name, color: colors[i]})))}${effRateChart(ss.map(s => s.ab), colors)}</figure>
-    ${rate.length > 1 ? `<figure class="chart"><h3>Effective property tax rate over time</h3><p class="cap">Census five-year surveys, pooled responses (2024 = surveys taken 2020–2024).</p>${legendRow(rate)}${gnote(rate, rxs, yr)}${lineChart(Object.assign({xs: rxs, series: rate.map(gain), zero: true, yfmt: v => v.toFixed(2) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: y => `${y} (${y - 4}–${y} survey)`, label: `Effective property tax rate on owner-occupied homes, ${who} and the U.S., 2010 to 2024`}, rAx))}</figure>` : ''}
-    <figure class="chart"><h3>Share of personal income</h3><p class="cap">State and local property tax as a percent of residents' personal income.</p>${legendRow(pi)}${lineChart(Object.assign({xs, series: pi, yfmt: v => v.toFixed(1) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: FY, label: `Property tax share of personal income, ${who} and the U.S., FY2002 to FY2024`}, XAX))}</figure>
-    <figure class="chart"><h3>Median homeowner's bill</h3>${lineChart(Object.assign({xs: bxs, series: billS.map(gain), zero: true, yfmt: usdk, fmt: usd, xfmt: yr, label: `Median homeowner property tax bill, ${who} and the U.S., ${bxs[0]} to 2024, with an inflation line`}, bAx))}<p class="src">Source: ACS one-year estimates, published by the Census Bureau.</p></figure>
+    <figure class="chart wide"><h3>Property tax per person</h3><div class="ch-head"><p class="cap">All property tax collected by the state and every local government, divided by the resident population.</p>${legendRow(pcS)}${gnote(pcS, xs, FY)}</div><div class="ch-plot">${[[940, 250, 'lc-w', 2], [460, 230, 'lc-n', 3]].map(([w, h, c, k]) => `<div class="${c}">${lineChart(Object.assign({xs, series: pcS.map(gain), w, h, yfmt: usdk, fmt: usd, xfmt: yr, tipx: FY, label: `Property tax per person, ${who} and the U.S., FY2002 to FY2024, with an inflation line`}, XAX, {xticks: yticks(2002, 2024, k)}))}</div>`).join('')}</div><div class="ch-foot"></div></figure>
+    <figure class="chart"><h3>Effective owner-occupied property tax rate</h3><div class="ch-head"><p class="cap">Property taxes paid as a share of home value on owner-occupied homes, Tax Foundation 2026 ranking.</p></div><div class="ch-plot">${effRateChart(ss.map(s => s.ab), colors)}</div><div class="ch-foot"></div></figure>
+    ${rate.length > 1 ? `<figure class="chart"><h3>Effective property tax rate over time</h3><div class="ch-head"><p class="cap">Census five-year surveys, pooled responses (2024 = surveys taken 2020–2024).</p></div><div class="ch-plot">${lineChart(Object.assign({xs: rxs, series: rate.map(gain), zero: true, h: 244, t: 48, yfmt: v => v.toFixed(2) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: y => `${y} (${y - 4}–${y} survey)`, label: `Effective property tax rate on owner-occupied homes, ${who} and the U.S., 2010 to 2024`}, rAx))}</div><div class="ch-foot"></div></figure>` : ''}
+    <figure class="chart"><h3>Share of personal income</h3><div class="ch-head"><p class="cap">State and local property tax as a percent of residents' personal income.</p>${legendRow(pi)}</div><div class="ch-plot">${lineChart(Object.assign({xs, series: pi, yfmt: v => v.toFixed(1) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: FY, label: `Property tax share of personal income, ${who} and the U.S., FY2002 to FY2024`}, XAX))}</div><div class="ch-foot"></div></figure>
+    <figure class="chart"><h3>Median homeowner's bill</h3><div class="ch-head"></div><div class="ch-plot">${lineChart(Object.assign({xs: bxs, series: billS.map(gain), zero: true, yfmt: usdk, fmt: usd, xfmt: yr, label: `Median homeowner property tax bill, ${who} and the U.S., ${bxs[0]} to 2024, with an inflation line`}, bAx))}</div><div class="ch-foot"><p class="src">Source: ACS one-year estimates, published by the Census Bureau.</p></div></figure>
   </div>${(() => {
     const years = Array.from(new Set(xs.concat(rxs, bxs))).sort((a, b) => a - b);
     const at = (sr, ax, y, fm) => { const k = ax.indexOf(y); return k >= 0 && sr.ys[k] != null ? fm(sr.ys[k]) : '—'; };
@@ -1373,7 +1375,7 @@ function recordCharts(abs, colors){
 function effRateChart(abs, colors){
   const ss = ST.filter(s => s.tf).slice().sort((a, b) => a.tf.property - b.tf.property);
   if(!ss.length) return '';
-  const W = 460, H = 244, L = 40, R = 10, T = 48, B = 26, n = ss.length, bw = (W - L - R) / n;
+  const W = 460, H = 244, L = 52, R = 10, T = 48, B = 24, n = ss.length, bw = (W - L - R) / n;
   const hi = Math.max(...ss.map(s => s.tf.rate)), ticks = niceTicks(0, hi, 4), y1 = ticks[ticks.length - 1];
   const Y = v => T + (1 - v / y1) * (H - T - B);
   let g = ticks.map(v => `<line class="gl${v === 0 ? ' z' : ''}" x1="${L}" x2="${W - R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}"/><text class="ax" x="${L - 6}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end">${v.toFixed(1)}%</text>`).join('');
