@@ -87,10 +87,18 @@ header.site .btn.primary{background:#d9232d;border-color:#d9232d;color:#fff}
 .brand .lock-dot{display:block;width:6px;height:6px;border-radius:50%;background:#f9333d;flex:none}
 .brand small{font:600 .76rem/1.2 var(--ui);color:#8ec0ec;display:block;letter-spacing:.02em}
 nav.main{display:flex;gap:2px;margin-left:auto}
-nav.main a{font:600 .9rem/1 var(--ui);color:#d3dde8;text-decoration:none;padding:9px 10px;border-radius:8px;white-space:nowrap}
+nav.main a{position:relative;display:inline-flex;align-items:center;gap:7px;font:620 .98rem/1 var(--ui);color:#d3dde8;text-decoration:none;padding:10px 11px;border-radius:9px;white-space:nowrap;transition:background .18s,color .18s}
+nav.main a .nv-i{width:17px;height:17px;flex:none;fill:none;stroke:#8ec0ec;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:stroke .18s,transform .18s}
+nav.main a::after{content:"";position:absolute;left:11px;right:11px;bottom:3px;height:2px;border-radius:2px;background:#f9333d;transform:scaleX(0);transition:transform .2s ease}
+nav.main a + a{margin-left:2px}
 main:focus{outline:none}
-nav.main a:hover{background:rgba(255,255,255,.08);color:#fff}
-nav.main a[aria-current="page"]{color:#fff;background:rgba(255,255,255,.1);box-shadow:inset 0 -2px 0 #f9333d}
+nav.main a:hover,nav.main a:focus-visible{background:rgba(142,192,236,.14);color:#fff;outline:none}
+nav.main a:hover .nv-i,nav.main a:focus-visible .nv-i{stroke:#f9333d;transform:translateY(-1px) scale(1.08)}
+nav.main a:hover::after,nav.main a:focus-visible::after{transform:scaleX(1)}
+nav.main a[aria-current="page"]{color:#fff;background:rgba(255,255,255,.12)}
+nav.main a[aria-current="page"] .nv-i{stroke:#fff}
+nav.main a[aria-current="page"]::after{transform:scaleX(1)}
+@media (prefers-reduced-motion: reduce){nav.main a,nav.main a .nv-i,nav.main a::after{transition:none}}
 .find{position:relative;flex:none}
 .find input{width:190px;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;font:500 .92rem var(--ui);padding:0 12px 0 34px}
 .find input::placeholder{color:#a9b6c6}
@@ -98,10 +106,12 @@ nav.main a[aria-current="page"]{color:#fff;background:rgba(255,255,255,.1);box-s
 .find svg{position:absolute;left:11px;top:11px;color:#a9b6c6}
 .find-m{display:none}
 .menu-btn{display:none;margin-left:auto;background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.22);border-radius:10px;height:38px;padding:0 14px;font:600 .9rem var(--ui);cursor:pointer}
-@media (max-width:1400px){
+@media (max-width:1440px){
   nav.main{display:none;position:absolute;top:67px;left:0;right:0;background:#10243b;border-bottom:3px solid #f9333d;flex-direction:column;padding:10px 16px 16px;box-shadow:var(--shadow)}
   nav.main.open{display:flex}
-  nav.main a{padding:12px 10px;font-size:1rem}
+  nav.main a{padding:13px 12px;font-size:1.05rem;gap:11px}
+  nav.main a::after{left:12px;right:auto;width:28px;bottom:6px}
+  nav.main a .nv-i{width:19px;height:19px}
   .menu-btn{display:inline-flex;align-items:center}
   .find{margin-left:0}
 }
@@ -641,6 +651,13 @@ dialog::backdrop{background:rgba(10,22,18,.5);backdrop-filter:blur(2px)}
   --c1:#3987e5;--c2:#d95926;--c3:#199e70;--cref:#c3cfdd;--cstate:#8ec0ec}}
 :root[data-theme="dark"]{--b0:#3a2723;--b0-ink:#f3dfd9;--b1:#5c3329;--b1-ink:#f8e4de;--b2:#8b4433;--b2-ink:#fff1ec;--b3:#c45f48;--b3-ink:#150604;--b4:#f08b72;--b4-ink:#150604;
   --c1:#3987e5;--c2:#d95926;--c3:#199e70;--cref:#c3cfdd;--cstate:#8ec0ec}
+:root{--s0:#ffead2;--s0-ink:#3b1a10;--s1:#f4c8aa;--s1-ink:#3b1a10;--s2:#e0a584;--s2-ink:#2a0f08;--s3:#cc8262;--s3-ink:#1f0a05;--s4:#b85f44;--s4-ink:#ffffff;--s5:#a23a28;--s5-ink:#ffffff;--s6:#8a0410;--s6-ink:#ffffff;--gd1:#2e8a66;--gd1-ink:#ffffff;--gd2:#a9dbc1;--gd2-ink:#0d2a1f;--tf-lo:#e3f4ea;--tf-hi:#0b4a37;--tf-ink-lo:#0d2a1f;--tf-ink-hi:#ffffff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--s0:#572824;--s0-ink:#f8e4de;--s1:#744036;--s1-ink:#f8e4de;--s2:#935a49;--s2-ink:#fff1ec;--s3:#b2755c;--s3-ink:#150604;--s4:#d19270;--s4-ink:#150604;--s5:#f0b085;--s5-ink:#150604;--s6:#ffcf9a;--s6-ink:#150604;--gd1:#57c398;--gd1-ink:#06120d;--gd2:#24594a;--gd2-ink:#e6f3ec;--tf-lo:#1d3a30;--tf-hi:#b9f0d4;--tf-ink-lo:#e6f3ec;--tf-ink-hi:#06120d}}
+:root[data-theme="dark"]{--s0:#572824;--s0-ink:#f8e4de;--s1:#744036;--s1-ink:#f8e4de;--s2:#935a49;--s2-ink:#fff1ec;--s3:#b2755c;--s3-ink:#150604;--s4:#d19270;--s4-ink:#150604;--s5:#f0b085;--s5-ink:#150604;--s6:#ffcf9a;--s6-ink:#150604;--gd1:#57c398;--gd1-ink:#06120d;--gd2:#24594a;--gd2-ink:#e6f3ec;--tf-lo:#1d3a30;--tf-hi:#b9f0d4;--tf-ink-lo:#e6f3ec;--tf-ink-hi:#06120d}
+.f-s0{fill:var(--s0);background:var(--s0)} .l-s0{fill:var(--s0-ink)} .f-s1{fill:var(--s1);background:var(--s1)} .l-s1{fill:var(--s1-ink)} .f-s2{fill:var(--s2);background:var(--s2)} .l-s2{fill:var(--s2-ink)} .f-s3{fill:var(--s3);background:var(--s3)} .l-s3{fill:var(--s3-ink)} .f-s4{fill:var(--s4);background:var(--s4)} .l-s4{fill:var(--s4-ink)} .f-s5{fill:var(--s5);background:var(--s5)} .l-s5{fill:var(--s5-ink)} .f-s6{fill:var(--s6);background:var(--s6)} .l-s6{fill:var(--s6-ink)} .f-gd1{fill:var(--gd1);background:var(--gd1)} .l-gd1{fill:var(--gd1-ink)} .f-gd2{fill:var(--gd2);background:var(--gd2)} .l-gd2{fill:var(--gd2-ink)} .l-tfd{fill:var(--tf-ink-hi)} .l-tfl{fill:var(--tf-ink-lo)}
+.tf-bar{display:inline-block;width:min(260px,60vw);height:12px;border-radius:6px;background:linear-gradient(90deg in oklab,var(--tf-hi),var(--tf-lo));vertical-align:middle}
+.mapcap{display:block;width:fit-content;max-width:min(620px,100%);margin:0 0 10px;padding:8px 14px 9px 12px;border-left:3px solid var(--accent);border-radius:0 10px 10px 0;background:var(--surface-2);font:450 .88rem/1.45 var(--ui);color:var(--ink-2)}
+.mapcap b{font-weight:750;color:var(--ink)}
 .f-b0{fill:var(--b0);background:var(--b0)} .f-b1{fill:var(--b1);background:var(--b1)} .f-b2{fill:var(--b2);background:var(--b2)} .f-b3{fill:var(--b3);background:var(--b3)} .f-b4{fill:var(--b4);background:var(--b4)}
 .l-b0{fill:var(--b0-ink)} .l-b1{fill:var(--b1-ink)} .l-b2{fill:var(--b2-ink)} .l-b3{fill:var(--b3-ink)} .l-b4{fill:var(--b4-ink)}
 .f-g1{fill:var(--g1);background:var(--g1)} .f-g2{fill:var(--g2);background:var(--g2)} .f-g3{fill:var(--g3);background:var(--g3)} .f-g4{fill:var(--g4);background:var(--g4)} .f-g5{fill:var(--g5);background:var(--g5)}
@@ -760,7 +777,7 @@ footer.site .foot-end{display:flex;flex-direction:column;align-items:flex-start;
 .atr img{display:block;height:42px;width:auto}
 .atr-top{flex:none;display:flex;align-items:center;padding-left:18px;border-left:1px solid rgba(255,255,255,.2)}
 .atr-top img{display:block;height:38px;width:auto}
-@media (max-width:1560px){nav.main a{padding:9px 7px}.find input{width:150px}}
+@media (max-width:1560px){nav.main a{padding:10px 9px;gap:6px}.find input{width:150px}}
 @media (max-width:860px){.brand .lock-atr,.brand .lock-dot{display:none}}
 @media (max-width:640px){.brand b{font-size:1rem}}
 @media (max-width:360px){.brand b{font-size:.9rem}}
@@ -825,14 +842,13 @@ html.pte-pick :is(h1,h2,h3,h4,p,li,dt,dd,td,th,figcaption,blockquote,.syn,.sum):
       <b>50-State Property Tax Guide</b>
     </a>
     <nav class="main" id="mainnav" aria-label="Main">
-      <a href="#/">Map</a>
-      <a href="#/states">States</a>
-      <a href="#/compare">Compare</a>
-      <a href="#/data">Data</a>
-      <a href="#/learn">How it works</a>
-      <a href="#/tnt">Truth in taxation</a>
-      <a href="#/ballot">2026 ballot</a>
-      <a href="#/methods">Methods</a>
+      <a href="#/"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5 8.5 4l7 2.5L21 4v13.5L15.5 20l-7-2.5L3 20z"/><path d="M8.5 4v13.5M15.5 6.5V20"/></svg><span>Map</span></a>
+      <a href="#/states"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/></svg><span>States</span></a>
+      <a href="#/compare"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V10M12 20V4M19 20v-7"/></svg><span>Compare</span></a>
+      <a href="#/data"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="15" rx="2"/><path d="M3.5 9.5h17M3.5 14.5h17M9.5 9.5v10"/></svg><span>Data</span></a>
+      <a href="#/learn"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg><span>How it works</span></a>
+      <a href="#/ballot"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16v9H4z"/><path d="m8.5 8 3 3 5-6"/></svg><span>2026 ballot</span></a>
+      <a href="#/methods"><svg class="nv-i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4.5h10.5L19 8v11.5H5z"/><path d="M9 11h6M9 15h6"/></svg><span>Methods</span></a>
       <form class="find-m" data-find role="search"><label class="sr-only" for="qm">Find a state</label><input id="qm" placeholder="Find a state" autocomplete="off"><button class="btn primary" type="button" data-findgo>Go</button></form>
     </nav>
     <button class="menu-btn" id="menubtn" aria-expanded="false" aria-controls="mainnav">Menu</button>
@@ -966,6 +982,18 @@ function shapeSVG(st, size){
   if(st === 'Partial') return `<svg width="${s}" height="${s}" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="2" width="16" height="16" rx="3.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M1 10H19V14.5a4.5 4.5 0 0 1 -4.5 4.5H5.5A4.5 4.5 0 0 1 1 14.5Z" fill="currentColor"/></svg>`;
   return `<svg width="${s}" height="${s}" viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="2" width="16" height="16" rx="3.5" fill="none" stroke="currentColor" stroke-width="2" opacity=".55"/></svg>`;
 }
+/* Caption on the map for every view but the strongest limit: the measure's name and its definition */
+const MAP_CAPS = {
+  subsidies: ['State subsidies', 'State money that directly pays down local property tax bills. It hides the cost of local spending by moving it to state taxpayers.'],
+  pc: ['Property tax per person, FY2024', 'All property tax collected by the state and every local government, divided by the resident population.'],
+  pi: ['Share of personal income, FY2024', 'State and local property tax as a percentage of residents\' total personal income.'],
+  grow: ['Change in property tax per person after inflation, FY2002–FY2024', 'How much property tax per person rose or fell once consumer price inflation is taken out.'],
+  tf: ['Tax Foundation 2026 rank', 'Effective property tax rate on owner-occupied homes, the median bill as a share of the median home value; 1 is the lowest rate.']
+};
+function mapCap(mode){
+  const c = MAP_CAPS[mode] || (F[mode] ? [F[mode].short, F[mode].help] : null);
+  return c ? `<p class="mapcap"><b>${esc(c[0])}:</b> ${esc(c[1])}</p>` : '';
+}
 /* Key box for the main map: which corner of each state's stamp is which limit, with a short definition of each */
 function slarKey(){
   const D = [['S','spending','Spending limit','Caps how fast a local budget can grow.'],['L','levy','Levy limit','Caps growth in the total property tax collected.'],['A','assessment','Assessment cap','Caps how fast a property\'s taxable value can rise.'],['R','rate','Rate cap','Sets a maximum tax rate.']];
@@ -1038,11 +1066,12 @@ function tierOf(s){
   return 't5';
 }
 const TIER_NAME = Object.fromEntries(TIERS.map(([k, n]) => [k, n]));
-function tfBand(r){ if(!r) return 0; return r <= 10 ? 4 : r <= 20 ? 3 : r <= 30 ? 2 : r <= 40 ? 1 : 0; }
+function tfMix(s){ const r = s.tf && s.tf.property; return r ? Math.round((50 - r) / 49 * 100) : 0; }
+function fillStyle(s, mode){ return mode === 'tf' ? ` style="fill:color-mix(in oklab,var(--tf-hi) ${tfMix(s)}%,var(--tf-lo))"` : ''; }
 function fillClass(s, mode){
   if(mode === 'count') return tierOf(s);
   if(REC_MODES[mode]) return recClass(s, mode);
-  if(mode === 'tf') return 'r' + tfBand(s.tf && s.tf.property);
+  if(mode === 'tf') return 'tf';
   return statusClass(mode, s.f[mode].s);
 }
 function tileLabel(s, mode){
@@ -1079,12 +1108,13 @@ function mapHTML(o){
     const dim = o.hi && !o.hi.has(s.ab) ? ' dim' : '';
     const lab = esc(tileLabel(s, mode));
     const focus = o.mini ? '' : ` tabindex="0" role="button" aria-label="${lab}" aria-haspopup="dialog"`;
-    paths += `<path class="sp f-${k}${dim} hit" d="${g.d}" data-ab="${s.ab}"${focus}></path>`;
+    const sty = o.only || o.cls ? '' : fillStyle(s, mode), ink = sty ? (tfMix(s) >= 55 ? 'tfd' : 'tfl') : k;
+    paths += `<path class="sp f-${k}${dim} hit" d="${g.d}" data-ab="${s.ab}"${focus}${sty}></path>`;
     if(k === 't5') hatch += `<path class="hatch${dim}" d="${g.d}" fill="url(#${id}h)"/>`;
     const idx = CALLOUT.indexOf(s.ab);
     if(idx >= 0){
       const bx = 962, by = 96 + idx * 42, [cx, cy] = g.m || g.p;
-      callouts += `<g class="co hit${dim}" data-ab="${s.ab}"${o.mini ? '' : ` tabindex="0" role="button" aria-label="${lab}" aria-haspopup="dialog"`}><path class="lead" d="M${cx} ${cy} L${bx - 6} ${by + 15}"/><circle class="dot" cx="${cx}" cy="${cy}" r="2.4"/><rect class="f-${k}" x="${bx}" y="${by}" width="${showStamp ? 70 : 52}" height="30" rx="6"/><text class="lb l-${k}" x="${bx + 9}" y="${by + 20}">${s.ab}</text>${showStamp ? `<g class="l-${k}">${stampMini(s, bx + 52, by + 5, 20)}</g>` : ''}</g>`;
+      callouts += `<g class="co hit${dim}" data-ab="${s.ab}"${o.mini ? '' : ` tabindex="0" role="button" aria-label="${lab}" aria-haspopup="dialog"`}><path class="lead" d="M${cx} ${cy} L${bx - 6} ${by + 15}"/><circle class="dot" cx="${cx}" cy="${cy}" r="2.4"/><rect class="f-${k}" x="${bx}" y="${by}" width="${showStamp ? 70 : 52}" height="30" rx="6"${sty}/><text class="lb l-${ink}" x="${bx + 9}" y="${by + 20}">${s.ab}</text>${showStamp ? `<g class="l-${k}">${stampMini(s, bx + 52, by + 5, 20)}</g>` : ''}</g>`;
       return;
     }
     const [lx, ly] = g.m || g.p;
@@ -1106,15 +1136,12 @@ function legendHTML(mode){
     return h + '</div>';
   }
   if(mode === 'tf'){
-    const lab = ['41–50 (highest rates)','31–40','21–30','11–20','1–10 (lowest rates)'];
-    let h = '<div class="legend"><b>Tax Foundation 2026 ranking: effective property tax rate on owner-occupied homes</b>';
-    for(let i = 4; i >= 0; i--) h += `<span class="sw">${swatch('r' + i)}${lab[i]}</span>`;
-    return h + '</div>';
+    const r = ST.filter(s => s.tf).map(s => s.tf.rate), lo = Math.min(...r), hi = Math.max(...r);
+    return `<div class="legend"><span class="sw"><b>1st</b> <span class="muted">${lo.toFixed(2)}%</span></span><i class="tf-bar" aria-hidden="true"></i><span class="sw"><b>50th</b> <span class="muted">${hi.toFixed(2)}%</span></span><span class="muted">Each state has its own shade; the strongest green marks the lowest rate.</span></div>`;
   }
   const c = DATA.counts[mode];
-  let h = `<div class="legend"><b>${esc(F[mode].short)}</b>`;
+  let h = '<div class="legend">';
   ['Yes','Partial','No'].forEach(st => { h += `<span class="sw">${chip(mode, st)} <span class="muted">${c[st].length} states</span></span>`; });
-  h += `<span class="muted">${esc(F[mode].help)}</span>`;
   return h + '</div>';
 }
 
@@ -1320,14 +1347,14 @@ function findings(all4, none, nBallot){
   items.push({only: new Set(none.map(s => s.ab)), say: `${Word(none.length)} states have none of the four fully in force.`, sub: none.map(s => s.name).join(', ') + '.', link: ['#/data?sort=score', 'See every state ranked']});
   items.push({only: new Set(C.levy.Yes), say: `Levy limits are the most common: ${n('levy','Yes')} states cap growth in the total property tax, and ${n('levy','Partial')} more cap it for some governments.`, sub: 'Most allow revenue from new construction on top of the cap, and many let governments bank unused room or exceed the cap by vote.', link: ['#/data?f=levy&s=Yes', 'See the levy limit states']});
   items.push({only: new Set(C.assessment.Yes), say: `${Word(n('assessment','Yes'))} states cap how fast assessed values can rise.`, sub: 'Without an assessment cap or a levy limit, rising home values flow straight into bills unless governments cut their rates.', link: ['#/data?f=assessment&s=Yes', 'See the assessment cap states']});
-  items.push({only: new Set(C.tnt.Yes.concat(C.tnt.Partial)), say: 'Truth in taxation offers transparency and accountability.', sub: `${n('tnt','Yes')} states have full truth-in-taxation laws and ${n('tnt','Partial')} have partial ones. A full law shows owners the rate that would hold revenue flat and makes officials vote in public to go above it.`, link: ['#/tnt', 'See how each state does it']});
+  items.push({only: new Set(C.tnt.Yes.concat(C.tnt.Partial)), say: 'Truth in taxation offers transparency and accountability.', sub: `${n('tnt','Yes')} states have full truth-in-taxation laws and ${n('tnt','Partial')} have partial ones. A full law shows owners the rate that would hold revenue flat and makes officials vote in public to go above it.`, link: TNTP ? ['#/tnt', 'See how each state does it'] : ['#/data?f=tnt&s=Yes', 'See the truth-in-taxation states']});
   items.push({cls: s => s.f.subsidies.s === 'Yes' ? 'hyes' : s.f.subsidies.s === 'Partial' ? 'hpart' : 'lo', say: `${Word(n('subsidies','Yes'))} states use state money to pay down local property tax bills directly, and ${n('subsidies','Partial')} more do it for some owners or governments.`, sub: 'State-paid credits, rate buy-downs and reimbursements for exemptions cut bills while local levies keep growing, and the cost moves to state taxpayers.', key: `<p class="mini-key"><span><i class="f-hyes"></i>Direct state subsidy (${n('subsidies','Yes')})</span><span><i class="f-hpart"></i>Partial (${n('subsidies','Partial')})</span></p>`, link: ['#/data?f=subsidies&s=Yes', 'See the subsidy states']});
   return items.map(it => `<div class="finding"><div class="mini-wrap">${mapHTML({mini:true, only:it.only, cls:it.cls})}</div><div><p class="say">${esc(it.say)}</p><p class="sub">${esc(it.sub)}</p>${it.key || ''}<a class="more" href="${it.link[0]}">${esc(it.link[1])}</a></div></div>`).join('');
 }
 function renderAtlas(reveal){
   const board = $('#board'); if(!board) return;
   board.dataset.mode = atlas.mode;
-  board.innerHTML = (atlas.mode === 'count' ? slarKey() : '') + mapHTML({mode: atlas.mode, hi: atlas.hi, reveal});
+  board.innerHTML = (atlas.mode === 'count' ? slarKey() : mapCap(atlas.mode)) + mapHTML({mode: atlas.mode, hi: atlas.hi, reveal});
   $('#legend').innerHTML = legendHTML(atlas.mode);
   $('#hinote').innerHTML = atlas.hi ? `<p class="hi-note">Showing the ${atlas.hi.size} states where ${esc(F[atlas.hiField].short.toLowerCase())} is ${esc(atlas.hiStatus.toLowerCase())}. <button class="btn ghost" type="button" id="clearhi">Show all states</button></p>` : '';
   { const mp = $('#modes'); if(mp){ MG_LAST[mgroupOf(atlas.mode).k] = atlas.mode; const f = document.activeElement && document.activeElement.closest('#modes') ? (document.activeElement.dataset.modeBtn || document.activeElement.dataset.mg) : null; mp.innerHTML = modesHTML(); if(f){ const x = mp.querySelector(`[data-mode-btn="${f}"],[data-mg="${f}"]`); if(x) x.focus(); } } }
@@ -1529,17 +1556,16 @@ const REC_MODES = {
   pi: {key: 'pi2024', title: 'Property tax as a share of personal income, FY2024', f: v => v.toFixed(2) + '%'},
   grow: {key: 'real_pc_2002_2024', title: 'Change in property tax per person after inflation, FY2002–FY2024', f: v => sgn(v)}
 };
-const _qc = {};
-function qcuts(key){
-  if(_qc[key]) return _qc[key];
-  const v = ST.map(s => s.rec && s.rec[key]).filter(x => x != null).sort((a, b) => a - b);
-  return (_qc[key] = [0.2, 0.4, 0.6, 0.8].map(q => v[Math.round(q * v.length) - 1]));
-}
-const GROW_BANDS = [[-20, 'g1', '20 or more points below the U.S.'], [-8, 'g2', '8 to 20 points below'], [8, 'g3', 'Within 8 points of the U.S.'], [20, 'g4', '8 to 20 points above'], [1e9, 'g5', '20 or more points above the U.S.']];
+/* Map bins: the same steps of one red ramp for every burden view, so a darker state always means a heavier burden */
+const usd0 = v => '$' + Math.round(v).toLocaleString('en-US');
+const BINS = {
+  pc: [[1000, 's0', 'Under $1,000'], [1500, 's1', '$1,000–$1,500'], [2000, 's2', '$1,500–$2,000'], [2500, 's3', '$2,000–$2,500'], [3000, 's4', '$2,500–$3,000'], [3500, 's5', '$3,000–$3,500'], [1e9, 's6', '$3,500 or more']],
+  pi: [[1.5, 's0', 'Under 1.5%'], [2, 's1', '1.5–2.0%'], [2.5, 's2', '2.0–2.5%'], [3, 's3', '2.5–3.0%'], [3.5, 's4', '3.0–3.5%'], [4, 's5', '3.5–4.0%'], [1e9, 's6', '4.0% or more']],
+  grow: [[-10, 'gd1', 'Fell 10% or more'], [0, 'gd2', 'Fell up to 10%'], [10, 's1', 'Rose up to 10%'], [20, 's2', 'Rose 10–20%'], [30, 's3', 'Rose 20–30%'], [40, 's4', 'Rose 30–40%'], [50, 's5', 'Rose 40–50%'], [1e9, 's6', 'Rose 50% or more']]
+};
 function recClass(s, mode){
   const m = REC_MODES[mode], v = s.rec && s.rec[m.key]; if(v == null) return 'no';
-  if(mode === 'grow'){ const d = v - DATA.usRec.real_pc_2002_2024; return GROW_BANDS.find(([c]) => d <= c)[1]; }
-  const c = qcuts(m.key); let i = 0; while(i < 4 && v > c[i]) i++; return 'b' + i;
+  return BINS[mode].find(([c]) => v < c)[1];
 }
 function recRankText(s, mode){
   const k = {pc: 'pcRank', pi: 'piRank', grow: 'gRank'}[mode]; const r = s.rec && s.rec[k];
@@ -1547,16 +1573,9 @@ function recRankText(s, mode){
 }
 function recLegend(mode){
   const m = REC_MODES[mode];
-  let h = `<div class="legend"><b>${esc(m.title)}</b>`;
-  if(mode === 'grow'){
-    GROW_BANDS.forEach(([c, k, l]) => { const n = ST.filter(s => recClass(s, mode) === k).length; h += `<span class="sw">${swatch(k)}${esc(l)} <span class="muted">(${n})</span></span>`; });
-    h += `<span class="muted">U.S.: ${sgn(DATA.usRec.real_pc_2002_2024)}. Per person: all state and local property tax collected in the state divided by its residents, after inflation.</span>`;
-  } else {
-    const c = qcuts(m.key), v = ST.map(s => s.rec[m.key]), lo = Math.min(...v), hi = Math.max(...v);
-    const b = [lo].concat(c, [hi]);
-    for(let i = 0; i < 5; i++) h += `<span class="sw">${swatch('b' + i)}${m.f(b[i])}–${m.f(b[i + 1])}</span>`;
-    h += `<span class="muted">Each color holds a fifth of the states. U.S.: ${m.f(DATA.usRec[m.key])}.</span>`;
-  }
+  let h = '<div class="legend">';
+  BINS[mode].forEach(([c, k, l]) => { const n = ST.filter(s => recClass(s, mode) === k).length; h += `<span class="sw">${swatch(k)}${esc(l)} <span class="muted">(${n})</span></span>`; });
+  h += `<span class="muted">U.S.: ${m.f(DATA.usRec[m.key])}${mode === 'grow' ? ', after inflation' : ''}.</span>`;
   return h + '</div>';
 }
 /* Limits against results: every state as a dot, one row per tier */
@@ -1965,25 +1984,8 @@ function learnPage(){
 }
 
 /* Truth in taxation */
-function tntPage(){
-  const ev = ST.filter(s => s.tntOut);
-  const tntStates = ST.filter(s => s.f.tnt.s !== 'No');
-  app.innerHTML = `<div class="wrap">
-  <section class="block" style="padding-top:40px"><div class="hero-grid" style="align-items:start">
-    <div><h1 style="font-size:clamp(2rem,3.8vw,3.2rem)">Truth in taxation: transparency and accountability</h1>
-    <p class="dek">When values rise, truth-in-taxation laws compute a rollback rate that would raise the same revenue as last year, then require notice and a hearing or vote before a government collects more. ${n('tnt','Yes')} states have full versions and ${n('tnt','Partial')} have partial ones. A law counts as full when it has at least two of three requirements: a rollback rate, mailed notices for each parcel and a governing-body vote to exceed the rollback rate.</p>
-    <p class="dek">Truth in taxation offers transparency and accountability. Utah enforces it most strictly: since 2025 its Tax Commission voids any increase that skips a required step.</p></div>
-    <div><div class="board" data-mode="tnt">${mapHTML({mode:'tnt'})}</div>${legendHTML('tnt')}</div>
-  </div></section>
-  <section class="block"><div class="section-head"><div><h2>What the evidence shows</h2><p>Measured outcomes from state agencies and analyses of their data.</p></div></div>
-    <div class="evidence">${ev.map(s => `<article class="ev"><h3>${esc(s.name)} ${chip('tnt', s.f.tnt.s)}</h3><p>${esc(s.tntOut[0])}</p><a class="src" href="${esc(s.tntOut[1])}" target="_blank" rel="noopener">Source: ${esc(host(s.tntOut[1]))}</a> <a class="src" href="#/state/${s.ab}" style="margin-left:10px">State profile</a></article>`).join('')}</div></section>
-  <section class="block"><div class="section-head"><div><h2>How each state does it</h2></div></div>
-    <div class="tablewrap" style="max-height:none"><table class="grid"><thead><tr><th scope="col">State</th><th scope="col">Truth in taxation</th><th scope="col">Rollback</th><th scope="col" style="min-width:420px">How it works</th></tr></thead><tbody>
-    ${tntStates.map(s => `<tr><td><a href="#/state/${s.ab}">${esc(s.name)}</a></td><td>${chip('tnt', s.f.tnt.s)}</td><td>${chip('rollback', s.f.rollback.s)}</td><td style="white-space:normal;font-family:var(--read);font-size:.92rem;line-height:1.5">${esc(s.f.tnt.sum)}</td></tr>`).join('')}
-    </tbody></table></div></section>
-  </div>`;
-  return 'Truth in taxation';
-}
+
+const TNTP = typeof tntPage === 'function';
 
 
 /* Source library: every source behind the guide */
@@ -2084,7 +2086,7 @@ const ROUTES = [
   ...(RTAB ? [[/^#\/analyses(?:\?(.*))?$/, qs => analysesPage(qs)]] : []),
   [/^#\/library(?:\?(.*))?$/, qs => libraryPage(qs)],
   [/^#\/learn$/, learnPage],
-  [/^#\/tnt$/, tntPage],
+  ...(TNTP ? [[/^#\/tnt$/, tntPage]] : []),
   [/^#\/ballot$/, ballotPage],
   [/^#\/methods$/, methodsPage]
 ];
