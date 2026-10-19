@@ -8796,28 +8796,28 @@
     "spending": {
      "s": "Partial",
      "q": "",
-     "t": "School districts only. A district's general fund is set by the state foundation formula, and its local option budget (LOB) is limited: every district must adopt an LOB of 15% of its foundation amount and may go up to 33%, with the higher levels subject to protest petition or election. The capital outlay levy is capped at 8 mills. Cities, counties and other local governments have no spending cap. A 3%-or-inflation cap on city and county spending (HB 2043) passed in 2026 and was vetoed (see Reforms).",
+     "t": "School district local option budgets (LOB) are limited to 15% of the amount funded by the state through the Foundation Formula and may go up to 33% if voters organize a protest petition and approve it in an election. Cities, counties and other local governments have no spending cap. Lawmakers tried to enact a protest petition for spending above the higher of 3% or inflation in 2026, but the bill was vetoed (see Reforms below).",
      "a": "K.S.A. 72-5143 (LOB); K.S.A. 72-53,113 (capital outlay).",
-     "sum": "School districts only. A district's general fund is set by the state foundation formula, and its local option budget (LOB) is limited: every district must adopt an LOB of 15% of its foundation amount and may go up to 33%, with the higher levels subject to…",
-     "more": "…protest petition or election. The capital outlay levy is capped at 8 mills. Cities, counties and other local governments have no spending cap. A 3%-or-inflation cap on city and county spending (HB 2043) passed in 2026 and was vetoed (see Reforms).",
+     "sum": "School district local option budgets (LOB) are limited to 15% of the amount funded by the state through the Foundation Formula and may go up to 33% if voters organize a protest petition and approve it in an election.",
+     "more": "Cities, counties and other local governments have no spending cap. Lawmakers tried to enact a protest petition for spending above the higher of 3% or inflation in 2026, but the bill was vetoed (see Reforms below).",
      "syn": "School districts only: the local option budget runs from 15% to 33% of the foundation amount, with higher levels subject to protest petition or election. Cities and counties have no spending cap."
     },
     "levy": {
      "s": "No",
      "q": "",
-     "t": "No limit on property tax revenue growth. Kansas had a \"tax lid\" from 2017 to 2021 (2015 SB 270), which required an election before a city or county could raise property tax revenue faster than inflation, with about two dozen exemptions. SB 13 (2021) repealed it and substituted the revenue neutral rate process (see Truth-in-taxation), which a governing body can exceed by majority vote. Two bills to restore a cap were vetoed in 2026 (see Reforms).",
+     "t": "No limit on property tax revenue growth. Kansas had a \"tax lid\" from 2017 to 2021 (2015 SB 270), which required an election before a city or county could raise property tax revenue faster than inflation, with about two dozen exemptions. SB 13 (2021) repealed it and replaced it with Truth in Taxation, requiring a revenue-neutral rate-setting process.",
      "a": "K.S.A. 79-2925c (tax lid, repealed by SB 13, 2021); K.S.A. 79-2988.",
      "sum": "No limit on property tax revenue growth.",
-     "more": "Kansas had a \"tax lid\" from 2017 to 2021 (2015 SB 270), which required an election before a city or county could raise property tax revenue faster than inflation, with about two dozen exemptions. SB 13 (2021) repealed it and substituted the revenue neutral rate process (see Truth-in-taxation), which a governing body can exceed by majority vote. Two bills to restore a cap were vetoed in 2026 (see Reforms).",
+     "more": "Kansas had a \"tax lid\" from 2017 to 2021 (2015 SB 270), which required an election before a city or county could raise property tax revenue faster than inflation, with about two dozen exemptions. SB 13 (2021) repealed it and replaced it with Truth in Taxation, requiring a revenue-neutral rate-setting process.",
      "syn": "No cap on revenue growth since the 2017-2021 tax lid was repealed; a governing body can exceed the revenue neutral rate by majority vote."
     },
     "assessment": {
      "s": "No",
      "q": "",
-     "t": "No cap on growth in a parcel's appraised value; property is reappraised annually at market value. The Constitution fixes assessment ratios by class (residential 11.5% of appraised value; commercial and industrial 25%; agricultural land 30% of use value; vacant lots and nonprofit property 12%; public utilities 33%), which keeps homes taxed at a lower share than businesses but does nothing to limit annual increases. Proposed constitutional amendments to cap valuation growth (SCR 1611 in 2025; a 2026 House version) failed.",
+     "t": "No cap on growth in a parcel's appraised value; property is reappraised annually at market value. The Constitution fixes assessment ratios by class (residential 11.5% of appraised value; commercial and industrial 25%; agricultural land 30% of use value; vacant lots and nonprofit property 12%; public utilities 33%). This keeps homes taxed at a lower SHARE than businesses, but does nothing to limit overall increases. Proposed constitutional amendments to cap valuation growth failed in 2025 and 2026.",
      "a": "Kan. Const. art. 11 §1.",
      "sum": "No cap on growth in a parcel's appraised value; property is reappraised annually at market value.",
-     "more": "The Constitution fixes assessment ratios by class (residential 11.5% of appraised value; commercial and industrial 25%; agricultural land 30% of use value; vacant lots and nonprofit property 12%; public utilities 33%), which keeps homes taxed at a lower share than businesses but does nothing to limit annual increases. Proposed constitutional amendments to cap valuation growth (SCR 1611 in 2025; a 2026 House version) failed.",
+     "more": "The Constitution fixes assessment ratios by class (residential 11.5% of appraised value; commercial and industrial 25%; agricultural land 30% of use value; vacant lots and nonprofit property 12%; public utilities 33%). This keeps homes taxed at a lower SHARE than businesses, but does nothing to limit overall increases. Proposed constitutional amendments to cap valuation growth failed in 2025 and 2026.",
      "syn": "No cap on appraised value growth; property is reappraised annually at market value, and homes are assessed at 11.5% of value against 25% for commercial and industrial property."
     },
     "rate": {
