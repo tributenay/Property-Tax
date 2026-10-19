@@ -1478,7 +1478,7 @@ function resHTML(s){
   const g = {}; (s.res || []).forEach(r => (g[r.ty] = g[r.ty] || []).push(r));
   const keys = RES_ORDER.filter(k => g[k]).concat(Object.keys(g).filter(k => !RES_ORDER.includes(k)));
   if(!keys.length) return '<p class="muted">No sources listed.</p>';
-  return keys.map((k, i) => `<details class="res-g"${i < 3 ? ' open' : ''}><summary>${esc(k)}<small>${g[k].length}</small></summary><ul class="res">${g[k].map(r => `<li><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a><span class="muted">${esc(r.h)}</span></li>`).join('')}</ul></details>`).join('');
+  return keys.map((k, i) => `<details class="res-g"><summary>${esc(k)}<small>${g[k].length}</small></summary><ul class="res">${g[k].map(r => `<li><a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.t)}</a><span class="muted">${esc(r.h)}</span></li>`).join('')}</ul></details>`).join('');
 }
 const sgn = x => (x >= 0 ? '+' : '−') + Math.abs(x).toFixed(1) + '%';
 const sgn0 = x => (Math.round(x) >= 0 ? '+' : '−') + Math.abs(Math.round(x)) + '%';
@@ -1550,7 +1550,10 @@ const SDF = {'01':['Airport districts','plane'],'02':['Cemetery districts','ston
 const gicon = k => `<svg class="gi" viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${GI[k]}</svg>`;
 /* Taxing districts: every kind of local government that collected property tax, one box each */
 function taxHTML(s){
-  const T = s.taxu.t, U = s.taxu.u, n = k => T[k] || 0;
+  let T = s.taxu.t, U = s.taxu.u;
+  /* Hawaii's only Census "city" is the consolidated City and County of Honolulu, one government; it goes with the counties */
+  if(s.ab === 'HI'){ const mv = o => Object.assign({}, o, {'1': (o['1'] || 0) + (o['2'] || 0), '2': 0}); T = mv(T); U = mv(U); }
+  const n = k => T[k] || 0;
   const cty = {LA: 'Parishes', AK: 'Boroughs'}[s.ab] || 'Counties';
   const box = (num, of, label, ic, cls) => `<div class="tx${cls ? ' ' + cls : ''}">${gicon(ic)}<b class="num">${num.toLocaleString()}</b><span>${label}${of > num ? `<small>of ${of.toLocaleString()}</small>` : ''}</span></div>`;
   const gen = [['1', cty, 'county'], ['2', 'Cities and towns', 'city'], ['3', 'Towns and townships', 'town'], ['5', 'School districts', 'school']].filter(([k]) => n(k));
@@ -1590,7 +1593,7 @@ function statePage(ab){
     <div class="layout">
       <nav class="toc" aria-label="On this page"><p class="toc-h">On this page</p><ol>${TOC.map(([id, l], i) => `<li><button type="button" data-goto="${id}"><span class="n">${String(i + 1).padStart(2, '0')}</span><span class="t">${l}</span></button></li>`).join('')}</ol><i class="toc-rail" aria-hidden="true"></i><i class="toc-fill" aria-hidden="true"></i></nav>
       <div>
-        <section class="ssec" id="sec-record"><h2>The record in charts</h2><p class="lead">${esc(s.name)} against the U.S., 2002 to 2024. Hover or tap a chart for each year's numbers.${s.rec && s.rec.note ? ' ' + esc(s.rec.note) : ''}</p>${recordCharts([s.ab], ['var(--cstate)'])}</section>
+        <section class="ssec" id="sec-record"><h2>The record in charts</h2><p class="lead">Hover or tap a chart for each year's numbers.${s.rec && s.rec.note ? ' ' + esc(s.rec.note) : ''}</p>${recordCharts([s.ab], ['var(--cstate)'])}</section>
         <section class="ssec" id="sec-limits"><h2>The four limits</h2><p class="lead">Select any line for more detail and the law behind it.</p><div class="lines">${LIMITS.concat(['schools']).map(k => line(s, k)).join('')}</div></section>
         <section class="ssec" id="sec-protect"><h2>Protections when taxes go up</h2><p class="lead">What has to happen before a government can collect more.</p><div class="lines">${['tnt','rollback','supermajority','november','use_restrictions'].map(k => line(s, k)).join('')}</div></section>
         <section class="ssec" id="sec-relief"><h2>Relief and the state's role</h2><div class="lines">${['homestead','credits','subsidies','statewide'].map(k => line(s, k)).join('')}</div></section>
