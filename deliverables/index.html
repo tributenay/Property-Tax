@@ -597,7 +597,12 @@ dialog::backdrop{background:rgba(10,22,18,.5);backdrop-filter:blur(2px)}
 .lgd i.dash{border-top-style:dashed}
 .chart .gnote{margin:2px 0 -2px;font:600 .78rem var(--ui);color:var(--ink-2)}
 .chart .src{margin:6px 0 0;font:italic .82rem var(--ui);color:var(--ink-3)}
-.lc .dl.rk{font-weight:600;fill:var(--ink-2)}
+.lc .lead-l{fill:none;stroke-width:1.4;stroke-linejoin:round;stroke-linecap:round}
+.lc .lead-d{stroke:var(--surface);stroke-width:1.6}
+.lc .callout rect{fill:var(--surface);stroke-width:1.6;filter:drop-shadow(0 1px 2px rgba(0,0,0,.12))}
+.lc .callout text{font:700 11.5px var(--ui);fill:var(--ink)}
+.lc .callout .rk{font-weight:500;fill:var(--ink-3)}
+.lc .callout .v{font-weight:800}
 .lgd i.dot{border-top-style:dotted;border-top-width:3px}
 .lc{display:block;width:100%;height:auto;overflow:visible;touch-action:pan-y}
 .lc .gl{stroke:var(--line);stroke-width:1}
@@ -1349,7 +1354,7 @@ function recordCharts(abs, colors){
     return `<p class="gnote">Percent change, ${tag(ax[k0])} to ${ends.size === 1 ? tag([...ends][0]) : 'each line\'s latest year'}, at the end of each line</p>`; };
   return `<div class="charts c2">
     <figure class="chart wide"><h3>Property tax per person</h3><p class="cap">All property tax collected by the state and every local government, divided by the resident population.</p>${legendRow(pcS)}${gnote(pcS, xs, FY)}${[[940, 250, 'lc-w', 2], [460, 230, 'lc-n', 3]].map(([w, h, c, k]) => `<div class="${c}">${lineChart(Object.assign({xs, series: pcS.map(gain), w, h, yfmt: usdk, fmt: usd, xfmt: yr, tipx: FY, label: `Property tax per person, ${who} and the U.S., FY2002 to FY2024, with an inflation line`}, XAX, {xticks: yticks(2002, 2024, k)}))}</div>`).join('')}</figure>
-    <figure class="chart"><h3>Effective property tax rate, 2026 ranking</h3><p class="cap">Property taxes paid as a share of home value on owner-occupied homes, Tax Foundation 2026 ranking.</p>${legendRow(ss.map((s, i) => ({name: s.name, color: colors[i]})))}${effRateChart(ss.map(s => s.ab), colors)}</figure>
+    <figure class="chart"><h3>Effective owner-occupied property tax rate</h3><p class="cap">Property taxes paid as a share of home value on owner-occupied homes, Tax Foundation 2026 ranking.</p>${legendRow(ss.map((s, i) => ({name: s.name, color: colors[i]})))}${effRateChart(ss.map(s => s.ab), colors)}</figure>
     ${rate.length > 1 ? `<figure class="chart"><h3>Effective property tax rate over time</h3><p class="cap">Census five-year surveys, pooled responses (2024 = surveys taken 2020–2024).</p>${legendRow(rate)}${gnote(rate, rxs, yr)}${lineChart(Object.assign({xs: rxs, series: rate.map(gain), zero: true, yfmt: v => v.toFixed(2) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: y => `${y} (${y - 4}–${y} survey)`, label: `Effective property tax rate on owner-occupied homes, ${who} and the U.S., 2010 to 2024`}, rAx))}</figure>` : ''}
     <figure class="chart"><h3>Share of personal income</h3><p class="cap">State and local property tax as a percent of residents' personal income.</p>${legendRow(pi)}${lineChart(Object.assign({xs, series: pi, yfmt: v => v.toFixed(1) + '%', fmt: v => v.toFixed(2) + '%', xfmt: yr, tipx: FY, label: `Property tax share of personal income, ${who} and the U.S., FY2002 to FY2024`}, XAX))}</figure>
     <figure class="chart"><h3>Median homeowner's bill</h3>${lineChart(Object.assign({xs: bxs, series: billS.map(gain), zero: true, yfmt: usdk, fmt: usd, xfmt: yr, label: `Median homeowner property tax bill, ${who} and the U.S., ${bxs[0]} to 2024, with an inflation line`}, bAx))}<p class="src">Source: ACS one-year estimates, published by the Census Bureau.</p></figure>
@@ -1368,16 +1373,29 @@ function recordCharts(abs, colors){
 function effRateChart(abs, colors){
   const ss = ST.filter(s => s.tf).slice().sort((a, b) => a.tf.property - b.tf.property);
   if(!ss.length) return '';
-  const W = 460, H = 230, L = 40, R = 10, T = 36, B = 26, n = ss.length, bw = (W - L - R) / n;
+  const W = 460, H = 244, L = 40, R = 10, T = 48, B = 26, n = ss.length, bw = (W - L - R) / n;
   const hi = Math.max(...ss.map(s => s.tf.rate)), ticks = niceTicks(0, hi, 4), y1 = ticks[ticks.length - 1];
   const Y = v => T + (1 - v / y1) * (H - T - B);
   let g = ticks.map(v => `<line class="gl${v === 0 ? ' z' : ''}" x1="${L}" x2="${W - R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}"/><text class="ax" x="${L - 6}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end">${v.toFixed(1)}%</text>`).join('');
-  let labs = '';
+  let labs = ''; const calls = [];
   ss.forEach((s, i) => {
     const k = abs.indexOf(s.ab), x = L + i * bw, y = Y(s.tf.rate), c = k >= 0 ? colors[k] : 'var(--line-2)';
     g += `<g class="hit" data-ab="${s.ab}"><rect class="rbar${k >= 0 ? ' on' : ''}" x="${(x + 0.6).toFixed(1)}" y="${y.toFixed(1)}" width="${Math.max(1, bw - 1.2).toFixed(1)}" height="${(Y(0) - y).toFixed(1)}" rx="1.5" style="fill:${c}"/><rect x="${x.toFixed(1)}" y="${T}" width="${bw.toFixed(1)}" height="${H - T - B}" fill="transparent"/></g>`;
-    if(k >= 0){ const an = i < 6 ? 'start' : i > n - 7 ? 'end' : 'middle', lx = (x + bw / 2).toFixed(1);
-      labs += `<text class="dl rk" x="${lx}" y="${(y - 19).toFixed(1)}" text-anchor="${an}">Ranked ${ordinal(s.tf.property)}</text><text class="dl" x="${lx}" y="${(y - 6).toFixed(1)}" text-anchor="${an}">${s.ab} ${s.tf.rate.toFixed(2)}%</text>`; }
+    if(k >= 0) calls.push({s, c, bx: x + bw / 2, by: y, rk: ordinal(s.tf.property)});
+  });
+  /* Callouts: a box per highlighted state in a strip above the plot, a leader line down to a dot on its bar */
+  const ch = 22, cy = 6, gap = 6;
+  calls.sort((a, b) => a.bx - b.bx).forEach(o => { o.w = 18 + 6.4 * (o.s.ab.length + o.rk.length + 3) + 6.8 * (o.s.tf.rate.toFixed(2).length + 1); o.x = o.bx - o.w / 2; });
+  calls.forEach((o, j) => { o.x = Math.max(L, Math.min(W - R - o.w, o.x)); if(j) o.x = Math.max(o.x, calls[j - 1].x + calls[j - 1].w + gap); });
+  for(let j = calls.length - 1; j >= 0; j--){ const o = calls[j]; o.x = Math.min(o.x, (j < calls.length - 1 ? calls[j + 1].x - gap : W - R) - o.w); o.x = Math.max(L, o.x); }
+  /* Leader bends: the longest sideways run bends lowest, so lines never cross */
+  calls.forEach(o => { o.ex = Math.min(o.x + o.w - 10, Math.max(o.x + 10, o.bx)); });
+  calls.slice().sort((a, b) => Math.abs(b.ex - b.bx) - Math.abs(a.ex - a.bx)).forEach((o, j) => { o.el = T - 5 - j * 6; });
+  calls.forEach(o => {
+    const mid = o.x + o.w / 2, ex = o.ex, bot = cy + ch, elbow = o.el;
+    const d = Math.abs(ex - o.bx) < .5 ? `M${o.bx.toFixed(1)} ${bot} V${(o.by - 4).toFixed(1)}` : `M${ex.toFixed(1)} ${bot} V${elbow} H${o.bx.toFixed(1)} V${(o.by - 4).toFixed(1)}`;
+    labs += `<path class="lead-l" d="${d}" style="stroke:${o.c}"/><circle class="lead-d" cx="${o.bx.toFixed(1)}" cy="${(o.by - 4).toFixed(1)}" r="3.4" style="fill:${o.c}"/>`
+      + `<g class="callout"><rect x="${o.x.toFixed(1)}" y="${cy}" width="${o.w.toFixed(1)}" height="${ch}" rx="11" style="stroke:${o.c}"/><text x="${mid.toFixed(1)}" y="${cy + 15}" text-anchor="middle"><tspan class="ab">${o.s.ab}</tspan><tspan class="rk"> (${o.rk})</tspan><tspan class="v"> ${o.s.tf.rate.toFixed(2)}%</tspan></text></g>`;
   });
   g += `<text class="ax" x="${L}" y="${H - 6}">Lowest rate</text><text class="ax" x="${W - R}" y="${H - 6}" text-anchor="end">Highest rate</text>`;
   const who = abs.map(a => BY[a] ? BY[a].name : a).join(', ');
