@@ -1,0 +1,453 @@
+<title>Lorena Ballot 2026</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap">
+<style>
+/* Layout: a two-column bilingual optical-scan ballot sheet on a desk; timing marks on the left edge, sticky tally strip, precinct pickers in the masthead. */
+:root {
+  --desk: #E7E6E8;
+  --paper: #FCFBFB;
+  --ink: #1A1517;
+  --muted: #5F5659;
+  --rule: #CFC8CA;
+  --accent: #7B2433;
+  --accent-soft: #F1E2E5;
+  --stripe: #1A1517;
+  --font-body: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --desk: #110E0F; --paper: #1B1719; --ink: #ECE6E8; --muted: #A79DA0; --rule: #352E31;
+    --accent: #E59AA7; --accent-soft: #3A2228; --stripe: #ECE6E8; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --desk: #110E0F; --paper: #1B1719; --ink: #ECE6E8; --muted: #A79DA0; --rule: #352E31;
+  --accent: #E59AA7; --accent-soft: #3A2228; --stripe: #ECE6E8; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--desk); color: var(--ink); font-family: var(--font-body);
+  font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 48px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--desk); }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 980px; margin: 0 auto; }
+
+.tally {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--desk); padding-block: 12px 10px; border-bottom: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px;
+}
+.tally-count { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: .04em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.meter { flex: 1 1 160px; height: 6px; background: var(--rule); border-radius: 3px; overflow: hidden; min-width: 0; }
+.meter i { display: block; height: 100%; width: 0; background: var(--ink); transition: width .2s ease; }
+.tally-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.btn {
+  font: 600 12.5px/1 var(--font-body); letter-spacing: .02em; padding: 8px 11px; border-radius: 4px; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--paper);
+}
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--rule); }
+.btn.ghost:hover { border-color: var(--ink); }
+.toast { font-family: var(--font-mono); font-size: 12px; color: var(--accent); flex-basis: 100%; }
+.toast:empty { display: none; }
+
+.sheet {
+  position: relative; margin-top: 18px; background: var(--paper);
+  border: 1px solid var(--rule); box-shadow: 0 1px 0 var(--rule), 0 10px 30px -18px rgba(0,0,0,.35);
+  padding: 26px 30px 30px 56px;
+}
+.sheet::before {
+  content: ""; position: absolute; left: 18px; top: 24px; bottom: 24px; width: 14px;
+  background: repeating-linear-gradient(to bottom, var(--stripe) 0 6px, transparent 6px 30px);
+}
+.masthead { display: grid; gap: 6px; padding-bottom: 16px; border-bottom: 3px solid var(--ink); }
+.eyebrow { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font-size: clamp(26px, 4.4vw, 38px); font-weight: 800; line-height: 1.08; letter-spacing: -.015em; margin: 0; text-wrap: balance; }
+.h1-es { font-size: 15px; font-style: italic; color: var(--muted); margin: 0; }
+.lede { margin: 4px 0 0; max-width: 68ch; color: var(--muted); }
+.notice { margin-top: 10px; font-size: 13px; padding: 9px 12px; border: 1px dashed var(--ink); max-width: 70ch; }
+.instr { margin-top: 10px; font-size: 13px; max-width: 76ch; display: grid; gap: 2px; }
+.instr .es { font-style: italic; color: var(--muted); }
+
+.where { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: end; padding: 12px 14px; background: var(--accent-soft); }
+.where label { display: grid; gap: 4px; font-size: 12.5px; font-weight: 700; letter-spacing: .02em; min-width: 0; }
+.where select { font: 500 14px var(--font-body); padding: 6px 8px; border: 1px solid var(--ink); border-radius: 4px; background: var(--paper); color: var(--ink); max-width: 100%; }
+.where .hint { font-size: 12.5px; color: var(--muted); flex-basis: 100%; max-width: 80ch; }
+.banner { margin-top: 12px; padding: 9px 12px; border: 1px solid var(--accent); font-size: 13.5px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+
+.cols { margin-top: 22px; columns: 2 380px; column-gap: 28px; column-rule: 1px solid var(--rule); }
+.sec-head {
+  break-inside: avoid; break-after: avoid; background: var(--ink); color: var(--paper); padding: 6px 10px;
+  font-weight: 700; font-size: 12.5px; letter-spacing: .09em; text-transform: uppercase; margin: 0; display: block;
+}
+.sec-head .es { display: block; font-weight: 500; font-style: italic; text-transform: none; letter-spacing: .01em; opacity: .8; font-size: 12px; }
+.sec { margin-bottom: 22px; }
+.contest { break-inside: avoid; border-bottom: 1.5px solid var(--ink); padding: 12px 0; scroll-margin-top: 120px; }
+.contest:last-child { border-bottom: 0; }
+.c-office { margin: 0; font-size: 14.5px; font-weight: 800; letter-spacing: .02em; text-transform: uppercase; }
+.c-es { font-size: 12.5px; font-style: italic; color: var(--muted); margin-top: 1px; }
+.c-instr { font-size: 12px; font-style: italic; color: var(--muted); margin-top: 2px; }
+.c-note { font-family: var(--font-mono); font-size: 11px; color: var(--accent); margin-top: 4px; letter-spacing: .02em; }
+
+.opts { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 2px; }
+.opt {
+  display: grid; grid-template-columns: 34px 1fr auto; gap: 10px; align-items: center; width: 100%;
+  padding: 7px 6px; border: 1px solid transparent; border-radius: 4px; background: transparent; color: var(--ink);
+  text-align: left; font: inherit; cursor: pointer;
+}
+.opt:hover { border-color: var(--rule); }
+.opt[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--ink); }
+.oval { width: 30px; height: 18px; border-radius: 50%; border: 1.6px solid var(--ink); display: inline-block; transition: background-color .12s ease; }
+.opt[aria-pressed="true"] .oval { background: var(--ink); }
+.nm { font-weight: 700; font-size: 14.5px; min-width: 0; overflow-wrap: anywhere; }
+.pty { font-family: var(--font-mono); font-size: 12px; font-weight: 600; letter-spacing: .04em; }
+.wi { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; min-width: 0; }
+.wi input { font: 500 14px var(--font-body); padding: 5px 8px; border: 0; border-bottom: 1.5px solid var(--ink); background: transparent; color: var(--ink); min-width: 0; width: 100%; }
+.clear { font: 500 12px var(--font-body); color: var(--muted); background: none; border: 0; text-decoration: underline; cursor: pointer; padding: 4px 2px; margin-top: 4px; }
+.offballot { font-size: 13px; color: var(--muted); padding: 12px 0; border-bottom: 1.5px solid var(--ink); break-inside: avoid; }
+.offballot strong { color: var(--ink); }
+
+.summary { margin-top: 10px; border-top: 3px solid var(--ink); padding-top: 18px; }
+.summary h2 { margin: 0 0 10px; font-size: 18px; font-weight: 800; }
+.sum-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.sum-table td { border-bottom: 1px solid var(--rule); padding: 7px 6px; vertical-align: top; }
+.sum-table td:first-child { color: var(--muted); width: 45%; }
+.sum-table td:last-child { font-weight: 700; }
+.sum-table td.blank { color: var(--muted); font-weight: 500; }
+.legend { margin-top: 14px; font-family: var(--font-mono); font-size: 12px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.fineprint { margin-top: 18px; font-size: 12.5px; color: var(--muted); max-width: 76ch; display: grid; gap: 8px; }
+.fineprint p { margin: 0; }
+
+@media (max-width: 560px) {
+  .sheet { padding: 20px 14px 24px; }
+  .sheet::before { display: none; }
+  .tally-actions { width: 100%; }
+  .tally-actions .btn { flex: 1 1 auto; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <div class="tally" role="region" aria-label="Your marks">
+    <div class="tally-count" id="count">0 of 0 marked</div>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+    <div class="tally-actions">
+      <button class="btn" id="copyLink" type="button">Copy link with my marks</button>
+      <button class="btn ghost" id="copyText" type="button">Copy as text</button>
+      <button class="btn ghost" id="clearAll" type="button">Clear all</button>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+
+  <main class="sheet">
+    <header class="masthead">
+      <div class="eyebrow">McLennan County, Texas · Joint General and Special Election · Tuesday, November 3, 2026</div>
+      <h1>Lorena Ballot 2026</h1>
+      <p class="h1-es">Boleta de Lorena · Elección General y Especial Conjunta · 3 de noviembre de 2026</p>
+      <p class="lede">Every race a voter inside Lorena city limits will see on November 3, in Texas ballot order. Names and office titles come from the Secretary of State's certified ballot for McLennan County; Spanish office titles come from the Secretary of State's sample ballot.</p>
+      <div class="notice"><strong>Practice ballot.</strong> This page is a planning aid and cannot be cast. Texas has no straight-ticket option, so every race is marked on its own.</div>
+      <div class="instr">
+        <span>Vote for the candidate of your choice in each race by placing an “X” or filling in the shape beside the candidate’s name.</span>
+        <span class="es">Vote por el candidato de su preferencia en cada candidatura marcando con una “X” o rellenando la forma junto al nombre del candidato.</span>
+      </div>
+      <div class="where">
+        <label for="comm">County commissioner precinct
+          <select id="comm">
+            <option value="1">Precinct 1 (City of Lorena)</option>
+            <option value="4">Precinct 4</option>
+            <option value="x">Not sure (show both)</option>
+          </select>
+        </label>
+        <label for="jp">Justice of the peace and constable precinct
+          <select id="jp">
+            <option value="1">Precinct 1 (City of Lorena)</option>
+            <option value="5">Precinct 5</option>
+            <option value="x">Not sure (show both)</option>
+          </select>
+        </label>
+        <div class="hint">The city of Lorena sits in voting precinct 75: Commissioner Precinct 1, Constable Precinct 1, State House District 56. Some rural Lorena addresses fall in neighboring voting precincts that use Commissioner Precinct 4 or Constable Precinct 5. Your voter registration card prints your precinct, and <a href="https://www.mclennan.gov/337/Elections" target="_blank" rel="noopener">mclennan.gov/elections</a> posts the sample ballot for each one.</div>
+      </div>
+      <div class="banner" id="sharedBanner" hidden>
+        <span>These marks came from a shared link.</span>
+        <button class="btn ghost" id="dropShared" type="button">Start my own</button>
+      </div>
+    </header>
+
+    <div class="cols" id="cols"></div>
+
+    <section class="summary" aria-labelledby="sumh">
+      <h2 id="sumh">Your marks</h2>
+      <div style="overflow-x:auto"><table class="sum-table" id="sumTable"></table></div>
+      <div class="legend"><span>REP Republican</span><span>DEM Democratic</span><span>LIB Libertarian</span><span>GRN Green</span></div>
+      <div class="fineprint">
+        <p><strong>Candidates.</strong> Federal, state, district and county races come from the Secretary of State's <a href="https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf" target="_blank" rel="noopener">2026 Ballot Certification</a> (signed August 28, 2026), McLennan County section. Within each race the parties appear in the order the certification and the <a href="https://www.sos.state.tx.us/elections/forms/2026-sample-ballot.pdf" target="_blank" rel="noopener">state sample ballot</a> use: Republican, Democratic, Libertarian, Green. Unopposed candidates still appear on Texas ballots.</p>
+        <p><strong>Write-in lines</strong> appear only where a declared write-in candidate qualified. The Secretary of State's <a href="https://www.sos.state.tx.us/elections/forms/2026-write-In-ballot-cert.pdf" target="_blank" rel="noopener">certified write-in list</a> puts them in the races for U.S. Senator, Governor and Lieutenant Governor. The county keeps its own write-in list for county offices; I could not open it.</p>
+        <p><strong>Special election.</strong> Governor Abbott's <a href="https://www.sos.state.tx.us/elections/forms/proclamation-special-election-sd-22.pdf" target="_blank" rel="noopener">August 18 proclamation</a> orders a special election in Senate District 22 to serve out Brian Birdwell's unexpired term after his resignation. The regular race for the next full term is a separate contest on the same ballot. The special-election names and party labels come from the Associated Press race listing published by the Texas Tribune, because the state's special-election candidate page blocks automated access.</p>
+        <p><strong>Precincts.</strong> Lorena's commissioner, constable and House assignments come from McLennan County's 2025 precinct layers, which the county supplied to the City of Waco GIS service in October 2025. Commissioner Precinct 1 is not up in 2026; only Precincts 2 and 4 are, and no Lorena-area voting precinct lies in Precinct 2.</p>
+        <p><strong>No local propositions found.</strong> Lorena ISD elects trustees in May, and its board page lists no November 2026 election. The City of Lorena's adopted 2026 rate raises maintenance and operations revenue by 3.5%, which does not exceed the voter-approval rate for cities, so it triggers no automatic tax election, and the city site lists no November order of election. Texas has no constitutional amendments on this ballot; the Legislature sent its 17 to voters in November 2025. The county's sample-ballot page blocks automated access, so confirm against the ballot style for your precinct.</p>
+        <p>Your marks and any write-in names stay in this browser. A copied link carries your marks and precinct choices, without write-in names.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+const CONTESTS = [
+ { id: "ussen", sec: "fed", office: "United States Senator", es: "Senador de los Estados Unidos",
+   opts: [["Ken Paxton","REP"],["James Talarico","DEM"],["Ted Brown","LIB"]], writein: true },
+ { id: "us17", sec: "fed", office: "United States Representative, District 17", es: "Representante de los Estados Unidos, Distrito Núm. 17",
+   opts: [["Pete Sessions","REP"],["Casey Shepard","DEM"]] },
+
+ { id: "gov", sec: "state", office: "Governor", es: "Gobernador",
+   opts: [["Greg Abbott","REP"],["Gina Hinojosa","DEM"],["Pat Dixon","LIB"]], writein: true },
+ { id: "ltgov", sec: "state", office: "Lieutenant Governor", es: "Gobernador Teniente",
+   opts: [["Dan Patrick","REP"],["Vikki Goodwin","DEM"],["Anthony Cristo","LIB"],["Kevin McCormick","GRN"]], writein: true },
+ { id: "ag", sec: "state", office: "Attorney General", es: "Procurador General",
+   opts: [["Mayes Middleton","REP"],["Nathan Johnson","DEM"],["Tom Oxford","LIB"]] },
+ { id: "comp", sec: "state", office: "Comptroller of Public Accounts", es: "Contralor de Cuentas Públicas",
+   opts: [["Don Huffines","REP"],["Sarah Eckhardt","DEM"],["V. Alonzo Echavarria-Garza","LIB"],["Shehla Faizi","GRN"]] },
+ { id: "glo", sec: "state", office: "Commissioner of the General Land Office", es: "Comisionado de la Oficina General de Tierras",
+   opts: [["Dawn Buckingham","REP"],["Benjamin Flores","DEM"],["Neill Snider","LIB"]] },
+ { id: "agr", sec: "state", office: "Commissioner of Agriculture", es: "Comisionado de Agricultura",
+   opts: [["Nate Sheets","REP"],["Clayton Tucker","DEM"],["Austin R. Kelly","LIB"]] },
+ { id: "rrc", sec: "state", office: "Railroad Commissioner", es: "Comisionado de Ferrocarriles",
+   opts: [["Bo French","REP"],["Jon Rosenthal","DEM"],["Arthur DiBianca","LIB"]] },
+
+ { id: "scjcj", sec: "high", office: "Chief Justice, Supreme Court", es: "Juez Presidente, Corte Suprema",
+   opts: [["Jimmy Blacklock","REP"],["Maggie Ellis","DEM"]] },
+ { id: "sc2", sec: "high", office: "Justice, Supreme Court, Place 2, Unexpired Term", es: "Juez, Corte Suprema, Lugar Núm. 2, Duración Restante del Cargo",
+   opts: [["James P. Sullivan","REP"],["Chari Kelly","DEM"]] },
+ { id: "sc7", sec: "high", office: "Justice, Supreme Court, Place 7", es: "Juez, Corte Suprema, Lugar Núm. 7",
+   opts: [["Kyle Hawkins","REP"],["Kristen Hawkins","DEM"]] },
+ { id: "sc8", sec: "high", office: "Justice, Supreme Court, Place 8", es: "Juez, Corte Suprema, Lugar Núm. 8",
+   opts: [["Brett Busby","REP"],["Gisela D. Triana","DEM"]] },
+ { id: "cca3", sec: "high", office: "Judge, Court of Criminal Appeals, Place 3", es: "Juez, Corte de Apelaciones Criminales, Lugar Núm. 3",
+   opts: [["Thomas Smith","REP"],["Okey Anyiam","DEM"],["Mark Ash","LIB"]] },
+ { id: "cca4", sec: "high", office: "Judge, Court of Criminal Appeals, Place 4", es: "Juez, Corte de Apelaciones Criminales, Lugar Núm. 4",
+   opts: [["Kevin Patrick Yeary","REP"],["Audra Riley","DEM"]] },
+ { id: "cca9", sec: "high", office: "Judge, Court of Criminal Appeals, Place 9", es: "Juez, Corte de Apelaciones Criminales, Lugar Núm. 9",
+   opts: [["John Messinger","REP"],["Holly Taylor","DEM"]] },
+
+ { id: "sboe", sec: "leg", office: "Member, State Board of Education, District 14", es: "Miembro de la Junta Estatal de Educación, Distrito Núm. 14",
+   opts: [["Mindy Bumgarner","REP"],["Amy Taylor","DEM"]] },
+ { id: "sd22", sec: "leg", office: "State Senator, District 22", es: "Senador Estatal, Distrito Núm. 22",
+   opts: [["David Cook","REP"],["Amy Martinez-Salas","DEM"]], note: "Full term beginning January 2027. The special election for the rest of the current term is at the end of the ballot." },
+ { id: "hd56", sec: "leg", office: "State Representative, District 56", es: "Representante Estatal, Distrito Núm. 56",
+   opts: [["Pat Curry","REP"],["Ashley Bean Thornton","DEM"]] },
+
+ { id: "coa15cj", sec: "appeals", office: "Chief Justice, 15th Court of Appeals District", es: "Juez Presidente, Corte de Apelaciones del 15º Distrito",
+   opts: [["Scott Brister","REP"],["Jerry Zimmerer","DEM"]], note: "Statewide. The 15th Court hears appeals in cases involving the state." },
+ { id: "coa15p2", sec: "appeals", office: "Justice, 15th Court of Appeals District, Place 2", es: "Juez, Corte de Apelaciones del 15º Distrito, Lugar Núm. 2",
+   opts: [["Scott K. Field","REP"],["Tom Baker","DEM"]] },
+ { id: "coa15p3", sec: "appeals", office: "Justice, 15th Court of Appeals District, Place 3", es: "Juez, Corte de Apelaciones del 15º Distrito, Lugar Núm. 3",
+   opts: [["April Farris","REP"],["Marc M. Meyer","DEM"]] },
+ { id: "coa10p2", sec: "appeals", office: "Justice, 10th Court of Appeals District, Place 2", es: "Juez, Corte de Apelaciones del 10º Distrito, Lugar Núm. 2",
+   opts: [["Lee Harris","REP"]], note: "Unopposed. The 10th Court sits in Waco." },
+
+ { id: "dj54", sec: "district", office: "District Judge, 54th Judicial District", es: "Juez del Distrito, 54º Distrito Judicial",
+   opts: [["Susan Kelly","REP"]] },
+ { id: "dj74", sec: "district", office: "District Judge, 74th Judicial District, Unexpired Term", es: "Juez del Distrito, 74º Distrito Judicial, Duración Restante del Cargo",
+   opts: [["Pete Rusek","REP"]] },
+ { id: "dj170", sec: "district", office: "District Judge, 170th Judicial District", es: "Juez del Distrito, 170º Distrito Judicial",
+   opts: [["Gina Long","REP"]] },
+ { id: "dj414", sec: "district", office: "District Judge, 414th Judicial District", es: "Juez del Distrito, 414º Distrito Judicial",
+   opts: [["Ryan Luna","REP"]] },
+ { id: "cda", sec: "district", office: "Criminal District Attorney, McLennan County", es: "Procurador Criminal del Distrito, Condado de McLennan",
+   opts: [["Josh Tetens","REP"]] },
+
+ { id: "cj", sec: "county", office: "County Judge", opts: [["Rick Tullis","REP"]] },
+ { id: "ccl1", sec: "county", office: "Judge, County Court at Law No. 1", opts: [["Vikram \"Vik\" Deivanayagam","REP"]] },
+ { id: "ccl2", sec: "county", office: "Judge, County Court at Law No. 2", opts: [["Brad Cates","REP"]] },
+ { id: "ccl3", sec: "county", office: "Judge, County Court at Law No. 3", opts: [["Pat Atkins","REP"]] },
+ { id: "dclerk", sec: "county", office: "District Clerk", opts: [["Rebecca Eubank","REP"]] },
+ { id: "cclerk", sec: "county", office: "County Clerk", opts: [["Andy Harwell","REP"]] },
+ { id: "treas", sec: "county", office: "County Treasurer", opts: [["Bill Helton","REP"]] },
+ { id: "cc4", sec: "county", office: "County Commissioner, Precinct 4", opts: [["Perry Felton","REP"]], comm: "4" },
+
+ { id: "jp1p1", sec: "precinct", office: "Justice of the Peace, Precinct 1, Place 1", opts: [["Dianne Hensley","REP"]], jp: "1" },
+ { id: "jp1p2", sec: "precinct", office: "Justice of the Peace, Precinct 1, Place 2", opts: [["Gary \"Bull\" Durham","REP"]], jp: "1" },
+ { id: "con1", sec: "precinct", office: "County Constable, Precinct 1", opts: [["Walt Strickland","REP"]], jp: "1" },
+ { id: "jp5", sec: "precinct", office: "Justice of the Peace, Precinct 5", opts: [["Leslie Edwards","DEM"]], jp: "5" },
+ { id: "con5", sec: "precinct", office: "County Constable, Precinct 5", opts: [["Freddie Cantu","DEM"]], jp: "5" },
+
+ { id: "sd22x", sec: "special", office: "State Senator, District 22, Unexpired Term", es: "Senador Estatal, Distrito Núm. 22, Duración Restante del Cargo",
+   opts: [["David Cook","REP"],["Amy Martinez-Salas","DEM"]], note: "Fills Brian Birdwell's seat from the canvass until the new Legislature convenes on January 12, 2027." }
+];
+
+const SHARE_BASE = "https://claude.ai/artifact/8wedixjHRnoPXQJ8ksAPJN";
+const KEY = "lorena2026-ballot";
+const SECTIONS = [
+  ["fed", "Federal", "Federal"],
+  ["state", "State", "Estatal"],
+  ["high", "Supreme Court and Court of Criminal Appeals", "Corte Suprema y Corte de Apelaciones Criminales"],
+  ["leg", "State Board of Education and Legislature", "Junta Estatal de Educación y Legislatura"],
+  ["appeals", "Courts of Appeals", "Cortes de Apelaciones"],
+  ["district", "District", "Distrito"],
+  ["county", "County", "Condado"],
+  ["precinct", "Justice of the Peace and Constable", "Juez de Paz y Condestable"],
+  ["special", "Special Election · State Senate District 22", "Elección Especial · Distrito Senatorial Estatal Núm. 22"]
+];
+const state = { comm: "1", jp: "1", picks: {}, writeins: {} };
+CONTESTS.forEach(c => state.picks[c.id] = "");
+
+function el(tag, attrs, ...kids) {
+  const e = document.createElement(tag);
+  for (const k in (attrs || {})) {
+    if (k === "text") e.textContent = attrs[k];
+    else if (k === "class") e.className = attrs[k];
+    else e.setAttribute(k, attrs[k]);
+  }
+  kids.forEach(c => c && e.append(c));
+  return e;
+}
+function visible(c) {
+  if (c.comm && state.comm !== "x" && state.comm !== c.comm) return false;
+  if (c.jp && state.jp !== "x" && state.jp !== c.jp) return false;
+  return true;
+}
+function optBtn(c, val, kids, label) {
+  const b = el("button", { type: "button", class: "opt", "data-c": c.id, "data-v": val, "aria-pressed": "false", "aria-label": label, id: "o-" + c.id + "-" + val },
+    el("span", { class: "oval", "aria-hidden": "true" }), ...kids);
+  b.addEventListener("click", () => setPick(c.id, state.picks[c.id] === val ? "" : val));
+  return b;
+}
+function render() {
+  const cols = document.getElementById("cols");
+  SECTIONS.forEach(([key, label, es]) => {
+    const sec = el("section", { class: "sec", "data-sec": key, "aria-label": label });
+    sec.append(el("h2", { class: "sec-head" }, document.createTextNode(label), el("span", { class: "es", text: es })));
+    if (key === "county") {
+      sec.append(el("div", { class: "offballot", id: "cc1note" },
+        el("strong", { text: "County Commissioner, Precinct 1: " }),
+        document.createTextNode("not on the 2026 ballot. Lorena's commissioner seat is next elected in 2028.")));
+    }
+    CONTESTS.filter(c => c.sec === key).forEach(c => {
+      const art = el("article", { class: "contest", id: "c-" + c.id, "aria-labelledby": "h-" + c.id });
+      art.append(el("h3", { class: "c-office", id: "h-" + c.id, text: c.office }));
+      if (c.es) art.append(el("div", { class: "c-es", lang: "es", text: c.es }));
+      art.append(el("div", { class: "c-instr", text: "Vote for One · Vote por uno" }));
+      if (c.note) art.append(el("div", { class: "c-note", text: c.note }));
+      const ul = el("ul", { class: "opts" });
+      c.opts.forEach((o, i) => {
+        ul.append(el("li", {}, optBtn(c, String(i + 1),
+          [el("span", { class: "nm", text: o[0] }), el("span", { class: "pty", text: o[1] })],
+          o[0] + ", " + o[1] + ", " + c.office)));
+      });
+      if (c.writein) {
+        const inp = el("input", { type: "text", id: "wi-" + c.id, placeholder: "Write-in · Voto escrito", "aria-label": "Write-in name for " + c.office, maxlength: "60" });
+        inp.addEventListener("input", () => { state.writeins[c.id] = inp.value; if (inp.value && state.picks[c.id] !== "w") setPick(c.id, "w"); else { save(); update(); } });
+        ul.append(el("li", {}, optBtn(c, "w", [el("span", { class: "wi" }, inp), el("span", { class: "pty", text: "Write-in" })], "Write-in, " + c.office)));
+      }
+      art.append(ul);
+      const clr = el("button", { type: "button", class: "clear", id: "clr-" + c.id, text: "Clear mark" });
+      clr.addEventListener("click", () => setPick(c.id, ""));
+      art.append(clr);
+      sec.append(art);
+    });
+    cols.append(sec);
+  });
+}
+function answer(c) {
+  const v = state.picks[c.id];
+  if (!v) return "";
+  if (v === "w") return "Write-in" + (state.writeins[c.id] ? ": " + state.writeins[c.id] : "");
+  const o = c.opts[+v - 1];
+  return o[0] + " (" + o[1] + ")";
+}
+function token() { return "lor-" + state.comm + state.jp + CONTESTS.map(c => state.picks[c.id] || "0").join(""); }
+function apply(tok) {
+  const m = /^lor-([14x])([15x])([0-9w]+)$/.exec(tok || "");
+  if (!m || m[3].length !== CONTESTS.length) return false;
+  state.comm = m[1]; state.jp = m[2];
+  CONTESTS.forEach((c, i) => {
+    const v = m[3][i];
+    const ok = v === "0" ? "" : (v === "w" ? (c.writein ? "w" : "") : (+v <= c.opts.length ? v : ""));
+    state.picks[c.id] = ok;
+  });
+  return true;
+}
+function save() {
+  try { localStorage.setItem(KEY, JSON.stringify({ t: token(), w: state.writeins })); } catch (e) {}
+}
+function loadSaved() {
+  try { const s = JSON.parse(localStorage.getItem(KEY) || "null"); if (s) { apply(s.t); state.writeins = s.w || {}; } } catch (e) {}
+}
+let fromShare = false;
+function leaveShare() { if (fromShare) { fromShare = false; document.getElementById("sharedBanner").hidden = true; } }
+function setPick(id, v) { state.picks[id] = v; leaveShare(); save(); update(); }
+function update() {
+  document.getElementById("comm").value = state.comm;
+  document.getElementById("jp").value = state.jp;
+  document.getElementById("cc1note").hidden = state.comm === "4";
+  let n = 0, total = 0;
+  const table = document.getElementById("sumTable"); table.textContent = "";
+  CONTESTS.forEach(c => {
+    const show = visible(c);
+    document.getElementById("c-" + c.id).hidden = !show;
+    const v = state.picks[c.id];
+    document.querySelectorAll('[data-c="' + c.id + '"]').forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v === v)));
+    document.getElementById("clr-" + c.id).hidden = !v;
+    const wi = document.getElementById("wi-" + c.id);
+    if (wi && wi.value !== (state.writeins[c.id] || "")) wi.value = state.writeins[c.id] || "";
+    if (!show) return;
+    total++; if (v) n++;
+    const a = answer(c);
+    table.append(el("tr", {}, el("td", { text: c.office }), el("td", { class: a ? "" : "blank", text: a || "Blank" })));
+  });
+  document.getElementById("count").textContent = n + " of " + total + " marked";
+  document.getElementById("meter").style.width = (total ? (100 * n / total) : 0) + "%";
+}
+function toast(msg) {
+  const t = document.getElementById("toast"); t.textContent = msg;
+  clearTimeout(toast.h); toast.h = setTimeout(() => t.textContent = "", 3200);
+}
+function shareUrl() { return (SHARE_BASE || location.href.split("#")[0]) + "#" + token(); }
+function asText() {
+  const lines = ["My Lorena ballot plan (McLennan County joint general and special election, Nov. 3, 2026):"];
+  CONTESTS.filter(visible).forEach(c => lines.push(c.office + ": " + (answer(c) || "blank")));
+  lines.push("", "Full ballot: " + shareUrl());
+  return lines.join("\n");
+}
+async function copy(text, okMsg) {
+  try { await navigator.clipboard.writeText(text); toast(okMsg); }
+  catch (e) {
+    const ta = el("textarea", { "aria-label": "Text to copy", style: "width:100%;min-height:140px;margin-top:6px;font:12px var(--font-mono)" });
+    ta.value = text;
+    const t = document.getElementById("toast"); t.textContent = "Copying was blocked here. Select the text below and copy it:"; t.append(ta);
+    clearTimeout(toast.h); ta.focus(); ta.select();
+  }
+}
+document.getElementById("copyLink").addEventListener("click", () => copy(shareUrl(), "Link copied. It opens this ballot with your marks and precincts filled in."));
+document.getElementById("copyText").addEventListener("click", () => copy(asText(), "Your marks were copied as text."));
+document.getElementById("comm").addEventListener("change", e => { state.comm = e.target.value; leaveShare(); save(); update(); });
+document.getElementById("jp").addEventListener("change", e => { state.jp = e.target.value; leaveShare(); save(); update(); });
+const clearBtn = document.getElementById("clearAll");
+clearBtn.addEventListener("click", () => {
+  if (clearBtn.dataset.armed) {
+    CONTESTS.forEach(c => state.picks[c.id] = ""); state.writeins = {}; save(); update();
+    delete clearBtn.dataset.armed; clearBtn.textContent = "Clear all"; toast("All marks cleared.");
+  } else {
+    clearBtn.dataset.armed = "1"; clearBtn.textContent = "Select again to clear";
+    setTimeout(() => { delete clearBtn.dataset.armed; clearBtn.textContent = "Clear all"; }, 4000);
+  }
+});
+document.getElementById("dropShared").addEventListener("click", () => {
+  CONTESTS.forEach(c => state.picks[c.id] = ""); state.comm = "1"; state.jp = "1";
+  loadSaved(); fromShare = false; document.getElementById("sharedBanner").hidden = true; update();
+});
+
+render();
+const hash = decodeURIComponent((location.hash || "").slice(1));
+if (apply(hash)) { fromShare = true; document.getElementById("sharedBanner").hidden = false; }
+else loadSaved();
+update();
+if (/^c-[a-z0-9]+$/.test(hash)) { const t = document.getElementById(hash); if (t) t.scrollIntoView(); }
+</script>
